@@ -1,49 +1,39 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# My Personal Website
 
-[![Screenshot](./preview.png)](https://hugoblox.com/templates/)
+Welcome to the repository for my personal website! This project serves as a digital representation of who I am, showcasing my skills, projects and passion for economics and data science. 
 
-The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
+## Purpose
+Building this website is not just about creating an online presence but also about connecting with like-minded individuals, sharing knowledge, and fostering collaboration. Whether you're a fellow developer, potential employer, or someone interested in economics and data science, I aim to provide valuable insights into my journey and contributions.
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
+## Technologies Used
+- HUGOBOX [(more)](https://hugoblox.com/templates/details/academic-cv/)
+- MARKDOWN
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+## Features
+- **Home:** This page serves as the central hub, providing visitors with a comprehensive overview of who I am. It includes details about my **biography**, offering insights into my personal and professional journey. Additionally, you'll find information about my **education**, highlighting my academic background, and an exploration of my various **interests**.
 
-Easily write technical content with plain text Markdown, LaTeX math, diagrams, RMarkdown, or Jupyter, and import publications from BibTeX.
+- **Education:** In this part, I unfold the chapters of my academic journey. Education has been a cornerstone in shaping my *understanding*, *fostering curiosity*, and equipping me with the *skills* needed for my professional endeavors.
 
-[Check out the latest demo](https://academic-demo.netlify.app/) of what you'll get in less than 10 minutes, or [get inspired by our academics and research groups](https://hugoblox.com/creators/).
+- **Experiences**: This section is a chronicle of my professional journey. It includes details about my work experiences, highlighting key roles, responsibilities, and achievements throughout my career.
 
-The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+- **Skills:** Here, you can delve into a detailed exploration of my skill set. From programming languages to soft and language skills, this section aims to provide a clear picture of the competencies I bring to the table.
 
-- 👉 [**Get Started**](https://hugoblox.com/templates/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
-- ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+- **Projects**: Explore a curated collection of my notable *projects* and achievements. Each project is a testament to my skills and creativity with accompanying descriptions providing insights into the challenges addressed and solutions implemented.
 
-## We ask you, humbly, to support this open source movement
+- **Publication:** In this section, I share not only my written works but also the link to the replication files and the presentations slides. It's a space for more in-depth discussions on topics related to my data science and economics providing visitors with a deeper understanding of my perspectives.
 
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
+- **Talks:** Engage with my spoken contributions! In this section, I share insights and experiences through talks and presentations in several conferences or seminar around the world.
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+- **Certifications:** Here, I showcase my commitment to continuous learning and professional development. Each certification represents a milestone in my journey to stay current with industry trends and deepen my expertise in various domains.
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+- **Contact Form:** Facilitating easy communication is crucial. Feel free to use the provided contact form to reach out for **collaboration**, **inquiries**, or just to **connect**. I value open communication and look forward to hearing from you!.
 
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
+Feel free to explore the code and provide feedback or suggestions. I believe in the power of community and collaboration, so if you find areas for improvement or have ideas for potential projects don't hesitate to reach out!
 
-## Demo image credits
+## How to Run Locally
+1. Clone the repository: `git clone https://github.com/KassoumHabibou/personal_website.git`
+2. Open `index.html` in your preferred web browser.
 
-- [Unsplash](https://unsplash.com)
+Thank you for visiting and I look forward to connecting with you on this journey!
 
-## Latest news
-
-<!--START_SECTION:news-->
-* [6 Compelling Reasons I Switched from WordPress to Hugo](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;wordpress&#x2F;)
-* [The 7 best landing page builders in 2024](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;7-best-landing-page-builders&#x2F;)
-* [Start a Blog and Make Money in 2024: Here&#39;s What You Need to Know](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;start-a-blog-and-make-money&#x2F;)
-* [Hugo vs Quarto: Which One is Better for 2024?](https:&#x2F;&#x2F;hugoblox.com&#x2F;vs&#x2F;quarto&#x2F;)
-* [Easily make an academic CV website to get more cites and grow your audience 🚀](https:&#x2F;&#x2F;hugoblox.com&#x2F;blog&#x2F;easily-make-academic-website&#x2F;)
-<!--END_SECTION:news-->
+Happy coding!
