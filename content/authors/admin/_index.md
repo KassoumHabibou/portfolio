@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Habibou
+title: IBRAHIM KASSOUM Habibou
 
 # Name pronunciation (optional)
 #name_pronunciation: Chien Shiung Wu
@@ -30,8 +30,8 @@ bio:  My research interests include development economics, data science and prog
 # Interests to show in About widget
 interests:
   - Development economics
-  - Applied microeconomics
   - Data science and machine learning
+  - Applied microeconomics
   - Causal inference
   - Nutrition and Health
 
@@ -117,7 +117,7 @@ skills:
         percent: 70
         icon: fa-person-running
         icon_pack: fa-solid
-      - name: Film
+      - name: Movies
         description: ''
         percent: 70
         icon: fa-film
@@ -155,7 +155,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: static/uploads/resume.pdf
+    link: uploads/resume.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
