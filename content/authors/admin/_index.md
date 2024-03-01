@@ -60,7 +60,7 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 98
+        percent: 99
         icon: python
         icon_pack: fab
       - name: R
