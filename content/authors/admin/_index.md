@@ -77,12 +77,12 @@ skills:
         description: ''
         percent: 60
         icon: fa-solid
-        icon_pack: fa-s
+        icon_pack: fas
       - name: C
         description: ''
         percent: 50
         icon: fa-solid
-        icon_pack: fa-c
+        icon_pack: fac
       #- name: Java
       #  description: ''
       #  percent: 50
