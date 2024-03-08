@@ -39,7 +39,7 @@ interests:
 education:
   courses:
     - course: PhD in economics
-      institution: University of Clermont Auvergne
+      institution: University Clermont Auvergne
       year: 2026
     - course: Engineering degree in data science
       institution: École nationale de la statistique et de l'analyse de l'information (ENSAI-Rennes)
@@ -55,7 +55,7 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Programming
-    color: '#6495ED'
+    color: '#000080'
     color_border: '#000080'
     items:
       - name: Python
@@ -72,11 +72,11 @@ skills:
         description: ''
         percent: 90
         icon: database
-        #icon_pack: fas
+        #icon_pack: fas <font-awesome-icon :icon="['fas', 'chart-simple']" />
       - name: Stata
         description: ''
         percent: 60
-        icon: S
+        icon: chart-simple
         icon_pack: fas
       - name: C
         description: ''
@@ -89,8 +89,8 @@ skills:
       #  icon: fa-java
       #  icon_pack: fa-brands
   - name: Hobbies
-    color: '#4169E1'
-    color_border: '#000080'
+    color: '#088F8F'
+    color_border: '#088F8F'
     items:
       - name: Sport
         description: ''
