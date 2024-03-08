@@ -81,29 +81,8 @@ skills:
       - name: C
         description: ''
         percent: 50
-        icon: cplus
-      - name: C
-        description: ''
-        percent: 50
-        icon: cplus
-        icon_pack: custom
-      - name: C
-        description: ''
-        percent: 50
-        icon: assets/media/icons/custom/cplus
-      - name: C
-        description: ''
-        percent: 50
-        icon: assets/media/icons/custom/cplus
-      - name: C
-        description: ''
-        percent: 50
-        icon: assets/media/icons/custom/cplus.svg
-      - name: C
-        description: ''
-        percent: 50
-        icon: assets/media/icons/custom/cplus.svg
-        icon_pack: custom
+        icon: fa-solid
+        icon_pack: fa-c
       #- name: Java
       #  description: ''
       #  percent: 50
@@ -116,8 +95,8 @@ skills:
       - name: Sport
         description: ''
         percent: 95
-        icon: fa-dumbbell
-        icon_pack: fab
+        icon: fa-solid
+        icon_pack: fa-dumbbell
       - name: Cycling 
         description: ''
         percent: 100
