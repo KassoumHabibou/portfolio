@@ -10,6 +10,7 @@ cms_exclude: true
 #    list: always
 design:
   background:
+    color: navy
     image:
       filename: wave.svg
 ---
