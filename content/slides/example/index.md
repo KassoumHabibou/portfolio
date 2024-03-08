@@ -46,13 +46,13 @@ slides:
 
 Inline code: `variable`
 
-Code block:
+##### Code block:
 
-```python
-porridge = "blueberry"
-if porridge == "blueberry":
-    print("Eating...")
-```
+##### python
+##### porridge = "blueberry"
+##### if porridge == "blueberry":
+#####    print("Eating...")
+##### ```
 
 ---
 
