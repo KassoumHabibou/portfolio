@@ -96,7 +96,7 @@ skills:
         description: ''
         percent: 95
         icon: fa-solid
-        icon_pack: dumbbell
+        icon_pack: fa-dumbbell
       - name: Cycling 
         description: ''
         percent: 100
