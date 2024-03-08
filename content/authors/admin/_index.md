@@ -72,7 +72,7 @@ skills:
         description: ''
         percent: 90
         icon: database
-        icon_pack: fas
+        #icon_pack: fas
       - name: Stata
         description: ''
         percent: 60
