@@ -72,17 +72,17 @@ skills:
         description: ''
         percent: 90
         icon: database
-        icon_pack: fa-s
+        icon_pack: fas
       - name: Stata
         description: ''
         percent: 60
-        icon: fa-solid
-        icon_pack: fa-s
+        icon: S
+        icon_pack: fas
       - name: C
         description: ''
         percent: 50
-        icon: fa-solid
-        icon_pack: fa-c
+        icon: c
+        icon_pack: fas 
       #- name: Java
       #  description: ''
       #  percent: 50
@@ -96,32 +96,32 @@ skills:
         description: ''
         percent: 95
         icon: dumbbell
-        icon_pack: fad
+        icon_pack: fas
       - name: Cycling 
         description: ''
         percent: 100
-        icon: fa-person-biking
-        icon_pack: fab
+        icon: person-biking
+        icon_pack: fas
       - name: Reading
         description: ''
         percent: 80
-        icon: fa-book-open-reader
-        icon_pack: fab
+        icon: book-open-reader
+        icon_pack: fas
       - name: Football
         description: ''
         percent: 80
-        icon: fa-futbol
-        icon_pack: fab
+        icon: futbol
+        icon_pack: fas
       - name: Running 
         description: ''
         percent: 70
-        icon: fa-person-running
-        icon_pack: fab
-      - name: Movies
-        description: ''
-        percent: 70
-        icon: fa-film
-        icon_pack: fab
+        icon: person-running
+        icon_pack: fas
+      #- name: Movies
+      #  description: ''
+      #  percent: 70
+      #  icon: film
+      #  icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
