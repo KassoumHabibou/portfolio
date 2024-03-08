@@ -29,9 +29,9 @@ bio:  My research interests include development economics, data science and prog
 
 # Interests to show in About widget
 interests:
-  - Development economics
-  - Data science and machine learning
   - Applied microeconomics
+  - Data science and machine learning
+  - Development economics
   - Causal inference
   - Nutrition and Health
 
@@ -41,7 +41,7 @@ education:
     - course: PhD in economics
       institution: University of Clermont Auvergne
       year: 2026
-    - course: Engineering degree in data science & economic modeling
+    - course: Engineering degree in data science
       institution: École nationale de la statistique et de l'analyse de l'information (ENSAI-Rennes)
       year: 2022
     - course: Master degree in theoretical and empirical economics
@@ -55,7 +55,7 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Programming
-    color: '#808080'
+    color: '#6495ED'
     color_border: '#000080'
     items:
       - name: Python
@@ -81,15 +81,15 @@ skills:
       - name: C
         description: ''
         percent: 50
-        icon: fa-c
-        icon_pack: fa-solid
-      - name: Java
-        description: ''
-        percent: 50
-        icon: fa-java
-        icon_pack: fa-brands
+        icon: cplus
+      
+      #- name: Java
+      #  description: ''
+      #  percent: 50
+      #  icon: fa-java
+      #  icon_pack: fa-brands
   - name: Hobbies
-    color: '#808080'
+    color: '#4169E1'
     color_border: '#000080'
     items:
       - name: Sport
@@ -97,7 +97,7 @@ skills:
         percent: 95
         icon: fa-dumbbell
         icon_pack: fa-solid
-      - name: Biking 
+      - name: Cycling 
         description: ''
         percent: 100
         icon: fa-person-biking
