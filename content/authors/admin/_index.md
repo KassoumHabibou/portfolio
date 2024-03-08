@@ -60,7 +60,7 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 99
+        percent: 98
         icon: python
         icon_pack: fab
       - name: R
@@ -82,7 +82,28 @@ skills:
         description: ''
         percent: 50
         icon: cplus
-      
+      - name: C
+        description: ''
+        percent: 50
+        icon: cplus
+        icon_pack: custom
+      - name: C
+        description: ''
+        percent: 50
+        icon: assets/media/icons/custom/cplus
+      - name: C
+        description: ''
+        percent: 50
+        icon: assets/media/icons/custom/cplus
+      - name: C
+        description: ''
+        percent: 50
+        icon: assets/media/icons/custom/cplus.svg
+      - name: C
+        description: ''
+        percent: 50
+        icon: assets/media/icons/custom/cplus.svg
+        icon_pack: custom
       #- name: Java
       #  description: ''
       #  percent: 50
