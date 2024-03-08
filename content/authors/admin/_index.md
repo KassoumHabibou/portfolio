@@ -77,12 +77,12 @@ skills:
         description: ''
         percent: 60
         icon: S
-        icon_pack: fas
+        #icon_pack: fas
       - name: C
         description: ''
         percent: 50
         icon: c
-        icon_pack: fas 
+        #icon_pack: fas 
       #- name: Java
       #  description: ''
       #  percent: 50
@@ -106,17 +106,17 @@ skills:
         description: ''
         percent: 80
         icon: book-open-reader
-        icon_pack: fa-s
+        icon_pack: fas
       - name: Football
         description: ''
         percent: 80
         icon: futbol
-        icon_pack: fa-s
+        icon_pack: fas
       - name: Running 
         description: ''
         percent: 70
         icon: person-running
-        icon_pack: fa-s
+        icon_pack: fas
       #- name: Movies
       #  description: ''
       #  percent: 70
