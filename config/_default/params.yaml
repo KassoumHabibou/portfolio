@@ -41,11 +41,11 @@ header:
     show_search: true
     highlight_active_link: true
   design:
-  background:
-    # Choose a color such as from https://html-color-codes.info
-    color: '#CEECF5'
-    # Text color (true=light, false=dark, or remove for the dynamic theme color).
-    text_color_light: true
+    background:
+      # Choose a color such as from https://html-color-codes.info
+      color: '#CEECF5'
+      # Text color (true=light, false=dark, or remove for the dynamic theme color).
+      text_color_light: true
 
 # Site footer
 
