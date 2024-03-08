@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: IBRAHIM KASSOUM Habibou - University of Clermont Auvergne # Website name
+title: IBRAHIM KASSOUM Habibou # Website name
 baseURL: 'https://ibrahimkassoumhabibou.github.io/' # Website URL
 
 ############################

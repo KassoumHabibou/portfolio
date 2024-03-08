@@ -21,7 +21,7 @@ role: PhD candidate in Development Economics & Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Clermont Auvergne - CERDI - CNRS - IRD - France
+  - name: University Clermont Auvergne - CERDI - CNRS - IRD - France
     url: https://cerdi.uca.fr/english-version#/admin
 
 # Short bio (displayed in user profile at end of posts)
@@ -77,7 +77,7 @@ skills:
         description: ''
         percent: 60
         icon: S
-        #icon_pack: fas
+        icon_pack: fas
       - name: C
         description: ''
         percent: 50
