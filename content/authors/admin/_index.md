@@ -96,7 +96,7 @@ skills:
         description: ''
         percent: 95
         icon: dumbbell
-        icon_pack: fas
+        icon_pack: fad
       - name: Cycling 
         description: ''
         percent: 100
