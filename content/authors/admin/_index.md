@@ -109,12 +109,12 @@ skills:
         icon_pack: fas
       - name: Time management
         description: ''
-        percent: 80
+        percent: 85
         icon: business-time
         icon_pack: fas
       - name: Adaptability 
         description: ''
-        percent: 70
+        percent: 95
         icon: clipboard-check
         icon_pack: fas
 
@@ -192,7 +192,7 @@ highlight_name: true
 
 ---
 
-IBRAHIM KASSOUM Habibou is a PhD candidate in Development Economics at University of Clermont Auvergne (UCA). His research focuses on issues related to health (children's nutrition and health, health care utilization) and gender economics (women’s empowerment and its impact on household member’s health). His goal is to start a PhD in women empowerment and health issues in 2023 at AMSE. He holds a research master degree in Theoretical and Empirical Economics (ETE) from AMSE. He previously worked as a research analyst in developing countries (Senegal and Niger).
+IBRAHIM KASSOUM Habibou is a PhD candidate in Development Economics at University Clermont Auvergne (UCA). His research focuses on issues related to health (children's nutrition and health, health care utilization) and gender economics (women’s empowerment and its impact on household member’s health). His goal is to start a PhD in women empowerment and health issues in 2023 at AMSE. He holds a research master degree in Theoretical and Empirical Economics (ETE) from AMSE. He previously worked as a research analyst in developing countries (Senegal and Niger).
 {style="text-align: justify;"}
 
 
