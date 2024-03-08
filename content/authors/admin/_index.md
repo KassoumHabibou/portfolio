@@ -159,7 +159,16 @@ social:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+design:
+  background:
+    # Choose a color such as from https://html-color-codes.info
+    color: '#CEECF5'
+    # Text color (true=light, false=dark, or remove for the dynamic theme color).
+    text_color_light: true
 ---
 
 IBRAHIM KASSOUM Habibou is a PhD candidate in Development Economics at University of Clermont Auvergne (UCA). His research focuses on issues related to health (children's nutrition and health, health care utilization) and gender economics (women’s empowerment and its impact on household member’s health). His goal is to start a PhD in women empowerment and health issues in 2023 at AMSE. He holds a research master degree in Theoretical and Empirical Economics (ETE) from AMSE. He previously worked as a research analyst in developing countries (Senegal and Niger).
 {style="text-align: justify;"}
+
+
