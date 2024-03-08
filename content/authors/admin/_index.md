@@ -117,32 +117,32 @@ skills:
         description: ''
         percent: 95
         icon: fa-dumbbell
-        icon_pack: fa-solid
+        icon_pack: fab
       - name: Cycling 
         description: ''
         percent: 100
         icon: fa-person-biking
-        icon_pack: fa-solid
+        icon_pack: fab
       - name: Reading
         description: ''
         percent: 80
         icon: fa-book-open-reader
-        icon_pack: fa-solid
+        icon_pack: fab
       - name: Football
         description: ''
         percent: 80
         icon: fa-futbol
-        icon_pack: fa-thin
+        icon_pack: fab
       - name: Running 
         description: ''
         percent: 70
         icon: fa-person-running
-        icon_pack: fa-solid
+        icon_pack: fab
       - name: Movies
         description: ''
         percent: 70
         icon: fa-film
-        icon_pack: fa-solid
+        icon_pack: fab
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

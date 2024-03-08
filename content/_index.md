@@ -235,31 +235,31 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Feel free to get in touch with me! Whether you have questions, suggestions, or simply want to say hello, I'd love to hear from you. You can reach me through the contact form, email, or phone number provided below. Your feedback is important to me and I look forward to connecting with you.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
+      email: Habibou.IBRAHIM_KASSOUM@doctorant.uca.fr
+      phone: 04 73 17 74 08
       appointment_url: 'https://calendly.com'
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+        street: 26 Avenue Léon Blum
+        city: Clermont-Ferrand
+        region: Auvergne-Rhône-Alpes
+        postcode: '63000'
+        country: France
+        country_code: FR
+      directions: Enter Building 1 and take the stairs to Office 427 on Floor 4
       office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
+        - 'From monday to saturday'
+        - 'From 08 AM to 08 PM'
       # Choose a map provider in `params.yaml` to show a map from these coordinates
       coordinates:
-        latitude: '37.4275'
-        longitude: '-122.1697'  
+        latitude: '45.7670656'
+        longitude: '3.0998528'  
       contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
+        #- icon: twitter
+        #  icon_pack: fab
+        #  name: Tex
+        #  link: 'https://twitter.com/Twitter'
         - icon: skype
           icon_pack: fab
           name: Skype Me
