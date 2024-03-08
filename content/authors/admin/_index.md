@@ -72,17 +72,17 @@ skills:
         description: ''
         percent: 90
         icon: database
-        icon_pack: fas
+        icon_pack: fa-s
       - name: Stata
         description: ''
         percent: 60
         icon: fa-solid
-        icon_pack: fas
+        icon_pack: fa-s
       - name: C
         description: ''
         percent: 50
         icon: fa-solid
-        icon_pack: fac
+        icon_pack: fa-c
       #- name: Java
       #  description: ''
       #  percent: 50
@@ -96,7 +96,7 @@ skills:
         description: ''
         percent: 95
         icon: fa-solid
-        icon_pack: fa-dumbbell
+        icon_pack: dumbbell
       - name: Cycling 
         description: ''
         percent: 100

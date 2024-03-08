@@ -8,9 +8,9 @@ cms_exclude: true
 #  _build:
 #    render: never
 #    list: always
-design:
-  background:
-    color: navy
-    image:
-      filename: wave.svg
+#design:
+#  background:
+#    color: navy
+#    image:
+#      filename: wave.svg
 ---
