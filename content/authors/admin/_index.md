@@ -55,8 +55,8 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
   - name: Programming
-    color: '#000080'
-    color_border: '#000080'
+    color: '#4682B4'
+    color_border: '#4682B4'
     items:
       - name: Python
         description: ''
@@ -88,35 +88,64 @@ skills:
       #  percent: 50
       #  icon: fa-java
       #  icon_pack: fa-brands
-  - name: Hobbies
+  - name: Professional 
     color: '#088F8F'
     color_border: '#088F8F'
     items:
-      - name: Sport
-        description: ''
-        percent: 95
-        icon: dumbbell
-        icon_pack: fas
-      - name: Cycling 
+      - name: Data science
         description: ''
         percent: 100
-        icon: person-biking
+        icon: magnifying-glass-chart
         icon_pack: fas
-      - name: Reading
+      - name: Teamwork 
+        description: ''
+        percent: 95
+        icon: people-group
+        icon_pack: fas
+      - name: Communication
         description: ''
         percent: 80
-        icon: book-open-reader
+        icon: person-chalkboard
         icon_pack: fas
-      - name: Football
+      - name: Time management
         description: ''
         percent: 80
-        icon: futbol
+        icon: business-time
         icon_pack: fas
-      - name: Running 
+      - name: Adaptability 
         description: ''
         percent: 70
-        icon: person-running
+        icon: clipboard-check
         icon_pack: fas
+
+
+
+      #  items:
+      #- name: Data science
+      #  description: ''
+      #  percent: 95
+      #  icon: dumbbell
+      #  icon_pack: fas
+      #- name: Teamwork 
+      #  description: ''
+      #  percent: 100
+      #  icon: person-biking
+      #  icon_pack: fas
+      #- name: Reading
+      #  description: ''
+      #  percent: 80
+      #  icon: book-open-reader
+      #  icon_pack: fas
+      #- name: Football
+      #  description: ''
+      #  percent: 80
+      #  icon: futbol
+      #  icon_pack: fas
+      #- name: Running 
+      #  description: ''
+      #  percent: 70
+      #  icon: person-running
+      #  icon_pack: fas
       #- name: Movies
       #  description: ''
       #  percent: 70
