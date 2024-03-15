@@ -13,9 +13,8 @@ sections:
       username: admin
     design:
       background:
-      #  color: navy
         image:
-        filename: wave
+          filename: wave.svg
   - block: skills
     content:
       title: Skills
