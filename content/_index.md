@@ -31,6 +31,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Teaching Assistant 
+          company: 'University Clermont Auvergne: School of Economics' 
+          company_url: 'https://economie.uca.fr/'
+          company_logo: economie_uca
+          location: Clermont-Ferrand (France)
+          date_start: '2023-10-01'
+          date_end: ''
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
         - title: Research Assistant - Data Analysis 
           company: UMR Aix‑Marseille School of Economics (AMSE) 
           company_url: 'https://www.amse-aixmarseille.fr/fr'
@@ -44,14 +57,32 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+        - title: Research Assistant - Data Analysis (intership)
+          company: Research Institute for Development (IRD)
+          company_url: 'https://www.ird.fr/sud-est'
+          company_logo: IRD-Logo
+          location: Marseille (France)
+          date_start: '2022-04-01'
+          date_end: '2022-08-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Data Analysis (intership)
+          company: French Institute of Science and Technology for Transport Development and Networks (IFSTTAR) 
+          company_url: 'https://www.univ-gustave-eiffel.fr/'
+          company_logo: ifsttar
+          location: Lyon-Bron (France)
+          date_start: '2021-06-01'
+          date_end: '2021-09-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
     design:
       columns: '2'
   - block: accomplishments
@@ -70,7 +101,12 @@ sections:
         - certificate_url: https://www.coursera.org
           date_end: ''
           date_start: '2021-01-25'
-          description: ''
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
           icon: coursera
           organization: Coursera
           organization_url: https://www.coursera.org
