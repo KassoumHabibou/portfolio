@@ -156,7 +156,7 @@ sections:
           organization_url: https://ensai.fr/en/
           title: Engineering degree in Data science (Health and Economic modeling)
           url: https://ensai.fr/en/apres-lensai/les-metiers-de-la-data-2/les-territoires-et-la-sante/
-        - date_start: '2021-09-01'
+        - date_start: '' # '2021-09-01'
           date_end: '2022-10-01'
           description: |2-
               Responsibilities include:
