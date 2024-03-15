@@ -51,7 +51,7 @@ sections:
               * Deploying
         - title: Research Assistant - Data Analysis (fixed-term contract)
           company: UMR Aix‑Marseille School of Economics (AMSE) 
-          company_url: 'https://www.amse-aixmarseille.fr/fr'
+          company_url: 'https://www.amse-aixmarseille.fr/en'
           company_logo: amse-logo
           location: Marseille (France)
           date_start: '2022-09-01'
@@ -75,13 +75,52 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Data Analysis (intership)
+        - title: Research Assistant - Data Analysis (intership)
           company: French Institute of Science and Technology for Transport Development and Networks (IFSTTAR) 
           company_url: 'https://www.univ-gustave-eiffel.fr/'
           company_logo: univ-logo
           location: Lyon-Bron (France)
           date_start: '2021-06-01'
           date_end: '2021-09-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Research Scientist (intership)
+          company: Senegalese Observatory of Poverty and Living Conditions (OPCV) 
+          company_url: 'https://www.ansd.sn/'
+          company_logo: ansd-logo
+          location: Dakar (Senegal)
+          date_start: '2020-03-01'
+          date_end: '2020-09-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Research Scientist (intership)
+          company: Senegalese Observatory of Poverty and Living Conditions (OPCV) 
+          company_url: 'https://www.ansd.sn/'
+          company_logo: ansd-logo
+          location: Dakar (Senegal)
+          date_start: '2020-03-01'
+          date_end: '2020-09-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying
+        - title: Research Scientist (intership)
+          company: Nigerien National Institute of Statistics (INS) & National Information Platforms for Nutrition (NIPN) 
+          company_url: 'https://pnin-niger.org/web/'
+          company_logo: pnin-logo
+          location: Niamey (Niger)
+          date_start: '2018-07-01'
+          date_end: '2018-09-01'
           description: |2-
               Responsibilities include:
 
@@ -117,24 +156,45 @@ sections:
           organization_url: https://cerdi.uca.fr/english-version#/admin
           title: Phd in Development Economics
           url: 'https://cerdi.uca.fr/english-version/team#/admin'
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+        - date_end: '2022-12-01'
+          date_start: '2020-09-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying 
+          icon: ensai-logo
+          organization: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
+          organization_url: https://ensai.fr/en/
+          title: Engineering degree in Data science (Health and Economic modeling)
+          url: https://ensai.fr/en/apres-lensai/les-metiers-de-la-data-2/les-territoires-et-la-sante/
+        - date_end: '2022-10-01'
+          date_start: '2021-09-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying 
+          icon: amse-logo
+          organization: Aix‑Marseille School of Economics (AMSE) 
+          organization_url: https://www.amse-aixmarseille.fr/en
+          title: Master degree in Theoretical and Empirical Economics (ETE) 
+          url: https://www.amse-aixmarseille.fr/en/study/phd/ete-research-master
+        - date_end: '2020-08-01'
+          date_start: '2016-10-01'
+          description: |2-
+              Responsibilities include:
+
+              * Analysing
+              * Modelling
+              * Deploying 
+          icon: ensae-logo
+          organization: Ecole Nationale de la Statistique et de l’Analyse Economique (ENSAE‑Dakar) 
+          organization_url: https://www.ensae.sn/accueil
+          title: Bachelor's degree in Statistics and Applied Economics
+          url: https://www.ensae.sn/accueil
     design:
       columns: '2'
   - block: collection
