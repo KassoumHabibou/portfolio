@@ -17,9 +17,9 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Hugo Blox Builder.'
-    twitter: 'GetResearchDev'
+    org_name: 'University Clermont Auvergne - CERDI'
+    description: 'Welcome to the repository for my personal website! This project serves as a digital representation of who I am, showcasing my skills, projects and passion for economics and data science.'
+    #twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -40,12 +40,13 @@ header:
     #show_day_night: true
     show_search: true
     highlight_active_link: true
-    design:
-      background:
-      # Choose a color such as from https://html-color-codes.info
-        color: '#4682B4'
+  design:
+    background:
+      # Choose colors such as from https://html-color-codes.info
+      gradient_start: '#4bb4e3'
+      gradient_end: '#2b94c3'
       # Text color (true=light, false=dark, or remove for the dynamic theme color).
-        text_color_light: true
+      text_color_light: true
 # Site footer
 
 footer:
