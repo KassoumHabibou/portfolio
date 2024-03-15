@@ -13,7 +13,7 @@ sections:
       username: admin
     design:
       background:
-        color: navy
+      #  color: navy
         image:
         filename: wave
   - block: skills
