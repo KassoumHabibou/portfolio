@@ -47,7 +47,7 @@ sections:
         - title: Research Assistant - Data Analysis 
           company: UMR Aix‑Marseille School of Economics (AMSE) 
           company_url: 'https://www.amse-aixmarseille.fr/fr'
-          company_logo: amse-logo
+          company_logo: amse-logo1
           location: Marseille (France)
           date_start: '2022-09-01'
           date_end: '2023-08-01'
