@@ -103,20 +103,19 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - certificate_url: https://www.edx.org
-          icon: cerdi-uca-logo
-          organization: University Clermont Auvergne - CERDI
-          organization_url: https://cerdi.uca.fr/english-version#/admin
-          title: Phd in Development Economics
-          url: 'https://cerdi.uca.fr/english-version#/admin'
-          date_start: '2023-10-01'
           date_end: ''
+          date_start: '2023-10-01'
           description: |2-
               Responsibilities include:
 
               * Analysing
               * Modelling
               * Deploying
-
+          icon: cerdi-uca-logo
+          organization: University Clermont Auvergne - CERDI
+          organization_url: https://cerdi.uca.fr/english-version#/admin
+          title: Phd in Development Economics
+          url: 'https://cerdi.uca.fr/english-version#/admin'
         - certificate_url: https://www.edx.org
           date_end: ''
           date_start: '2021-01-01'
