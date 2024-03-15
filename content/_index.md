@@ -11,6 +11,11 @@ sections:
       title: Biography
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
+    design:
+      background:
+        color: navy
+        image:
+        filename: wave
   - block: skills
     content:
       title: Skills
@@ -31,7 +36,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Teaching Assistant 
+        - title: Teaching Assistant (fixed-term contract)
           company: 'University Clermont Auvergne: School of Economics' 
           company_url: 'https://economie.uca.fr/'
           company_logo: uca-logo
@@ -44,7 +49,7 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Research Assistant - Data Analysis 
+        - title: Research Assistant - Data Analysis (fixed-term contract)
           company: UMR Aix‑Marseille School of Economics (AMSE) 
           company_url: 'https://www.amse-aixmarseille.fr/fr'
           company_logo: amse-logo
