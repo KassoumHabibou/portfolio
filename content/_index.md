@@ -93,7 +93,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading. #'Accomplish&shy;ments'
       title: Education 
-      subtitle:
+      subtitle: 'Average level: Very good'
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Education.
@@ -102,7 +102,8 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - icon: cerdi-uca-logo
+        - certificate_url: https://www.edx.org
+          icon: cerdi-uca-logo
           organization: University Clermont Auvergne - CERDI
           organization_url: https://cerdi.uca.fr/english-version#/admin
           title: Phd in Development Economics
