@@ -121,7 +121,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading. #'Accomplish&shy;ments'
       title: Education 
-      subtitle: 'Average level: Very good'
+      subtitle: 'Places: France-Senegal-Niger'
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Education.
@@ -156,7 +156,7 @@ sections:
           organization_url: https://ensai.fr/en/
           title: Engineering degree in Data science (Health and Economic modeling)
           url: https://ensai.fr/en/apres-lensai/les-metiers-de-la-data-2/les-territoires-et-la-sante/
-        - date_start: '' # '2021-09-01'
+        - date_start: '2021-09-01'
           date_end: '2022-10-01'
           description: |2-
               Responsibilities include:
@@ -184,6 +184,11 @@ sections:
           url: https://www.ensae.sn/accueil
     design:
       columns: '2'
+  - block: languages
+    content:
+      title: Languages
+      # Note: `username` refers to the user's folder name in `content/authors/`
+      username: admin
   - block: collection
     id: posts
     content:
