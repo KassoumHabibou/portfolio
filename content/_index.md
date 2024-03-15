@@ -24,6 +24,7 @@ sections:
     design:
       columns: '1'
   - block: experience
+    id: experience
     content:
       title: Work Experience
       # Date format for experience
@@ -90,9 +91,10 @@ sections:
     design:
       columns: '2'
   - block: education
+    id: education
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading. #'Accomplish&shy;ments'
-      title: 'Education' 
+      title: Education 
       subtitle: 'Average level: Very good'
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -138,7 +140,7 @@ sections:
   - block: certification
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading. #'Accomplish&shy;ments'
-      title: 'Certification' 
+      title: Certification 
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
