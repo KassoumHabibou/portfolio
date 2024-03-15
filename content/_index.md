@@ -34,7 +34,7 @@ sections:
         - title: Teaching Assistant 
           company: 'University Clermont Auvergne: School of Economics' 
           company_url: 'https://economie.uca.fr/'
-          company_logo: economie_uca
+          company_logo: uca-logo
           location: Clermont-Ferrand (France)
           date_start: '2023-10-01'
           date_end: ''
@@ -60,7 +60,7 @@ sections:
         - title: Research Assistant - Data Analysis (intership)
           company: Research Institute for Development (IRD)
           company_url: 'https://www.ird.fr/sud-est'
-          company_logo: IRD-Logo
+          company_logo: ird-logo
           location: Marseille (France)
           date_start: '2022-04-01'
           date_end: '2022-08-01'
@@ -73,7 +73,7 @@ sections:
         - title: Data Analysis (intership)
           company: French Institute of Science and Technology for Transport Development and Networks (IFSTTAR) 
           company_url: 'https://www.univ-gustave-eiffel.fr/'
-          #company_logo: ifsttar
+          company_logo: ifsttar-logo
           location: Lyon-Bron (France)
           date_start: '2021-06-01'
           date_end: '2021-09-01'
