@@ -102,19 +102,6 @@ sections:
               * Modelling
               * Deploying
         - title: Research Scientist (intership)
-          company: Senegalese Observatory of Poverty and Living Conditions (OPCV) 
-          company_url: 'https://www.ansd.sn/'
-          company_logo: ansd-logo
-          location: Dakar (Senegal)
-          date_start: '2020-03-01'
-          date_end: '2020-09-01'
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Research Scientist (intership)
           company: Nigerien National Institute of Statistics (INS) & National Information Platforms for Nutrition (NIPN) 
           company_url: 'https://pnin-niger.org/web/'
           company_logo: pnin-logo
@@ -156,8 +143,8 @@ sections:
           organization_url: https://cerdi.uca.fr/english-version#/admin
           title: Phd in Development Economics
           url: 'https://cerdi.uca.fr/english-version/team#/admin'
-        - date_end: '2022-12-01'
-          date_start: '2020-09-01'
+        - date_start: '2020-09-01'
+          date_end: '2022-12-01'
           description: |2-
               Responsibilities include:
 
@@ -169,8 +156,8 @@ sections:
           organization_url: https://ensai.fr/en/
           title: Engineering degree in Data science (Health and Economic modeling)
           url: https://ensai.fr/en/apres-lensai/les-metiers-de-la-data-2/les-territoires-et-la-sante/
-        - date_end: '2022-10-01'
-          date_start: '2021-09-01'
+        - date_start: '2021-09-01'
+          date_end: '2022-10-01'
           description: |2-
               Responsibilities include:
 
