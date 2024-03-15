@@ -184,11 +184,11 @@ sections:
           url: https://www.ensae.sn/accueil
     design:
       columns: '2'
-  #- block: languages
-  #  content:
-  #    title: Languages
+  - block: languages
+    content:
+      title: Languages
       # Note: `username` refers to the user's folder name in `content/authors/`
-  #    username: admin
+      username: admin
   - block: collection
     id: posts
     content:
