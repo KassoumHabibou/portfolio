@@ -77,7 +77,7 @@ sections:
         - title: Data Analysis (intership)
           company: French Institute of Science and Technology for Transport Development and Networks (IFSTTAR) 
           company_url: 'https://www.univ-gustave-eiffel.fr/'
-          company_logo: ifsttar-logo
+          company_logo: univ-logo
           location: Lyon-Bron (France)
           date_start: '2021-06-01'
           date_end: '2021-09-01'
