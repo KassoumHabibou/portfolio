@@ -53,13 +53,7 @@ education:
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-languages:
-  - name: French
-    percent: 100
-  - name: English
-    percent: 90
-  - name: Arabic
-    percent: 25
+
 skills:
   - name: Programming
     color: '#4682B4'
