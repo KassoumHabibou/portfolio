@@ -32,7 +32,6 @@ interests:
   - Applied microeconomics
   - Data science and machine learning
   - Development economics
-  - Causal inference
   - Nutrition and Health
 
 # Education to show in About widget
@@ -40,7 +39,7 @@ education:
   courses:
     - course: PhD in economics
       institution: University Clermont Auvergne
-      year: 2026
+      year: 2026 (expected)
     - course: Engineering degree in Data science
       institution: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
       year: 2022
@@ -191,9 +190,9 @@ social:
 highlight_name: true
 
 
+#IBRAHIM KASSOUM Habibou is a PhD candidate in Development Economics at University Clermont Auvergne (UCA). His research focuses on issues related to health (children's nutrition and health, health care utilization) and gender economics (women’s empowerment and its impact on household member’s health). His goal is to start a PhD in women empowerment and health issues in 2023 at AMSE. He holds a research master degree in Theoretical and Empirical Economics (ETE) from AMSE. He previously worked as a research analyst in developing countries (Senegal and Niger).
 ---
-
-IBRAHIM KASSOUM Habibou is a PhD candidate in Development Economics at University Clermont Auvergne (UCA). His research focuses on issues related to health (children's nutrition and health, health care utilization) and gender economics (women’s empowerment and its impact on household member’s health). His goal is to start a PhD in women empowerment and health issues in 2023 at AMSE. He holds a research master degree in Theoretical and Empirical Economics (ETE) from AMSE. He previously worked as a research analyst in developing countries (Senegal and Niger).
+Welcome to the professional portfolio. I'm a dedicated PhD candidate in Economics and a Data scientist. You can find here more information about my [work experience](#experience), my education and some of my hard skills.  
 {style="text-align: justify;"}
 
 
