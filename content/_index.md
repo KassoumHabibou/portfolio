@@ -184,7 +184,8 @@ sections:
           title: Bachelor's degree in Statistics and Applied Economics
           url: https://www.ensae.sn/accueil
     design:
-      columns: '2'
+      columns: '1'
+      view: compact
   #- block: resume-languages
   #  content:
   #    title: Languages
@@ -284,7 +285,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent & Upcoming Talks
+      title: Recent Talks
       filters:
         folders:
           - event
