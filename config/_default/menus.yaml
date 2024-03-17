@@ -13,24 +13,24 @@ main:
   - name: Education
     url: '#education'
     weight: 30
-  - name: Posts
-    url: '#posts'
-    weight: 40
+ # - name: Posts
+ #   url: '#posts'
+ #   weight: 40
   - name: Projects
     url: '#projects'
-    weight: 50
+    weight: 40
   - name: Publications
     url: '#featured'
-    weight: 60
+    weight: 50
   - name: Talks
     url: '#talks'
-    weight: 70
+    weight: 60
   - name: Contact
     url: '#contact'
-    weight: 80
+    weight: 70
   - name: CV
     url: uploads/resume.pdf
-    weight: 90
+    weight: 80
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
 #  - name: CV
