@@ -116,7 +116,7 @@ sections:
               * Modelling
               * Deploying
     design:
-      columns: '2'
+      columns: '1'
   - block: accomplishments
     id: education
     content:
