@@ -31,7 +31,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**Unsplash**](https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin)'
+  caption: 'Image credit: [**CERDI**](https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin)'
   focal_point: Right
 
 links:
@@ -41,7 +41,7 @@ links:
 #    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: 'content/slides/Phd Seminar Presentation CERDI Habibou.pdf'
+url_slides: 'Phd Seminar Presentation CERDI Habibou'
 url_video: ''
 
 # Markdown Slides (optional).
