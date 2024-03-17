@@ -17,7 +17,7 @@ abstract: 'At this seminar, I presented the findings of my first PhD paper for r
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-#date: '2023-12-20T12:00:00Z'
+date: '2023-12-20T12:00:00Z'
 date_end: '2023-12-20T13:00:00Z'
 all_day: false
 
@@ -41,7 +41,7 @@ links:
 #    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: ''
+url_slides: 'static/Phd Seminar Presentation CERDI Habibou.pdf'
 url_video: ''
 
 # Markdown Slides (optional).
@@ -49,7 +49,7 @@ url_video: ''
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
 #   Otherwise, set `slides = ""`.
-slides: static/Phd Seminar Presentation CERDI Habibou.pdf
+#slides: 
 
 # Projects (optional).
 #   Associate this post with one or more of your projects.
