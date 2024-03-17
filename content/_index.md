@@ -8,14 +8,15 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: Biography
+      title: ''
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
     design:
       background:
         image:
           filename: wave.svg
-  - block: skills
+  - block: about.skills
+    id: skills
     content:
       title: Skills
       text: ''
