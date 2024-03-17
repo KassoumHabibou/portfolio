@@ -185,7 +185,6 @@ sections:
           url: https://www.ensae.sn/accueil
     design:
       columns: '1'
-      view: card
   #- block: resume-languages
   #  content:
   #    title: Languages
@@ -307,7 +306,7 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: Habibou.IBRAHIM_KASSOUM@doctorant.uca.fr
       phone: 04 73 17 74 08
-      appointment_url: 'https://calendly.com'
+      #appointment_url: 'https://calendly.com'
       address:
         street: 26 Avenue Léon Blum
         city: Clermont-Ferrand

@@ -1,5 +1,5 @@
 ---
-title: 'PhD seminar'
+title: 'First PhD seminar'
 
 event: CERDI PhD seminar
 event_url: https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin
@@ -18,13 +18,13 @@ abstract: 'At this seminar, I presented the findings of my first PhD paper for r
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: '2023-12-20T12:00:00Z'
-date_end: '2023-12-20T13:00:00Z'
+#date_end: '2023-12-20T13:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2023-12-14T10:00:00Z'
 
-authors: []
+authors: [Ibrahim Kassoum Habibou](https://www.linkedin.com/in/habibou-i-7a3497133/) and [Pierre Beaucoral](https://pierrebeaucoral.github.io/)
 tags: []
 
 # Is this a featured talk? (true/false)
@@ -57,7 +57,7 @@ url_video: ''
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
 projects:
-  - example
+  - First PhD seminar
 
 #
 #{{% callout note %}}
