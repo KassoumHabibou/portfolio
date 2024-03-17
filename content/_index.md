@@ -116,7 +116,7 @@ sections:
               * Modelling
               * Deploying
     design:
-      columns: '1'
+      columns: '2'
   - block: accomplishments
     id: education
     content:
@@ -184,7 +184,7 @@ sections:
           title: Bachelor's degree in Statistics and Applied Economics
           url: https://www.ensae.sn/accueil
     design:
-      columns: '1'
+      columns: '2'
   #- block: resume-languages
   #  content:
   #    title: Languages

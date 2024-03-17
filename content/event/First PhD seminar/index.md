@@ -17,14 +17,14 @@ abstract: 'At this seminar, I presented the findings of my first PhD paper for r
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-12-20T12:00:00Z'
-#date_end: '2023-12-20T13:00:00Z'
+#date: '2023-12-20T12:00:00Z'
+date_end: '2023-12-20T13:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
 publishDate: '2023-12-14T10:00:00Z'
 
-authors: [Ibrahim Kassoum Habibou](https://www.linkedin.com/in/habibou-i-7a3497133/) and [Pierre Beaucoral](https://pierrebeaucoral.github.io/)
+authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
@@ -56,8 +56,8 @@ slides: static/Phd Seminar Presentation CERDI Habibou.pdf
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-projects:
-  - exemple
+#projects:
+#  - exemple
 
 #
 #{{% callout note %}}
