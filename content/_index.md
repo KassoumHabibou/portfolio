@@ -15,7 +15,7 @@ sections:
       background:
         image:
           filename: wave.svg
-  - block: about.skills
+  - block: skills
     id: skills
     content:
       title: Skills
