@@ -1,7 +1,7 @@
 ---
-title: 'Linking armed conflicts and children undernutrition in Nigeria: the mitigating effects of maternal bargaining power'
+title: 'PhD seminar'
 
-event: PhD seminar
+event: CERDI PhD seminar
 event_url: https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin
 
 location: Tertiary Sector - La Rotonde Site - Room 212
@@ -12,8 +12,8 @@ address:
   postcode: '63000'
   country: France
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: During this seminar, I presented the findings of my first PhD paper.
+abstract: 'At this seminar, I presented the findings of my first PhD paper for review in front of researchers and colleagues from CERDI. The paper explores the connection between armed conflicts and child undernutrition in Nigeria and focus on the mitigating effects of maternal bargaining power. I received many positive comments from the researchers.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -41,7 +41,7 @@ links:
 #    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: 'Phd Seminar Presentation CERDI Habibou'
+url_slides: 'content/slides/Phd Seminar Presentation CERDI Habibou.pdf'
 url_video: ''
 
 # Markdown Slides (optional).
