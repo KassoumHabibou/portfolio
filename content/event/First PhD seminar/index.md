@@ -41,7 +41,7 @@ links:
 #    url: https://twitter.com/georgecushen
 url_code: ''
 url_pdf: ''
-url_slides: 'static/Phd Seminar Presentation CERDI Habibou.pdf'
+url_slides: 'https://github.com/KassoumHabibou/Website-repository/blob/main/static/Phd%20Seminar%20Presentation%20CERDI%20Habibou.pdf'
 url_video: ''
 
 # Markdown Slides (optional).
