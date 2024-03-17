@@ -160,9 +160,6 @@ social:
   - icon: at-symbol
     url: 'mailto:ibrahimkassoumhabibou@gmail.com'
     label: E-mail Me
-  - icon: envelope
-    icon_pack: fas
-    link: '/#contact'
   - icon: brands/instagram
     url: https://www.instagram.com/kassoum_habibou
     label: Follow me on Instagram
@@ -179,12 +176,18 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/habibou-i-7a3497133
+  - icon: twitter
+    icon_pack: fab
+    link: https://twitter.com/HabibouKas20715
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
     link: uploads/resume.pdf
+  - icon: envelope
+    icon_pack: fas
+    link: '/#contact'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
