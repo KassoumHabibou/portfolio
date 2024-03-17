@@ -185,7 +185,7 @@ sections:
           url: https://www.ensae.sn/accueil
     design:
       columns: '1'
-      view: compact
+      view: card
   #- block: resume-languages
   #  content:
   #    title: Languages
