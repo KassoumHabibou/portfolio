@@ -3,6 +3,7 @@ title: 'Analysis of a Citizen Consultation "Covid-19 Crisis: How to invent toget
 summary: This project aims to use NLP techniques to understand the themes that concern French citizens for the post-COVID period.
 tags:
   - NLP
+  - Unsupervised Learning
 date: '2021-04-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
