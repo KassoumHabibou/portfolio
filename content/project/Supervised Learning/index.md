@@ -9,7 +9,7 @@ date: '2023-10-27T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Mappitall
   focal_point: Smart
 
 links:
@@ -31,6 +31,9 @@ url_video: ''
 ---
 
 The **Analyzing Senegal Census Data** project is a part of understanding how poverty changes over time in Dakar, Senegal. The goal is to figure out what mainly causes poverty in Senegal using spatial data analysis.
-In this study, we used data from the two General Population Censuses (RGPH) of Senegal conducted in 2002 and 2013. After carefully cleaning the data, we calculated various characteristics at the district level, such as the average age of household heads, average years of education, and number of children per household and then conducted descriptive statistics on them. We also calculated the Multidimensional Poverty Index [https://www.worldbank.org/en/topic/poverty/brief/multidimensional-poverty-measure]((MPI))using household-level data. Initially, we computed each dimension of the MPI (health, education, and standard of living) at the household level. This index was then aggregated at the district level (specific to each census) before proceeding to spatial analysis. We tested several models, including the *spatial lag model*, *spatial error models* and *geographically weighted regression*. Overall, we found that characteristics of the household head (such as years of education, ethnicity, age, gender, and employment status) are the main factors explaining poverty in Dakar. District composition factors such as the number of individuals under fifteen, population density and settlement index also play an important role in explaining poverty.
 
-This work was conducted in collaboration with [https://hema.quarto.pub/aboubacar-hema/](Aboubacar HEMA) and was performed using **R** as the statistical tool. You can find 👉 [https://github.com/Abson-dev/Analysing-Senegal-Census-Data]((here))  the replication codes of this study.
+In this study, we used data from the two General Population Censuses (RGPH) of Senegal conducted in 2002 and 2013. After carefully cleaning the data, we calculated various characteristics at the district level, such as the average age of household heads, average years of education, and number of children per household and then conducted descriptive statistics on them. We also calculated the Multidimensional Poverty Index [(MPI)](https://www.worldbank.org/en/topic/poverty/brief/multidimensional-poverty-measure) using household-level data. Initially, we computed each dimension of the MPI (health, education, and standard of living) at the household level. This index was then aggregated at the district level (specific to each census) before proceeding to spatial analysis.
+
+We run several models, including the *spatial lag model*, *spatial error models* and *geographically weighted regression*. Overall, we found that characteristics of the household head (such as years of education, ethnicity, age, gender, and employment status) are the main factors explaining poverty in Dakar. District composition factors such as the number of individuals under fifteen, population density and settlement index also play an important role in explaining poverty.
+
+This work was conducted in collaboration with [Aboubacar HEMA](https://hema.quarto.pub/aboubacar-hema/) and was performed using **R** as the statistical tool. You can find 👉 [here](https://github.com/Abson-dev/Analysing-Senegal-Census-Data) the replication codes of this study.
