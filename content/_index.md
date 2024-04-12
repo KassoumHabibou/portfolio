@@ -151,9 +151,21 @@ sections:
 
 
               * Machine Learning:
-                - supervised learning (regression, decision trees, neural networks, random forest, etc.)
-                - unsupervised learning (k-means, hierarchical clustering, KNN, PCA, GMM, etc.)
-                - deep learning (CNNs, LSTMs, RNNs, GANs etc.)
+                - supervised learning (regression, decision trees, neural networks, random forest, etc.);
+                - unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.);
+                - deep learning (CNNs, LSTMs, RNNs, GANs etc.).
+              
+              * Statistics and mathematics:
+
+                - Descriptive statistics (mean, median, outliers, etc.) and distributions (normal, Poisson, exponential, etc.);
+                - Algebra and calculus (matrices, limits, optimization etc.);
+                - Probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
+
+              * Computer science:
+
+                - Database computation (using SQL and MySQL);
+                - Data visualization and analytics (graphs, dashboards, predictions, etc.);
+                - Programming languages: Python, R, Stata, and SQL.
           icon: ensai-logo
           organization: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
           organization_url: https://ensai.fr/en/
@@ -302,7 +314,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Feel free to get in touch with me! Whether you have questions, suggestions, or simply want to say hello, I'd love to hear from you. You can reach me through the contact form, email, or phone number provided below. Your feedback is important to me and I look forward to connecting with you.
+        Feel free to get in touch with me! Whether you have questions, suggestions or simply want to say hello, I'd love to hear from you. You can reach me through the contact form, email, or phone number provided below. Your feedback is important to me and I look forward to connecting with you.
       # Contact (add or remove contact options as necessary)
       email: Habibou.IBRAHIM_KASSOUM@doctorant.uca.fr
       phone: 04 73 17 74 08
