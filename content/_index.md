@@ -156,13 +156,11 @@ sections:
                 - deep learning (CNNs, LSTMs, RNNs, GANs etc.).
               
               * Statistics and mathematics:
-
                 - Descriptive statistics (mean, median, outliers, etc.) and distributions (normal, Poisson, exponential, etc.);
                 - Algebra and calculus (matrices, limits, optimization etc.);
                 - Probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
 
               * Computer science:
-
                 - Database computation (using SQL and MySQL);
                 - Data visualization and analytics (graphs, dashboards, predictions, etc.);
                 - Programming languages: Python, R, Stata, and SQL.
