@@ -151,21 +151,20 @@ sections:
 
 
               * Machine Learning:
-                - supervised learning (regression, decision trees, neural networks, random forest, etc.);
-                - unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.);
+                - supervised learning (regression, decision trees, neural networks, random forest, etc.).
+                - unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.).
                 - deep learning (CNNs, LSTMs, RNNs, GANs etc.).
               
               * Statistics and mathematics:
-
-                - Descriptive statistics (mean, median, outliers, etc.) and distributions (normal, Poisson, exponential, etc.);
-                - Algebra and calculus (matrices, limits, optimization etc.);
+                - Descriptive statistics (mean, median, outliers, etc.) and distributions (normal, Poisson, exponential, etc.).
+                - Algebra and calculus (matrices, limits, optimization etc.).
                 - Probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
 
               * Computer science:
-
-                - Database computation (using SQL and MySQL);
-                - Data visualization and analytics (graphs, dashboards, predictions, etc.);
+                - Database computation (using SQL and MySQL).
+                - Data visualization and analytics (graphs, dashboards, predictions, etc.).
                 - Programming languages: Python, R, Stata, and SQL.
+                
           icon: ensai-logo
           organization: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
           organization_url: https://ensai.fr/en/
