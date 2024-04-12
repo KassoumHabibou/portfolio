@@ -151,16 +151,22 @@ sections:
 
 
               - Machine Learning:  
+
+
                 - supervised learning (regression, decision trees, neural networks, random forest, etc.).
                 - unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.).
                 - deep learning (CNNs, LSTMs, RNNs, GANs etc.).
               
               - Statistics and mathematics:  
+
+
                 - descriptive statistics (mean, median, outliers, etc.) and distributions (normal, Poisson, exponential, etc.).
                 - algebra and calculus (matrices, limits, optimization etc.).
                 - probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
 
               - Computer science:  
+
+              
                 - Database computation (using SQL and MySQL).
                 - Data visualization and analytics (graphs, dashboards, predictions, etc.).
                 - Programming languages: Python, R, Stata and SQL.
