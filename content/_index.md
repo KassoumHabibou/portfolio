@@ -147,24 +147,22 @@ sections:
         - date_start: '2020-09-01'
           date_end: '2022-12-01'
           description: |2-
-              Responsibilities include:
+              ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. With close ties to the French National Institute of Statistics and Economic Studies [(INSEE)](https://www.insee.fr/en/accueil), Center for Research in Economics and Statistics [(CREST)](https://crest.science/), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise. ENSAI's course content includes:
 
-              * Analysing
-              * Modelling
-              * Deploying 
+              * Machine Learning:
+                - supervised learning (regression, decision trees, neural networks, random forest, etc.)
+                - unsupervised learning (K-means, Hierarchical clustering, KNN, PCA, GMM, etc.)
           icon: ensai-logo
           organization: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
           organization_url: https://ensai.fr/en/
-          title: Engineering degree in Data science (Health and Economic modeling)
+          title: Engineering degree in Data science 
           url: https://ensai.fr/en/apres-lensai/les-metiers-de-la-data-2/les-territoires-et-la-sante/
         - date_start: '2021-09-01'
           date_end: '2022-10-01'
           description: |2-
-              Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying 
+            test
+
           icon: amse-logo
           organization: Aix‑Marseille School of Economics (AMSE) 
           organization_url: https://www.amse-aixmarseille.fr/en
