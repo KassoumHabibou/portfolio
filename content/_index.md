@@ -146,7 +146,7 @@ sections:
           url: 'https://cerdi.uca.fr/english-version/team#/admin'
         - date_start: '2020-09-01'
           date_end: '2022-12-01'
-          description: |2-
+          description: |3-
               ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. With close ties to the French National Institute of Statistics and Economic Studies ([INSEE](https://www.insee.fr/en/accueil)), Center for Research in Economics and Statistics ([CREST](https://crest.science/)), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise. ENSAI's course content includes:
 
 
@@ -156,11 +156,13 @@ sections:
                 - deep learning (CNNs, LSTMs, RNNs, GANs etc.).
               
               * Statistics and mathematics:
+
                 - Descriptive statistics (mean, median, outliers, etc.) and distributions (normal, Poisson, exponential, etc.);
                 - Algebra and calculus (matrices, limits, optimization etc.);
                 - Probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
 
               * Computer science:
+
                 - Database computation (using SQL and MySQL);
                 - Data visualization and analytics (graphs, dashboards, predictions, etc.);
                 - Programming languages: Python, R, Stata, and SQL.
