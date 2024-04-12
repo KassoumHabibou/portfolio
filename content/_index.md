@@ -63,7 +63,7 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Research Assistant - Data Analysis (intership)
+        - title: Research Assistant - Data Analysis (internship)
           company: Research Institute for Development (IRD)
           company_url: 'https://www.ird.fr/sud-est'
           company_logo: ird-logo
@@ -76,7 +76,7 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Research Assistant - Data Analysis (intership)
+        - title: Research Assistant - Data Analysis (internship)
           company: French Institute of Science and Technology for Transport Development and Networks (IFSTTAR) 
           company_url: 'https://www.univ-gustave-eiffel.fr/'
           company_logo: univ-logo
@@ -89,7 +89,7 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Research Scientist (intership)
+        - title: Research Scientist (internship)
           company: Senegalese Observatory of Poverty and Living Conditions (OPCV) 
           company_url: 'https://www.ansd.sn/'
           company_logo: ansd-logo
@@ -102,7 +102,7 @@ sections:
               * Analysing
               * Modelling
               * Deploying
-        - title: Research Scientist (intership)
+        - title: Research Scientist (internship)
           company: Nigerien National Institute of Statistics (INS) & National Information Platforms for Nutrition (NIPN) 
           company_url: 'https://pnin-niger.org/web/'
           company_logo: pnin-logo
@@ -151,13 +151,14 @@ sections:
 
               * Machine Learning:
                 - supervised learning (regression, decision trees, neural networks, random forest, etc.)
-                - unsupervised learning (K-means, Hierarchical clustering, KNN, PCA, GMM, etc.)
+                - unsupervised learning (k-means, hierarchical clustering, KNN, PCA, GMM, etc.)
+                - deep learning (CNNs, LSTMs, RNNs, GANs etc.)
           icon: ensai-logo
           organization: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
           organization_url: https://ensai.fr/en/
           title: Engineering degree in Data science 
           url: https://ensai.fr/en/apres-lensai/les-metiers-de-la-data-2/les-territoires-et-la-sante/
-        - date_start: '2021-09-01'
+        - date_start: '2020-09-01'
           date_end: '2022-10-01'
           description: |2-
 
