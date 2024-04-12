@@ -146,13 +146,23 @@ sections:
           url: 'https://cerdi.uca.fr/english-version/team#/admin'
         - date_start: '2020-09-01'
           date_end: '2022-12-01'
-          description: |2-
+          description: |9-
             ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. With close ties to the French National Institute of Statistics and Economic Studies ([INSEE](https://www.insee.fr/en/accueil)), Center for Research in Economics and Statistics ([CREST](https://crest.science/)), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise. ENSAI's course content includes:
 
-            * Machine Learning:
-              * supervised learning (regression, decision trees, neural networks, random forest, etc.).
-              * unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.).
-              * deep learning (CNNs, LSTMs, RNNs, GANs etc.).
+            - Machine Learning:
+              - supervised learning (regression, decision trees, neural networks, random forest, etc.).
+              - unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.).
+              - deep learning (CNNs, LSTMs, RNNs, GANs etc.).
+                            
+            - Statistics and mathematics:
+              - descriptive statistics (mean, median, outliers, etc.) and distributions (normal, Poisson, exponential, etc.).
+              - algebra and calculus (matrices, limits, optimization etc.).
+              - probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
+
+            - Computer science:
+              - database computation (using SQL and MySQL).
+              - data visualization and analytics (graphs, dashboards, predictions, etc.).
+              - programming languages: Python, R, Stata and SQL.
 
           icon: ensai-logo
           organization: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
@@ -163,7 +173,7 @@ sections:
           date_end: '2022-10-01'
           description: |2-
 
-            test
+            
 
           icon: amse-logo
           organization: Aix‑Marseille School of Economics (AMSE) 
