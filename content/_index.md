@@ -159,7 +159,7 @@ sections:
             - Statistics and mathematics:  
 
 
-              - descriptive statistics (mean, median, outliers, etc.) and distributions (normal, Poisson, exponential, etc.).
+              - descriptive statistics (mean, outliers, etc.) and distributions (normal, Poisson, etc.).
               - algebra and calculus (matrices, limits, optimization etc.).
               - probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
 
