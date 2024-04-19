@@ -45,11 +45,16 @@ sections:
           date_start: '2023-10-01'
           date_end: ''
           description: |2-
-              Responsibilities include:
+              During my current PhD position, I have had the privilege of serving as a Teacher Assistant, where I have been actively engaged in facilitating Tutorial Sessions (TDs) for students in the fields of **statistics** and **probabilities**. In this role, I have contributed to the academic development of students by assisting them in understanding complex statistical concepts, solving problems, and reinforcing their comprehension through practical applications. This experience has not only honed my teaching skills but has also revealed my managerial abilities and deepened my own understanding of the subject matter. It has been immensely rewarding to witness the growth and progress of students under my guidance. My course load includes: 
 
-              * Analysing
-              * Modelling
-              * Deploying
+              - Inferential statistics with Pr [Anne Viallefont](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/anne-viallefont#/) for third-year management students. We covered topics such as:
+                * estimation (definition of an estimator, bias, variance, convergence, etc.);
+                * confidence intervals and significance levels (for mean, variance, bias correction, etc.);
+                * hypothesis testing (comparing two means, variances, or distributions, etc.).
+              - Probabilities and mathematics with Pr [Marie Eliette Dury](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/marie-eliette-dury#/) for second-year gestion students. We covered topics such as:
+                * probability distributions and approximations (normal, Poisson, binomial, etc.);
+                * matrix calculation (calculation of the determinant, eigenvalue, inverse, diagonalization, etc.);
+                * numeric sequence (arithmetic and geometric sequence, recurrence equation, etc.).
         - title: Research Assistant - Data Analysis (fixed-term contract)
           company: UMR Aix‑Marseille School of Economics (AMSE) 
           company_url: 'https://www.amse-aixmarseille.fr/en'
@@ -150,16 +155,16 @@ sections:
             ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. With close ties to the French National Institute of Statistics and Economic Studies ([INSEE](https://www.insee.fr/en/accueil)), Center for Research in Economics and Statistics ([CREST](https://crest.science/)), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise. ENSAI's course content includes:
 
             - Machine Learning:  
-              * supervised learning (regression, decision trees, neural networks, random forest, etc.).
-              * unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.).
+              * supervised learning (regression, decision trees, neural networks, random forest, etc.);
+              * unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.);
               * deep learning (CNNs, LSTMs, RNNs, GANs etc.).
             - Statistics and mathematics:  
-              * descriptive statistics (mean, outliers, etc.) and distributions (normal, Poisson, etc.).
-              * algebra and calculus (matrices, limits, optimization etc.).
+              * descriptive statistics (mean, outliers, etc.) and distributions (normal, Poisson, etc.);
+              * algebra and calculus (matrices, limits, optimization etc.);
               * probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
             - Computer science:  
-              * database computation (using SQL and MySQL).
-              * data visualization and analytics (graphs, dashboards, predictions, etc.).
+              * database computation (with SQL and MySQL);
+              * data visualization and analytics (with matplotlib, ggplot2, dashboards, etc.);
               * programming languages: Python, R, Stata and SQL.
           icon: ensai-logo
           organization: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
