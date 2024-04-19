@@ -45,13 +45,13 @@ sections:
           date_start: '2023-10-01'
           date_end: ''
           description: |2-
-              During my current PhD position, I have had the privilege of serving as a Teacher Assistant, where I have been actively engaged in facilitating Tutorial Sessions (TDs) for students in the fields of **statistics** and **probabilities**. In this role, I have contributed to the academic development of students by assisting them in understanding complex statistical concepts, solving problems, and reinforcing their comprehension through practical applications. This experience has not only honed my teaching skills but has also revealed my managerial abilities and deepened my own understanding of the subject matter. It has been immensely rewarding to witness the growth and progress of students under my guidance. My course load includes: 
+              During my current PhD position, I have had the privilege of serving as a teacher assistant, where I have been actively engaged in facilitating tutorial sessions for students in the fields of **statistics** and **probabilities**. In this role, I have contributed to the academic development of students by assisting them in understanding complex statistical concepts, solving problems, and reinforcing their comprehension through practical applications. This experience has not only honed my teaching skills but has also revealed my managerial abilities and deepened my own understanding of the subject matter. It has been immensely rewarding to witness the growth and progress of students under my guidance. My course load includes: 
 
-              - Inferential statistics with Pr [Anne Viallefont](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/anne-viallefont#/) for third-year management students. We covered topics such as:
+              - **Inferential statistics** with Pr [Anne Viallefont](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/anne-viallefont#/) for third-year management students. We covered topics such as:
                 * estimation (definition of an estimator, bias, variance, convergence, etc.);
                 * confidence intervals and significance levels (for mean, variance, bias correction, etc.);
                 * hypothesis testing (comparing two means, variances, or distributions, etc.).
-              - Probabilities and mathematics with Pr [Marie Eliette Dury](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/marie-eliette-dury#/) for second-year gestion students. We covered topics such as:
+              - **Probabilities and mathematics** with Pr [Marie Eliette Dury](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/marie-eliette-dury#/) for second-year gestion students. We covered topics such as:
                 * probability distributions and approximations (normal, Poisson, binomial, etc.);
                 * matrix calculation (calculation of the determinant, eigenvalue, inverse, diagonalization, etc.);
                 * numeric sequence (arithmetic and geometric sequence, recurrence equation, etc.).
@@ -259,7 +259,7 @@ sections:
       columns: '1'
       view: showcase
       # For Showcase view, flip alternate rows?
-      flip_alt_rows: true
+      flip_alt_rows: false
   #- block: markdown
   #  content:
   #    title: Gallery
