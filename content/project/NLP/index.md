@@ -18,7 +18,7 @@ links:
     icon_pack: fas
     name: more
     url: https://archive.make.org/le-monde-dapres
-url_code: ''
+url_code: 'https://github.com/KassoumHabibou/Statistics-project'
 url_pdf: ''
 url_slides: ''
 url_video: ''
