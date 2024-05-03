@@ -139,13 +139,9 @@ sections:
         - date_end: ''
           date_start: '2023-10-01'
           description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
+              The Center for Studies and Research on International Development (CERDI) was established since 1976. It was the first joint research unit, between the National Center for Scientific Research ([CNRS](https://www.cnrs.fr/en)) and a French university dedicated to development economics. CERDI mainly brings together economists, researchers from CNRS, IRD, and teaching researchers from the [University Clermont Auvergne](https://www.uca.fr/en). Their areas of expertise are varied and cover both microeconomic and macroeconomic aspects of development. Research conducted at CERDI focuses on the study of international development processes, its drivers, and its economic, social, and environmental consequences. They revolve around three main axes: development finance, sustainable development trajectories, and the integration of developing countries into the global economy.
           icon: cerdi-logo
-          organization: University Clermont Auvergne - CERDI
+          organization: University Clermont Auvergne - CERDI - CNRS - IRD
           organization_url: https://cerdi.uca.fr/english-version#/admin
           title: Phd in Development Economics
           url: 'https://cerdi.uca.fr/english-version/team#/admin'
@@ -174,7 +170,7 @@ sections:
         - date_start: '2020-09-01'
           date_end: '2022-10-01'
           description: |2-
-            AMSE is a Joint Research Unit of the CNRS (UMR 7316) jointly supervised by Aix-Marseille University ([AMU](https://www.univ-amu.fr/en)), Centrale Méditerranée, and the School for Advanced Studies in the Social Sciences ([EHESS](https://www.ehess.fr/en)). For over 20 years, AMSE has consistently ranked among the top five most productive research centers in economics in France. The ETE track of the Economics master's program, which lasts for one year, is a research-oriented track that prepares students to pursue doctoral studies. It offers advanced training in **economics** and **research methodology** allowing students to specialize through a wide range of courses in specific areas of economics. The core of this master include:
+            AMSE is a Joint Research Unit of the CNRS (UMR 7316) jointly supervised by Aix-Marseille University ([AMU](https://www.univ-amu.fr/en)), Centrale Méditerranée, and the School for Advanced Studies in the Social Sciences ([EHESS](https://www.ehess.fr/en)). For over 20 years, AMSE has consistently ranked among the top five most productive research centers in economics in France. The ETE track of the Economics master's program, which lasts for one year, is a research-oriented track that prepares students to pursue doctoral studies. It offers advanced training in **economics** and **research methodology** allowing students to specialize through a wide range of courses in specific areas of economics. The core courses of this master include:
 
             - Advanced microeconomics and macroeconomics:  
               * economics of taxation (why taxes, first best taxation, etc.);
@@ -187,7 +183,7 @@ sections:
             - Development economics:  
               * human capital (nutrition, education, health, etc.);
               * financial capital (microfinance and micro-savings, access to credit, etc.);
-              * physical capital (property rights and technology adoption, etc.)
+              * physical capital (property rights and technology adoption, etc.).
             
 
           icon: amse-logo
@@ -198,19 +194,19 @@ sections:
         - date_end: '2020-08-01'
           date_start: '2016-10-01'
           description: |2-
-              ENSAE is a higher education institution that is a member of the Network of African Statistical Schools (RESA). It is a sub-regional education institution that welcomes around fifteen nationalities and is listed among the most recognized institutions for training statistician in Africa. As a member of the *Observatoire Economique et Statistique d'Afrique Subsaharienne* ([AFRISTAT](https://www.afristat.org/)) and affiliated with the *Institut National de la Statistique et des Etudes Economiques* ([INSEE](https://www.insee.fr/fr/accueil)), ENSAE welcomes technician and engineer students from across all Africa, as well as visiting professors from prominent European universities. Under the guidance of a pedagogical team composed of academics and professionals, the future graduate of ENSAE assimilates, throughout their course, **statistical** and **economic theories** as well as the necessary skills for their operational application. The core of this program is:
+              ENSAE is a higher education institution that is a member of the Network of African Statistical Schools (RESA). It is a sub-regional education institution that welcomes around fifteen nationalities and is listed among the most recognized institutions for training statistician in Africa. As a member of the *Observatoire Economique et Statistique d'Afrique Subsaharienne* ([AFRISTAT](https://www.afristat.org/)) and affiliated with the *Institut National de la Statistique et des Etudes Economiques* ([INSEE](https://www.insee.fr/fr/accueil)), ENSAE welcomes technician and engineer students from across all Africa, as well as visiting professors from prominent European universities. Under the guidance of a pedagogical team composed of academics and professionals, the future graduate of ENSAE assimilates, throughout their course, **statistical** and **economic theories** as well as the necessary skills for their operational application. The core of this program are:
 
               - Statistics and Probabilities:
-                * hypothesis testing (constructing a test, calculating p-values, t-tests, etc.) and analysis of variance.
-                * conditional distribution and Bayesian inference.
+                * hypothesis testing (constructing a test, calculating p-values, t-tests, etc.) and analysis of variance;
+                * conditional distribution and Bayesian inference;
                 * estimation techniques (maximum likelihood estimator, dealing with bias and variance) and sampling methods.
               - Computer Science:
-                * data mining using Python and R (data wrangling, data engineering and machine learning).
-                * database management (with SQL and MySQL).
-                * Introduction to web development technologies such as HTML, CSS, PHP, JavaScript, and C.
+                * data mining using Python and R (data wrangling, data engineering and machine learning);
+                * database management (with SQL and MySQL);
+                * introduction to web development technologies such as HTML, CSS, PHP, JavaScript, and C.
               - Machine Learning:
-                * time series analysis and forecasting.
-                * Multidimensional data analysis techniques (e.g., CA, PCA, MFA, AFDM, etc.).
+                * time series analysis and forecasting (models of type ARIMA, SARIMA, ARCH, etc.);
+                * multidimensional data analysis techniques (e.g., CA, PCA, MFA, AFDM, etc.);
                 * various supervised and unsupervised algorithms (e.g., regression, clustering, decision trees, etc.).
           icon: ensae-logo
           organization: Ecole Nationale de la Statistique et de l’Analyse Economique (ENSAE‑Dakar) 
