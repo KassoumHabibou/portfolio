@@ -292,7 +292,7 @@ sections:
       title: Featured Publications
       filters:
         folders:
-          - publication/preprint
+          - publication
         featured_only: true
     design:
       columns: '2'
