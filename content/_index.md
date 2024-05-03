@@ -152,7 +152,7 @@ sections:
         - date_start: '2020-09-01'
           date_end: '2022-12-01'
           description: |2-
-            ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. With close ties to the French National Institute of Statistics and Economic Studies ([INSEE](https://www.insee.fr/en/accueil)), Center for Research in Economics and Statistics ([CREST](https://crest.science/)), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise. ENSAI's course content includes:
+            ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. With close ties to the French National Institute of Statistics and Economic Studies ([INSEE](https://www.insee.fr/en/accueil)), Center for Research in Economics and Statistics ([CREST](https://crest.science/)), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise. ENSAI's courses content include:
 
             - Machine Learning:  
               * supervised learning (e.g., regression, decision trees, neural networks, random forest, etc.);
@@ -174,7 +174,20 @@ sections:
         - date_start: '2020-09-01'
           date_end: '2022-10-01'
           description: |2-
+            AMSE is a Joint Research Unit of the CNRS (UMR 7316) jointly supervised by Aix-Marseille University ([AMU](https://www.univ-amu.fr/en)), Centrale Méditerranée, and the School for Advanced Studies in the Social Sciences ([EHESS](https://www.ehess.fr/en)). For over 20 years, AMSE has consistently ranked among the top five most productive research centers in economics in France. The ETE track of the Economics master's program, which lasts for one year, is a research-oriented track that prepares students to pursue doctoral studies. It offers advanced training in **economics** and **research methodology** allowing students to specialize through a wide range of courses in specific areas of economics. The core of this master include:
 
+            - Advanced microeconomics and macroeconomics:  
+              * economics of taxation (why taxes, first best taxation, etc.);
+              * growth theories (endogenous growth and poverty traps etc.);
+              * the empirical evidence (e.g., growth and inequality, industrial revolution, the role of institutions, etc.).
+            - Advanced econometrics:  
+              * resampling methods (e.g., monte carlo experiments, bootstrap, permutation tests, etc.);
+              * nonparametric econometrics (e.g., density estimation, finite mixture models, etc.);
+              * econometrics and machine learning (philosophy and general principle, misspecification detection, etc.).
+            - Development economics:  
+              * human capital (nutrition, education, health, etc.);
+              * financial capital (microfinance and micro-savings, access to credit, etc.);
+              * physical capital (property rights and technology adoption, etc.)
             
 
           icon: amse-logo
