@@ -22,8 +22,8 @@ abstract: Does armed conflicts exposure increase the risk of malnutrition among 
 # Summary. An optional shortened abstract.
 summary: This paper examines the impact of armed conflict, specifically the Boko Haram conflict in Nigeria, on children's nutritional outcomes. It also investigates how maternal bargaining power can mitigate these effects. The findings suggest that children born to women with low bargaining power are more adversely affected by the conflict highlighting the importance of policies to enhance female bargaining power in conflict settings.
 
-tags:
-- Supervised Learning
+#tags:
+#- Supervised Learning
 featured: true
 
 links:
