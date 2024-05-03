@@ -29,14 +29,14 @@ featured: true
 links:
 #- name: Custom Link
 #  url: http://example.org
-url_pdf: '#'
+#url_pdf: '#'
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_dataset: 'https://www.idhsdata.org/idhs/'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+#url_poster: '#'
+#url_project: ''
+#url_slides: ''
+#url_source: '#'
+#url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
