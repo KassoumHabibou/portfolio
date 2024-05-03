@@ -155,14 +155,14 @@ sections:
             ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. With close ties to the French National Institute of Statistics and Economic Studies ([INSEE](https://www.insee.fr/en/accueil)), Center for Research in Economics and Statistics ([CREST](https://crest.science/)), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise. ENSAI's course content includes:
 
             - Machine Learning:  
-              * supervised learning (regression, decision trees, neural networks, random forest, etc.);
-              * unsupervised learning (k-means, hierarchical clustering, KNN, PCA, NLP, etc.);
-              * deep learning (CNNs, LSTMs, RNNs, GANs etc.).
-            - Statistics and mathematics:  
+              * supervised learning (e.g., regression, decision trees, neural networks, random forest, etc.);
+              * unsupervised learning (e.g., k-means, hierarchical clustering, KNN, NLP, etc.);
+              * deep learning (e.g., CNNs, LSTMs, RNNs, GANs etc.).
+            - Statistics and Mathematics:  
               * descriptive statistics (mean, outliers, etc.) and distributions (normal, Poisson, etc.);
               * algebra and calculus (matrices, limits, optimization etc.);
               * probability and hypothesis testing (significance level, confidence interval, p-value, t-test, etc.).
-            - Computer science:  
+            - Computer Science:  
               * database computation (with SQL and MySQL);
               * data visualization and analytics (with matplotlib, ggplot2, dashboards, etc.);
               * programming languages: Python, R, Stata and SQL.
@@ -185,11 +185,20 @@ sections:
         - date_end: '2020-08-01'
           date_start: '2016-10-01'
           description: |2-
-              Responsibilities include:
+              ENSAE is a higher education institution that is a member of the Network of African Statistical Schools (RESA). It is a sub-regional education institution that welcomes around fifteen nationalities and is listed among the most recognized institutions for training statistician in Africa. As a member of the international organization ([AFRISTAT](https://www.afristat.org/)) and affiliated with ([INSEE](https://www.insee.fr/fr/accueil)), ENSAE welcomes technician and engineer students from across Africa, as well as visiting professors from prominent European universities. Under the guidance of a pedagogical team composed of academics and professionals, the future graduate of ENSAE assimilates, throughout their course, **statistical** and **economic theories** as well as the necessary skills for their operational application. The core of this program is:
 
-              * Analysing
-              * Modelling
-              * Deploying 
+              - Statistics and Probabilities:
+                * hypothesis testing (constructing a test, calculating p-values, t-tests, etc.) and analysis of variance.
+                * conditional distribution and Bayesian inference.
+                * estimation techniques (maximum likelihood estimator, dealing with bias and variance) and sampling methods.
+              - Computer Science:
+                * data mining using Python and R (data wrangling, data engineering and machine learning).
+                * database management (with SQL and MySQL).
+                * Introduction to web development technologies such as HTML, CSS, PHP, JavaScript, and C.
+              - Machine Learning:
+                * time series analysis and forecasting.
+                * Multidimensional data analysis techniques (e.g., CA, PCA, MFA, AFDM, etc.).
+                * various supervised and unsupervised algorithms (e.g., regression, clustering, decision trees, etc.).
           icon: ensae-logo
           organization: Ecole Nationale de la Statistique et de l’Analyse Economique (ENSAE‑Dakar) 
           organization_url: https://www.ensae.sn/accueil
