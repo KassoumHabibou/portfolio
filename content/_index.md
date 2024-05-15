@@ -13,8 +13,11 @@ sections:
       username: admin
     design:
       background:
-        image:
-          filename: test1.jpg
+        #image:
+          #filename: test1.jpg
+        video:
+          # Name of video in `assets/media/`.
+          filename: background.mp4
   - block: skills
     id: skills
     content:
