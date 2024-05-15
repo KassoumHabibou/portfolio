@@ -1,6 +1,6 @@
 ---
 # Display name
-title: IBRAHIM KASSOUM Habibou
+title: Home
 
 # Name pronunciation (optional)
 #name_pronunciation: Chien Shiung Wu
@@ -199,13 +199,12 @@ Hello👋
 
 Welcome to my website, I'm
 
-<span style="color: #1B2631; font-family: system-ui; font-size: 2em;">IBRAHIM KASSOUM Habibou</span>
+<span style="color: #1B2631; font-family: cursive; font-size: 2em; font-variant-ligatures: common-ligatures;">IBRAHIM KASSOUM Habibou</span>
 
-a committed PhD candidate in Economics and a Data Scientist. 
+A committed PhD candidate in Economics and a Data Scientist. 
 
 Here, you'll discover more about my [work experience](#experience), [education](#education) and some of my core [skills](#skills). 
 
- 
  You can also explore my [publications](#featured) and [projects](#projects) that I have passionately contributed to. I strongly believe in the power of open science, which is why I have made the replication codes for some of my projects available on my [Github](https://github.com/KassoumHabibou).
 
 
