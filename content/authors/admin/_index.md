@@ -199,9 +199,13 @@ Hello👋
 
 Welcome to my website, I'm
 
-<span style="color: #f2cf4a; font-family: Babas; font-size: 2em;">IBRAHIM KASSOUM Habibou</span>
+<span style="color: #1B2631; font-family: system-ui; font-size: 2em;">IBRAHIM KASSOUM Habibou</span>
 
-I'm Ibrahim Kassoum Habibou, a committed PhD candidate in Economics and a Data Scientist. Here, you'll discover more about my [work experience](#experience), [education](#education), and some of my core [skills](#skills). Additionally, you can also explore [publications](#featured) and [projects](#projects) I've been involved in.
-{style="text-align: justify;"}
+a committed PhD candidate in Economics and a Data Scientist. 
+
+Here, you'll discover more about my [work experience](#experience), [education](#education) and some of my core [skills](#skills). 
+
+ 
+ You can also explore my [publications](#featured) and [projects](#projects) that I have passionately contributed to. I strongly believe in the power of open science, which is why I have made the replication codes for some of my projects available on my [Github](https://github.com/KassoumHabibou).
 
 
