@@ -29,10 +29,11 @@ bio:  My research interests include development economics, data science and prog
 
 # Interests to show in About widget
 interests:
-  - Applied microeconomics
-  - Data science and machine learning
   - Development economics
   - Nutrition and Health
+  - Applied microeconomics
+  - Data science and machine learning
+
 
 # Education to show in About widget
 education:
