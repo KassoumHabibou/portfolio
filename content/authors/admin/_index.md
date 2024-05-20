@@ -195,17 +195,26 @@ highlight_name: true
 
 #IBRAHIM KASSOUM Habibou is a PhD candidate in Development Economics at University Clermont Auvergne (UCA). His research focuses on issues related to health (children's nutrition and health, health care utilization) and gender economics (women’s empowerment and its impact on household member’s health). His goal is to start a PhD in women empowerment and health issues in 2023 at AMSE. He holds a research master degree in Theoretical and Empirical Economics (ETE) from AMSE. He previously worked as a research analyst in developing countries (Senegal and Niger).
 # <span style="color: #1B2631; font-family: cursive; font-size: 2em; font-variant-ligatures: common-ligatures;">Habibou</span>
+#Welcome to my website, I'm
+
+#<span style="color: #1B2631; font-family: cursive; font-size: 2em; font-variant-ligatures: common-ligatures;">Habibou</span>
+
+#A committed PhD candidate in Economics and a Data Scientist. 
+
+#Here, you'll discover more about my [work experience](#experience), [education](#education) and some of my core [skills](#skills). 
+
+#% You can also explore my [publications](#featured) and [projects](#projects) that I have passionately contributed to. 
+
 ---
 Hello👋
 
-Welcome to my website, I'm
+I am a PhD candidate in **Development Economics** at the University of Clermont Auvergne and a **Data Scientist** from the École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI-Rennes).
 
-<span style="color: #1B2631; font-family: cursive; font-size: 2em; font-variant-ligatures: common-ligatures;">Habibou</span>
+I am particularly interested in nutrition and health issues in developing countries, with a special focus on using machine learning techniques to address these challenges. My favorite letters in the alphabet are R and Py (I actually swear by these two tools!), and I am passionately enthusiastic about it. I strongly believe in the power of open science, which is why I have made the replication codes for some of my projects available on my [Github](https://github.com/KassoumHabibou) account. In my free time, I enjoy playing football, running, and learning new skills online.
 
-A committed PhD candidate in Economics and a Data Scientist. 
+ <center> 
 
-Here, you'll discover more about my [work experience](#experience), [education](#education) and some of my core [skills](#skills). 
-
- You can also explore my [publications](#featured) and [projects](#projects) that I have passionately contributed to. I strongly believe in the power of open science, which is why I have made the replication codes for some of my projects available on my [Github](https://github.com/KassoumHabibou) account.
+#### <i class="fa fa-download" aria-hidden="true" style="color:#035AA6"></i> {{< staticref "uploads/resume.pdf" "newtab" >}}Download my CV{{< /staticref >}}
+</center> 
 
 
