@@ -333,7 +333,7 @@ sections:
   - block: collection
     id: talks
     content:
-      title: Recent Talks
+      title: Talks
       filters:
         folders:
           - event
