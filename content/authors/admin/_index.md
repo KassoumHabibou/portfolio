@@ -27,14 +27,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio:  My research interests include development economics, data science and programmable matter.
 
-# Interests to show in About widget
-interests:
-  - Development economics
-  - Nutrition and Health
-  - Applied microeconomics
-  - Data science and machine learning
-
-
 # Education to show in About widget
 education:
   courses:
@@ -50,6 +42,13 @@ education:
     - course: B.Eng. degree in Statistics and Applied Economics
       institution: École Nationale de la Statistique et de l'Analyse Économique (ENSAE-Dakar)
       year: 2020
+
+# Interests to show in About widget
+interests:
+  - Development economics
+  - Nutrition and Health
+  - Applied microeconomics
+  - Data science and machine learning
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
