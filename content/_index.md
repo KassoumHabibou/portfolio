@@ -79,10 +79,10 @@ sections:
           date_end: '2023-08-01'
           description: |2-
               Responsibilities include:
+              * Management and analysis of the DHS dataset from several Sub-Saharan countries.
+              * Perform statistical analyses with machine learning using python, R and ArcGis.
+              * Prepared detailed research reports, presentations of findings and supervision of several interns.
 
-              * Analysing
-              * Modelling
-              * Deploying
         - title: Research Assistant - Data Analysis (internship)
           company: Research Institute for Development (IRD)
           company_url: 'https://www.ird.fr/sud-est'
@@ -163,7 +163,7 @@ sections:
         - date_start: '2020-09-01'
           date_end: '2022-12-01'
           description: |2-
-            ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. With close ties to the French National Institute of Statistics and Economic Studies ([INSEE](https://www.insee.fr/en/accueil)), Center for Research in Economics and Statistics ([CREST](https://crest.science/)), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise. ENSAI's courses content include:
+            ENSAI is one of France's most prestigious *Grandes écoles d'ingénieurs* specialized in Data Science. It's courses content include:
 
             - Machine Learning:  
               * supervised learning (e.g., regression, decision trees, neural networks, random forest, etc.);
@@ -177,6 +177,7 @@ sections:
               * database computation (with SQL and MySQL);
               * data visualization and analytics (with matplotlib, ggplot2, dashboards, etc.);
               * programming languages: Python, R, Stata and SQL.
+          #  With close ties to the French National Institute of Statistics and Economic Studies ([INSEE](https://www.insee.fr/en/accueil)), Center for Research in Economics and Statistics ([CREST](https://crest.science/)), research centers and private partners, ENSAI trains its students to become specialized **Data Scientists** capable of complex information processing and analysis thanks to their multidisciplinary expertise.
           icon: ensai-logo
           organization: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
           organization_url: https://ensai.fr/en/
@@ -185,7 +186,7 @@ sections:
         - date_start: '2020-09-01'
           date_end: '2022-10-01'
           description: |2-
-            AMSE is a Joint Research Unit of the [CNRS](https://www.cnrs.fr/en) jointly supervised by Aix-Marseille University ([AMU](https://www.univ-amu.fr/en)), [Centrale Méditerranée](https://www.centrale-mediterranee.fr/en), and the School for Advanced Studies in the Social Sciences ([EHESS](https://www.ehess.fr/en)). For over 20 years, AMSE has consistently ranked among the top five most productive research centers in economics in France. The ETE track of the Economics master's program, which lasts for one year, is a research-oriented track that prepares students to pursue doctoral studies. It offers advanced training in **economics** and **research methodology** allowing students to specialize through a wide range of courses in specific areas of economics. The core courses of this master include:
+            AMSE is a Joint Research Unit of the [CNRS](https://www.cnrs.fr/en) jointly supervised by Aix-Marseille University ([AMU](https://www.univ-amu.fr/en)), [Centrale Méditerranée](https://www.centrale-mediterranee.fr/en) and the School for Advanced Studies in the Social Sciences ([EHESS](https://www.ehess.fr/en)). The core courses of the ETE master include:
 
             - Advanced microeconomics and macroeconomics:  
               * economics of taxation (why taxes, first best taxation, etc.);
@@ -199,7 +200,7 @@ sections:
               * human capital (nutrition, education, health, etc.);
               * financial capital (microfinance and micro-savings, access to credit, etc.);
               * physical capital (property rights and technology adoption, etc.).
-            
+          # For over 20 years, AMSE has consistently ranked among the top five most productive research centers in economics in France. The ETE track of the Economics master's program, which lasts for one year, is a research-oriented track that prepares students to pursue doctoral studies. It offers advanced training in **economics** and **research methodology** allowing students to specialize through a wide range of courses in specific areas of economics.
 
           icon: amse-logo
           organization: Aix‑Marseille School of Economics (AMSE) 
@@ -209,7 +210,7 @@ sections:
         - date_end: '2020-08-01'
           date_start: '2016-10-01'
           description: |2-
-              ENSAE is a higher education institution that is a member of the African Schools of Statistics Network (RESA). It is a sub-regional education institution that welcomes around fifteen nationalities and is listed among the most recognized institutions for training statistician in Africa. As a member of the *Observatoire Economique et Statistique d'Afrique Subsaharienne* ([AFRISTAT](https://www.afristat.org/)) and affiliated with the *Institut National de la Statistique et des Etudes Economiques* ([INSEE](https://www.insee.fr/fr/accueil)), ENSAE welcomes technician and engineer students from across all Africa, as well as visiting professors from prominent European universities. Under the guidance of a pedagogical team composed of academics and professionals, the future graduate of ENSAE assimilates, throughout their course, **statistical** and **economic theories** as well as the necessary skills for their operational application. The core of this program are:
+              ENSAE is a higher education institution that is a member of the African Schools of Statistics Network (RESA). The core of the program are:
 
               - Statistics and Probabilities:
                 * hypothesis testing (constructing a test, calculating p-values, t-tests, etc.) and analysis of variance;
@@ -223,6 +224,7 @@ sections:
                 * time series analysis and forecasting (models of type ARIMA, SARIMA, ARCH, etc.);
                 * multidimensional data analysis techniques (e.g., CA, PCA, MFA, AFDM, etc.);
                 * various supervised and unsupervised algorithms (e.g., regression, clustering, decision trees, etc.).
+            #It is a sub-regional education institution that welcomes around fifteen nationalities and is listed among the most recognized institutions for training statistician in Africa. As a member of the *Observatoire Economique et Statistique d'Afrique Subsaharienne* ([AFRISTAT](https://www.afristat.org/)) and affiliated with the *Institut National de la Statistique et des Etudes Economiques* ([INSEE](https://www.insee.fr/fr/accueil)), ENSAE welcomes technician and engineer students from across all Africa, as well as visiting professors from prominent European universities. Under the guidance of a pedagogical team composed of academics and professionals, the future graduate of ENSAE assimilates, throughout their course, **statistical** and **economic theories** as well as the necessary skills for their operational application.    
           icon: ensae-logo
           organization: Ecole Nationale de la Statistique et de l’Analyse Economique (ENSAE‑Dakar) 
           organization_url: https://www.ensae.sn/accueil
