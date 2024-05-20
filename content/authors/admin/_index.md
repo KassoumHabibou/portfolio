@@ -99,22 +99,22 @@ skills:
         icon_pack: fas
       - name: Teamwork 
         description: ''
-        percent: 95
+        percent: 99
         icon: people-group
         icon_pack: fas
       - name: Communication
         description: ''
-        percent: 80
+        percent: 95
         icon: person-chalkboard
         icon_pack: fas
       - name: Time management
         description: ''
-        percent: 85
+        percent: 98
         icon: business-time
         icon_pack: fas
       - name: Adaptability 
         description: ''
-        percent: 95
+        percent: 98
         icon: clipboard-check
         icon_pack: fas
 
