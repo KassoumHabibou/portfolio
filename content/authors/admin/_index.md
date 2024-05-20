@@ -33,13 +33,13 @@ education:
     - course: Ph.D. in economics
       institution: University Clermont Auvergne
       year: 2026 (expected)
-    - course: M.Eng. degree in Data science
+    - course: M.Eng. in Data science
       institution: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
       year: 2022
-    - course: M.Sc. degree in Theoretical and Empirical Economics
+    - course: M.Sc. in Theoretical and Empirical Economics
       institution: Aix-Marseille School of Economics (AMSE)
       year: 2022
-    - course: B.Eng. degree in Statistics and Applied Economics
+    - course: B.Eng. in Statistics and Applied Economics
       institution: École Nationale de la Statistique et de l'Analyse Économique (ENSAE-Dakar)
       year: 2020
 
