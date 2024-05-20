@@ -185,7 +185,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume1.pdf
+    link: uploads/resume.pdf
   - icon: envelope
     icon_pack: fas
     link: '/#contact'
