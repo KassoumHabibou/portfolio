@@ -283,10 +283,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        #- name: Supervised Learning
-          #tag: Supervised Learning
-        - name: Unsupervised Learning
-          tag: Unsupervised Learning
+        - name: Supervised Learning
+          tag: Supervised Learning
+        #- name: Unsupervised Learning
+          #tag: Unsupervised Learning
         - name: NLP
           tag: NLP
         #- name: Deep Learning
