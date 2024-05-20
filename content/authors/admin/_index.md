@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD candidate in Development Economics & Data Scientist
+role: Ph.D. candidate in Development Economics & Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -38,16 +38,16 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in economics
+    - course: Ph.D. in economics
       institution: University Clermont Auvergne
       year: 2026 (expected)
-    - course: Engineering degree in Data science
+    - course: M.Eng. degree in Data science
       institution: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
       year: 2022
-    - course: Master degree in Theoretical and Empirical Economics
+    - course: M.Sc. degree in Theoretical and Empirical Economics
       institution: Aix-Marseille School of Economics (AMSE)
       year: 2022
-    - course: Bachelor's degree in Statistics and Applied Economics
+    - course: B.Eng. degree in Statistics and Applied Economics
       institution: École Nationale de la Statistique et de l'Analyse Économique (ENSAE-Dakar)
       year: 2020
 

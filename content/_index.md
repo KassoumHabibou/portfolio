@@ -159,7 +159,7 @@ sections:
           icon: cerdi-logo
           organization: University Clermont Auvergne - CERDI - CNRS - IRD
           organization_url: https://cerdi.uca.fr/english-version#/admin
-          title: Phd in Development Economics
+          title: Ph.D. in Development Economics
           url: 'https://cerdi.uca.fr/english-version/team#/admin'
         - date_start: '2020-09-01'
           date_end: '2022-12-01'
