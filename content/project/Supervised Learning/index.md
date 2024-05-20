@@ -3,8 +3,8 @@ title: Analysing Senegal Census Data
 summary: This project aims to use Senegal census data to understand population dynamics through spatial data analysis.
 tags:
   - Supervised Learning
-date: '2023-10-27T00:00:00Z'
-
+date: '2023-10-27'
+# T00:00:00Z
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
