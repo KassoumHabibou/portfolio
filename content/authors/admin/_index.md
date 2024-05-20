@@ -210,7 +210,7 @@ Hello👋
 
 I am a PhD candidate in **Development Economics** at the University of Clermont Auvergne and a **Data Scientist** from the École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI-Rennes).
 
-I am particularly interested in nutrition and health issues in developing countries, with a special focus on using machine learning techniques to address these challenges. My favorite letters in the alphabet are R and Py (I actually swear by these two tools!), and I am passionately enthusiastic about it. I strongly believe in the power of open science, which is why I have made the replication codes for some of my projects available on my [Github](https://github.com/KassoumHabibou) account. In my free time, I enjoy playing football, running, and learning new skills online.
+I am particularly interested in nutrition and health issues in developing countries, with a special focus on using machine learning techniques to address these challenges. My favorite letter in the alphabet is <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> and my favorite animal is <i class="fab fa-python" aria-hidden="true" style="color:#035AA6"></i> (I actually only swear by these two tools!). I strongly believe in the power of open science, which is why I have made the replication codes for some of my projects available on my [Github](https://github.com/KassoumHabibou) account. In my free time, I enjoy playing football, running, and learning new skills online.
 
  <center> 
 
