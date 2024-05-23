@@ -14,6 +14,13 @@ publishDate: "2025-01-01T00:00:00Z"
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
+publication: nan
+publication_short: nan
+
+# Summary. An optional shortened abstract.
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+
+# Publication name and optional abbreviated publication name.
 publication: ""
 publication_short: ""
 
@@ -24,7 +31,7 @@ summary: This paper examines the impact of armed conflict, specifically the Boko
 
 tags:
 - Supervised Learning
-featured: true
+featured: false
 
 links:
 #- name: Custom Link
