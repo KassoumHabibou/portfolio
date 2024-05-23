@@ -268,7 +268,7 @@ sections:
   #    columns: '2'
 
   - block: collection
-    id: featured
+    id: workingpapers
     content:
       title: Working papers
       filters:
