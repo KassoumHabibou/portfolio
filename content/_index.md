@@ -273,7 +273,7 @@ sections:
       title: Working papers
       filters:
         folders:
-          - publication/preprint
+          - publication
         featured_only: false
     design:
       columns: '2'
