@@ -274,7 +274,7 @@ sections:
       filters:
         folders:
           - publication/preprint
-        featured_only: false
+        #featured_only: false
     design:
       columns: '2'
       view: card
