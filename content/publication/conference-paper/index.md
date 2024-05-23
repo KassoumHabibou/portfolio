@@ -10,23 +10,23 @@ authors:
 
 # Author notes (optional)
 author_notes:
-  - 'Equal contribution'
+  - 'University Clermont Auvergne'
   #- 'Equal contribution'
-
-date: '2024-07-01T00:00:00Z'
+#2024-07-01T00:00:00Z
+date: ''
 doi: ''
 
-# Schedule page publish date (NOT publication's date).
-publishDate: '2024-01-01T00:00:00Z'
+# Schedule page publish date (NOT publication's date). ex: 2024-07-01T00:00:00Z
+publishDate: ''
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['article']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: 
+publication_short: 
 
 abstract: nan
 
@@ -66,7 +66,7 @@ image:
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
 projects:
-  - example
+  - Supervised Learning
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
