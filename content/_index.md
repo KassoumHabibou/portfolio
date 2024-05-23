@@ -298,10 +298,12 @@ sections:
           tag: '*'
         - name: Supervised Learning
           tag: Supervised Learning
-        #- name: Unsupervised Learning
-          #tag: Unsupervised Learning
-        - name: NLP
-          tag: NLP
+        - name: Unsupervised Learning
+          tag: Unsupervised Learning
+        - name: Deep Learning
+          tag: Deep Learning
+        - name: Other
+          tag: Other
         #- name: Deep Learning
           #tag: Deep Learning 
     design:
