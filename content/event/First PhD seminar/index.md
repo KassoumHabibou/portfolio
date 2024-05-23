@@ -1,5 +1,5 @@
 ---
-title: 'First PhD seminar'
+title: 'Internal PhD seminar'
 
 event: CERDI PhD seminar
 event_url: https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin
