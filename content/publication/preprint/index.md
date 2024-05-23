@@ -13,10 +13,10 @@ author_notes:
   - 'University Clermont Auvergne'
   #- 'Equal contribution'
 #2024-07-01T00:00:00Z
-date: ''
+date: '2024-05-23T00:00:00Z'
 doi: ''
 
-# Schedule page publish date (NOT publication's date). ex: 2024-07-01T00:00:00Z
+# Schedule page publish date (NOT publication's date). ex: 
 publishDate: ''
 
 # Publication type.
@@ -28,10 +28,10 @@ publication_types: ['article']
 publication: 
 publication_short: 
 
-abstract: nan
+abstract: Does armed conflicts exposure increase the risk of malnutrition among children? how can these effects be mitigated? in this paper, I seek evidence on the effects of armed conflict on children’s nutritional outcomes and how maternal bargaining power can mitigate these effects in the Boko Haram (BH) conflict-affected areas of Nigeria. The individual characteristics were drawn from three rounds of the Nigerian Demographic and Health Survey (NDHS) and information on the BH conflict was sourced from the Armed Conflict Location and Event Dataset (ACLED). The identification strategy exploits temporal and spatial variation across birth cohorts to measure children’s exposure to the BH conflicts. By analyzing various proxies of maternal bargaining power, I find that children born to women with low bargaining power are more likely to be affected by the BH conflict than children born to women with high bargaining power. I also show that male and older children born to mothers with low bargaining power are disproportionately affected by the BH conflict. The main factor contributing to the negative nutritional effects of the BH conflict is the utilization of healthcare services, particularly maternal healthcare. The results are not affected by selective mortality, migration and the endogeneity of maternal bargaining power to the BH conflict. The findings remain consistent across various specifications and are not driven by rainfall shocks. The evidence suggests that policies and interventions designed to mitigate the negative impact of BH conflict on children should exploit progress in the level of maternal bargaining power alongside other protective measures.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: This paper examines the impact of armed conflict, specifically the Boko Haram conflict in Nigeria, on children's nutritional outcomes. It also investigates how maternal bargaining power can mitigate these effects. The findings suggest that children born to women with low bargaining power are more adversely affected by the conflict highlighting the importance of policies to enhance female bargaining power in conflict settings.
 
 tags: 
 - Supervised Learning
