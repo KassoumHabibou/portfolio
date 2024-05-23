@@ -80,8 +80,8 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * management of the DHS dataset from several Sub-Saharan countries.
-              * perform statistical analyses.
+              * management of the DHS dataset from several Sub-Saharan countries;
+              * perform statistical analyses;
               * prepare detailed research reports, presentations of findings and supervision of several interns.
 
         - title: Research Assistant - Data Analysis (internship)
@@ -94,8 +94,8 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * assisted in collecting, wrangling and organizing data from WHO on the spread of Ebola virus in Sub-Saharan Africa.
-              * perform statistical analyses to aid senior researchers in drawing meaningful conclusions.
+              * assisted in collecting, wrangling and organizing data from WHO on the spread of Ebola virus in Sub-Saharan Africa;
+              * perform statistical analyses to aid senior researchers in drawing meaningful conclusions;
               * using machine learning tools to assess the efficiency of international health aid in reducing the Ebola disease spread.
         - title: Research Assistant - Data Analysis (internship)
           company: French Institute of Science and Technology for Transport Development and Networks (IFSTTAR) 
@@ -107,8 +107,8 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * collecting and analyzing the evolution of the French car market over the last 20 years.
-              * employed time series analysis techniques to forecast the trajectory of the French car market for the upcoming three years.
+              * collecting and analyzing the evolution of the French car market over the last 20 years;
+              * employed time series analysis techniques to forecast the trajectory of the French car market for the upcoming three years;
               * formulated actionable policy recommendations based on data-driven insights to guide future strategies and decisions.
         - title: Research Scientist (internship)
           company: Senegalese Observatory of Poverty and Living Conditions (OPCV) 
@@ -120,8 +120,8 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * designing the data collection application for a survey data and data management.
-              * applied the KE XU methodology as outlined by the ([WHO](https://www.who.int/)) to analyze household health expenditures and identified households vulnerable to catastrophic health expenditures.
+              * designing the data collection application for a survey data and data management;
+              * applied the KE XU methodology as outlined by the ([WHO](https://www.who.int/)) to analyze household health expenditures and identified households vulnerable to catastrophic health expenditures;
               * conducted in-depth examination of the intricate interplay between poverty and health expenditures, illuminating insights that enrich the understanding of this relationship and inform potential interventions.
         - title: Research Scientist (internship)
           company: Nigerien National Institute of Statistics (INS) & National Information Platforms for Nutrition (NIPN) 
@@ -133,8 +133,8 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * cleaning up and performing a data quality analysis of the SMART survey data of Niger in 2016.
-              * computing malnutrition rates (chronic, severe and acute) by place of residence and region using data obtained from the SMART-2016 survey of Niger.
+              * cleaning up and performing a data quality analysis of the SMART-2016 survey data of Niger;
+              * computing malnutrition rates (chronic, severe and acute) by place of residence and region using data obtained from the SMART-2016 survey of Niger;
               * collaborated closely with the NIPN team in using statistical software and interpreting their analysis results.
     design:
       columns: '2'
