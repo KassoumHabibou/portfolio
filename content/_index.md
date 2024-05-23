@@ -60,7 +60,7 @@ sections:
           date_start: '2023-10-01'
           date_end: ''
           description: |2-
-              During my current PhD position, I have had the privilege of serving as a teacher assistant, where I have been actively engaged in facilitating tutorial sessions for students in the fields of **statistics** and **probabilities**. My course load includes: 
+              During my current PhD position, I have had the privilege of serving as a teacher assistant where I have been actively engaged in facilitating tutorial sessions for students in the fields of **statistics** and **probabilities**. My course load includes: 
 
               - **Inferential statistics** with Pr [Anne Viallefont](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/anne-viallefont#/) for third-year management students. We covered topics such as:
                 * estimation (definition of an estimator, bias, variance, convergence, etc.);
@@ -80,9 +80,9 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Management and analysis of the DHS dataset from several Sub-Saharan countries.
-              * Perform statistical analyses with machine learning using python, R and ArcGis.
-              * Prepared detailed research reports, presentations of findings and supervision of several interns.
+              * management of the DHS dataset from several Sub-Saharan countries.
+              * perform statistical analyses.
+              * prepare detailed research reports, presentations of findings and supervision of several interns.
 
         - title: Research Assistant - Data Analysis (internship)
           company: Research Institute for Development (IRD)
@@ -94,9 +94,9 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Assisted in collecting, wrangling and organizing data from WHO on the spread of Ebola virus in Sub-Saharan Africa.
-              * Perform statistical analyses to aid senior researchers in drawing meaningful conclusions.
-              * Using machine learning tools to assess the efficiency of international health aid in reducing the Ebola disease spread.
+              * assisted in collecting, wrangling and organizing data from WHO on the spread of Ebola virus in Sub-Saharan Africa.
+              * perform statistical analyses to aid senior researchers in drawing meaningful conclusions.
+              * using machine learning tools to assess the efficiency of international health aid in reducing the Ebola disease spread.
         - title: Research Assistant - Data Analysis (internship)
           company: French Institute of Science and Technology for Transport Development and Networks (IFSTTAR) 
           company_url: 'https://www.univ-gustave-eiffel.fr/'
@@ -107,9 +107,9 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Collecting and analyzing the evolution of the French car market over the last 20 years.
-              * Employed time series analysis techniques to forecast the trajectory of the French car market for the upcoming three years.
-              * Formulated actionable policy recommendations based on data-driven insights to guide future strategies and decisions.
+              * collecting and analyzing the evolution of the French car market over the last 20 years.
+              * employed time series analysis techniques to forecast the trajectory of the French car market for the upcoming three years.
+              * formulated actionable policy recommendations based on data-driven insights to guide future strategies and decisions.
         - title: Research Scientist (internship)
           company: Senegalese Observatory of Poverty and Living Conditions (OPCV) 
           company_url: 'https://www.ansd.sn/'
@@ -120,9 +120,9 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Designing the data collection application for a survey data and data management.
-              * Applied the KE XU methodology as outlined by the ([WHO](https://www.who.int/)) to analyze household health expenditures and identified households vulnerable to catastrophic health expenditures.
-              * Conducted in-depth examination of the intricate interplay between poverty and health expenditures, illuminating insights that enrich the understanding of this relationship and inform potential interventions.
+              * designing the data collection application for a survey data and data management.
+              * applied the KE XU methodology as outlined by the ([WHO](https://www.who.int/)) to analyze household health expenditures and identified households vulnerable to catastrophic health expenditures.
+              * conducted in-depth examination of the intricate interplay between poverty and health expenditures, illuminating insights that enrich the understanding of this relationship and inform potential interventions.
         - title: Research Scientist (internship)
           company: Nigerien National Institute of Statistics (INS) & National Information Platforms for Nutrition (NIPN) 
           company_url: 'https://pnin-niger.org/web/'
@@ -133,9 +133,9 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * Cleaning up and performing a data quality analysis of the SMART survey data of Niger in 2016.
-              * Computing malnutrition rates (chronic, severe and acute) by place of residence and region using data obtained from the SMART-2016 survey of Niger.
-              * Collaborated closely with the NIPN team in using statistical software and interpreting their analysis results.
+              * cleaning up and performing a data quality analysis of the SMART survey data of Niger in 2016.
+              * computing malnutrition rates (chronic, severe and acute) by place of residence and region using data obtained from the SMART-2016 survey of Niger.
+              * collaborated closely with the NIPN team in using statistical software and interpreting their analysis results.
     design:
       columns: '2'
   - block: accomplishments
