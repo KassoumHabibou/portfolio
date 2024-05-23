@@ -2,7 +2,7 @@
 title: 'Linking armed conflicts and children undernutrition in Nigeria: the mitigating effects of maternal bargaining power'
 summary: This project aims to use NLP techniques to understand the themes that concern French citizens for the post-COVID period.
 tags:
-  - Unsupervised Learning
+  - Supervised Learning
 date: '2023-01-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
