@@ -21,7 +21,7 @@ url_code: 'https://github.com/Abson-dev/Analysing-Senegal-Census-Data'
 url_pdf: ''
 url_slides: ''
 url_video: ''
-
+url_dataset: 'https://ghdx.healthdata.org/record/senegal-population-and-housing-census-2002'
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
