@@ -52,24 +52,6 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.In this role, I have contributed to the academic development of students by assisting them in # understanding complex statistical concepts, solving problems, and reinforcing their comprehension through practical applications. This experience has not only # honed my teaching skills but has also revealed my managerial abilities and deepened my own understanding of the subject matter. It has been immensely rewarding to # witness the growth and progress of students under my guidance.
       items:
-        - title: Teaching Assistant (fixed-term contract)
-          company: 'University Clermont Auvergne: School of Economics' 
-          company_url: 'https://economie.uca.fr/'
-          company_logo: uca-logo
-          location: Clermont-Ferrand (France)
-          date_start: '2023-10-01'
-          date_end: ''
-          description: |2-
-              During my current PhD position, I have had the privilege of serving as a teacher assistant where I have been actively engaged in facilitating tutorial sessions for students in the fields of **statistics** and **probabilities**. My course load includes: 
-
-              - **Inferential statistics** with Pr [Anne Viallefont](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/anne-viallefont#/) for third-year management students. We covered topics such as:
-                * estimation (definition of an estimator, bias, variance, convergence, etc.);
-                * confidence intervals and significance levels (for mean, variance, bias correction, etc.);
-                * hypothesis testing (comparing two means, variances, or distributions, etc.).
-              - **Probabilities and mathematics** with Pr [Marie Eliette Dury](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/marie-eliette-dury#/) for second-year gestion students. We covered topics such as:
-                * probability distributions and approximations (normal, Poisson, binomial, etc.);
-                * matrix calculation (calculation of the determinant, eigenvalue, inverse, diagonalization, etc.);
-                * numeric sequence (arithmetic and geometric sequence, recurrence equation, etc.).
         - title: Research Assistant - Data Analysis (fixed-term contract)
           company: UMR Aix‑Marseille School of Economics (AMSE) 
           company_url: 'https://www.amse-aixmarseille.fr/en'
@@ -139,7 +121,7 @@ sections:
     design:
       columns: '2'
 
-  - block: teaching
+  - block: experience
     id: teaching
     content:
       title: Teaching experience
