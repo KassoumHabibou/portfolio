@@ -153,7 +153,7 @@ sections:
                 * matrix calculation (calculation of the determinant, eigenvalue, inverse, diagonalization, etc.);
                 * numeric sequence (arithmetic and geometric sequence, recurrence equation, etc.).
     design:
-      columns: '1'
+      columns: '2'
   - block: accomplishments
     id: education
     content:
