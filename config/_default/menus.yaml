@@ -10,7 +10,7 @@ main:
   - name: CV
     url: uploads/resume.pdf
     weight: 20
-  - name: Research
+  - name: Research and project
     url: '#workingpapers'
     weight: 30
   - name: Work experience

@@ -159,7 +159,7 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading. #'Accomplish&shy;ments'
       title: Education 
-      subtitle: 'Places: France-Senegal'
+      #subtitle: 'Places: France-Senegal'
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
       # Education.
