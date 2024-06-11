@@ -4,7 +4,7 @@ title: 'Internal PhD seminar'
 event: CERDI PhD seminar
 event_url: https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin
 
-location: Tertiary Sector - La Rotonde Site - Room 212
+location: University Clermont Auvergne - La Rotonde Site - Room 212
 address:
   street: 26 avenue Léon Blum
   city: Clermont-Ferrand
@@ -17,8 +17,8 @@ abstract: 'At this seminar, I presented the findings of my first PhD paper for r
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2023-12-20T12:00:00Z'
-date_end: '2023-12-20T13:00:00Z'
+date: '2023-12-23T12:00:00Z'
+date_end: '2023-12-23T13:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
