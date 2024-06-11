@@ -31,7 +31,7 @@ tags: []
 featured: false
 
 image:
-  caption: 'Image credit: [**CERDI**](https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin)'
+  caption: 'Image credit: [**Univ-catho-lille**](https://www.univ-catholille.fr/en)'
   focal_point: Right
 
 links:
