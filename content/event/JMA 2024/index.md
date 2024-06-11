@@ -17,12 +17,12 @@ abstract: 'At this seminar, I presented the findings of my first PhD paper for r
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-06-24T08:00:00Z'
-#date_end: '07-06-24T16:00:00Z'
+date: '2024-06-06T08:00:00Z'
+date_end: '2024-06-07T16:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: '2024-01-31T10:00:00Z'
+publishDate: '2024-06-06T10:00:00Z'
 
 authors: []
 tags: []
