@@ -103,7 +103,7 @@ sections:
               Responsibilities include:
 
               * designing the data collection application for a survey data and data management;
-              * applied the KE XU methodology as outlined by the ([WHO](https://www.who.int/)) to analyze household health expenditures and identified households vulnerable to catastrophic health expenditures;
+              * applied the KE XU methodology as outlined by the [WHO](https://www.who.int/) to analyze household health expenditures and identified households vulnerable to catastrophic health expenditures;
               * conducted in-depth examination of the intricate interplay between poverty and health expenditures, illuminating insights that enrich the understanding of this relationship and inform potential interventions.
         - title: Research Scientist (internship)
           company: Nigerien National Institute of Statistics (INS) & National Information Platforms for Nutrition (NIPN) 
@@ -115,7 +115,7 @@ sections:
           description: |2-
               Responsibilities include:
 
-              * cleaning up and performing a data quality analysis of the SMART-2016 survey data of Niger;
+              * wrangling and performing a data quality analysis of the SMART-2016 survey data of Niger;
               * computing malnutrition rates (chronic, severe and acute) by place of residence and region using data obtained from the SMART-2016 survey of Niger;
               * collaborated closely with the NIPN team in using statistical software and interpreting their analysis results.
     design:
