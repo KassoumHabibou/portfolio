@@ -171,7 +171,7 @@ sections:
         - date_end: ''
           date_start: '2023-10-01'
           description: |2-
-              The Center for Studies and Research on International Development (CERDI) was established since 1976. It was the first joint research unit, between the National Center for Scientific Research ([CNRS](https://www.cnrs.fr/en)) and a French university dedicated to development economics. CERDI mainly brings together economists, researchers from CNRS, IRD, and teaching researchers from the [University Clermont Auvergne](https://www.uca.fr/en). Their areas of expertise are varied and cover both microeconomic and macroeconomic aspects of development. Research conducted at CERDI focuses on the study of international development processes, its drivers, and its economic, social, and environmental consequences. They revolve around three main axes: development finance, sustainable development trajectories, and the integration of developing countries into the global economy.
+              The Center for Studies and Research on International Development (CERDI) was established since 1976. It was the first joint research unit, between the  [National Center for Scientific Research (CNRS)](https://www.cnrs.fr/en) and a French university dedicated to development economics. CERDI mainly brings together economists, researchers from CNRS, IRD, and teaching researchers from the [University Clermont Auvergne](https://www.uca.fr/en). Their areas of expertise are varied and cover both microeconomic and macroeconomic aspects of development. Research conducted at CERDI focuses on the study of international development processes, its drivers, and its economic, social, and environmental consequences. They revolve around three main axes: development finance, sustainable development trajectories, and the integration of developing countries into the global economy.
           icon: cerdi-logo
           organization: University Clermont Auvergne - CERDI - CNRS - IRD
           organization_url: https://cerdi.uca.fr/english-version#/admin
@@ -203,7 +203,7 @@ sections:
         - date_start: '2020-09-01'
           date_end: '2022-10-01'
           description: |2-
-            AMSE is a Joint Research Unit of the [CNRS](https://www.cnrs.fr/en) jointly supervised by Aix-Marseille University ([AMU](https://www.univ-amu.fr/en)), [Centrale Méditerranée](https://www.centrale-mediterranee.fr/en) and the School for Advanced Studies in the Social Sciences ([EHESS](https://www.ehess.fr/en)). The core courses of the ETE master include:
+            AMSE is a joint research unit of the [CNRS](https://www.cnrs.fr/en) jointly supervised by [Aix-Marseille University (AMU)](https://www.univ-amu.fr/en), [Centrale Méditerranée](https://www.centrale-mediterranee.fr/en) and the [School for Advanced Studies in the Social Sciences (EHESS)](https://www.ehess.fr/en). The core courses of the ETE master include:
 
             - Advanced microeconomics and macroeconomics:  
               * economics of taxation (why taxes, first best taxation, etc.);
@@ -228,7 +228,7 @@ sections:
         - date_end: '2020-08-01'
           date_start: '2016-10-01'
           description: |2-
-              ENSAE is a higher education institution that is a member of the African Schools of Statistics Network (RESA). The core of the program are:
+              ENSAE is a higher education institution that is a member of the [African Schools of Statistics Network (RESA)](http://www.ensae.sn/presentation-ensae). The core of the program are:
 
               - Statistics and Probabilities:
                 * hypothesis testing (constructing a test, calculating p-values, t-tests, etc.) and analysis of variance;
@@ -247,7 +247,7 @@ sections:
           organization: Ecole Nationale de la Statistique et de l’Analyse Economique (ENSAE‑Dakar) 
           organization_url: https://www.ensae.sn/accueil
           title: Bachelor (B.Eng) degree in Statistics and Applied Economics
-          url: https://www.ensae.sn/accueil
+          url: http://www.ensae.sn/index.php/cursus/ingenieur-des-travaux-statistiques-its
     design:
       columns: '2'
   #- block: resume-languages
