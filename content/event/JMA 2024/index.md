@@ -12,8 +12,8 @@ address:
   postcode: '59000'
   country: France
 
-summary: During this seminar, I presented the findings of my first PhD paper.
-abstract: 'At this seminar, I presented the findings of my first PhD paper for review in front of researchers and colleagues from CERDI. The paper explores the connection between armed conflicts and child undernutrition in Nigeria and focus on the mitigating effects of maternal bargaining power. I received many positive comments from the researchers.'
+summary: During this conference, I presented the findings of my first PhD paper.
+abstract: 'The purpose of this two-day conference is to bring together academics and researchers to present and discuss their ongoing research and to stimulate interaction and cooperation between them. Topics with an interest in the broad area of applied microeconomics. It was a great opportunity for me to share with the research community my research interests and findings.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
