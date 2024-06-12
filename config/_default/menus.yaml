@@ -7,21 +7,25 @@ main:
   - name: Home
     url: '#about'
     weight: 10
-  - name: CV
-    url: uploads/resume.pdf
-    weight: 20
-  - name: Research and project
-    url: '#workingpapers'
-    weight: 30
   - name: Work experience
     url: '#experience'
-    weight: 40
+    weight: 20
   - name: Teaching experience
     url: '#teaching'
-    weight: 50
+    weight: 30
   - name: Education
     url: '#education'
+    weight: 40
+  - name: Research and project
+    url: '#workingpapers'
+    weight: 50
+  - name: Talks
+    url: '#talks'
     weight: 60
+  - name: CV
+    url: uploads/resume.pdf
+    weight: 70
+
  # - name: Posts
  #   url: '#posts'
  #   weight: 40
@@ -29,9 +33,7 @@ main:
 #  - name: Projects
 #    url: '#projects'
 #    weight: 50
-  - name: Talks
-    url: '#talks'
-    weight: 70
+
   - name: Contact
     url: '#contact'
     weight: 80
