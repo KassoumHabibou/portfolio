@@ -76,7 +76,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/KassoumHabibou/Website-repository'
+    url: 'https://github.com/KassoumHabibou/portfolio'
     content_dir: content
     branch: main
   avatar:
