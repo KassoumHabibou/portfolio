@@ -21,7 +21,7 @@ marketing:
     description: 'Welcome to the repository for my personal website! This project serves as a digital representation of who I am, showcasing my skills, projects and passion for economics and data science.'
     #twitter: 'GetResearchDev'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-EVWL19MPXZ'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
