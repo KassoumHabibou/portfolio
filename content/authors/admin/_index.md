@@ -30,7 +30,7 @@ bio:  My research interests include development economics, data science and prog
 # Education to show in About widget
 education:
   courses:
-    - course: Ph.D. in economics
+    - course: Ph.D. in Economics
       institution: University Clermont Auvergne
       year: 2026 (expected)
     - course: M.Eng. in Data science

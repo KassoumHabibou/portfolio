@@ -52,7 +52,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.In this role, I have contributed to the academic development of students by assisting them in # understanding complex statistical concepts, solving problems, and reinforcing their comprehension through practical applications. This experience has not only # honed my teaching skills but has also revealed my managerial abilities and deepened my own understanding of the subject matter. It has been immensely rewarding to # witness the growth and progress of students under my guidance.
       items:
-        - title: Research Assistant - Data Analysis (fixed-term contract)
+        - title: Research Assistant - Data Analyst (fixed-term contract)
           company: UMR Aix‑Marseille School of Economics (AMSE) 
           company_url: 'https://www.amse-aixmarseille.fr/en'
           company_logo: amse-logo
@@ -60,13 +60,11 @@ sections:
           date_start: '2022-09-01'
           date_end: '2023-08-01'
           description: |2-
-              Responsibilities include:
+              * Managed DHS datasets from several Sub-Saharan African countries;
+              * Performed statistical analyses;
+              * Prepared detailed research reports, presented findings and coached several interns.
 
-              * management of the DHS dataset from several Sub-Saharan countries;
-              * perform statistical analyses;
-              * prepare detailed research reports, presentations of findings and supervision of several interns.
-
-        - title: Research Assistant - Data Analysis (internship)
+        - title: Research Assistant - Data Analyst (internship)
           company: Research Institute for Development (IRD)
           company_url: 'https://www.ird.fr/sud-est'
           company_logo: ird-logo
@@ -74,12 +72,10 @@ sections:
           date_start: '2022-04-01'
           date_end: '2022-08-01'
           description: |2-
-              Responsibilities include:
-
-              * assisted in collecting, wrangling and organizing data from WHO on the spread of Ebola virus in Sub-Saharan Africa;
-              * perform statistical analyses to aid senior researchers in drawing meaningful conclusions;
-              * using machine learning tools to assess the efficiency of international health aid in reducing the Ebola disease spread.
-        - title: Research Assistant - Data Analysis (internship)
+              * Assisted in collecting, wrangling and organizing data from WHO for several Sub-Saharan African countries;
+              * Achieved statistical analyses to assist senior researchers in drawing meaningful research findings;
+              * Developed machine learning algorithm to assess the efficiency of health aid.
+        - title: Research Assistant - Data Analyst (internship)
           company: French Institute of Science and Technology for Transport Development and Networks (IFSTTAR) 
           company_url: 'https://www.univ-gustave-eiffel.fr/'
           company_logo: univ-logo
@@ -87,11 +83,9 @@ sections:
           date_start: '2021-06-01'
           date_end: '2021-09-01'
           description: |2-
-              Responsibilities include:
-
-              * collecting and analyzing the evolution of the French car market over the last 20 years;
-              * employed time series analysis techniques to forecast the trajectory of the French car market for the upcoming three years;
-              * formulated actionable policy recommendations based on data-driven insights to guide future strategies and decisions.
+              * Collected data and analyzed the evolution of the French car market over the last years;
+              * Applied time series analysis techniques for forecasting the French car market in the upcoming years;
+              * Formulated actionable policy recommendations based on data-driven insights to guide future strategies and decisions in the French car market.
         - title: Research Scientist (internship)
           company: Senegalese Observatory of Poverty and Living Conditions (OPCV) 
           company_url: 'https://www.ansd.sn/'
@@ -100,11 +94,9 @@ sections:
           date_start: '2020-03-01'
           date_end: '2020-09-01'
           description: |2-
-              Responsibilities include:
-
-              * designing the data collection application for a survey data and data management;
-              * applied the KE XU methodology as outlined by the [WHO](https://www.who.int/) to analyze household health expenditures and identified households vulnerable to catastrophic health expenditures;
-              * conducted in-depth examination of the intricate interplay between poverty and health expenditures, illuminating insights that enrich the understanding of this relationship and inform potential interventions.
+              * Developed a data collection application for a survey data and data management;
+              * Applied the KE XU methodology as outlined by the [WHO](https://www.who.int/) to analyze household health expenditures and identified households vulnerable to catastrophic health expenditures;
+              * Conducted an examination of the intricate interplay between poverty and health expenditures.
         - title: Research Scientist (internship)
           company: Nigerien National Institute of Statistics (INS) & National Information Platforms for Nutrition (NIPN) 
           company_url: 'https://pnin-niger.org/web/'
@@ -113,11 +105,9 @@ sections:
           date_start: '2018-07-01'
           date_end: '2018-09-01'
           description: |2-
-              Responsibilities include:
-
-              * wrangling and performing a data quality analysis of the SMART-2016 survey data of Niger;
-              * computing malnutrition rates (chronic, severe and acute) by place of residence and region using data obtained from the SMART-2016 survey of Niger;
-              * collaborated closely with the NIPN team in using statistical software and interpreting their analysis results.
+              * Managed and performed a data quality analysis of survey data of Niger;
+              * Estimated malnutrition rates (chronic, severe and acute) by place of residence and region using survey data from Niger;
+              * Interacted closely with the NIPN team in using statistical software and interpreting results.
     design:
       columns: '2'
 
@@ -240,7 +230,7 @@ sections:
                 * introduction to web development technologies such as HTML, CSS, PHP, JavaScript, and C.
               - Machine Learning:
                 * time series analysis and forecasting (models of type ARIMA, SARIMA, ARCH, etc.);
-                * multidimensional data analysis techniques (e.g., CA, PCA, MFA, AFDM, etc.);
+                * multidimensional Data Analyst techniques (e.g., CA, PCA, MFA, AFDM, etc.);
                 * various supervised and unsupervised algorithms (e.g., regression, clustering, decision trees, etc.).
  
           icon: ensae-logo
