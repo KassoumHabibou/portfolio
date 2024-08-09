@@ -195,15 +195,15 @@ sections:
           description: |2-
             AMSE is a joint research unit of the [CNRS](https://www.cnrs.fr/en) jointly supervised by [Aix-Marseille University (AMU)](https://www.univ-amu.fr/en), [Centrale Méditerranée](https://www.centrale-mediterranee.fr/en) and the [School for Advanced Studies in the Social Sciences (EHESS)](https://www.ehess.fr/en). The core courses of the ETE master include:
 
-            - Advanced microeconomics and macroeconomics:  
+            - Advanced Microeconomics and Macroeconomics:  
               * economics of taxation (why taxes, first best taxation, etc.);
               * growth theories (endogenous growth and poverty traps etc.);
               * the empirical evidence (e.g., growth and inequality, industrial revolution, the role of institutions, etc.).
-            - Advanced econometrics:  
+            - Advanced Econometrics:  
               * resampling methods (e.g., monte carlo experiments, bootstrap, permutation tests, etc.);
               * nonparametric econometrics (e.g., density estimation, finite mixture models, etc.);
               * econometrics and machine learning (philosophy and general principle, misspecification detection, etc.).
-            - Development economics:  
+            - Development Economics:  
               * human capital (nutrition, education, health, etc.);
               * financial capital (microfinance and micro-savings, access to credit, etc.);
               * physical capital (property rights and technology adoption, etc.).
