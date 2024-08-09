@@ -84,7 +84,7 @@ sections:
           date_end: '2021-09-01'
           description: |2-
               * Collected data and analyzed the evolution of the French car market over the last years;
-              * Applied time series analysis techniques for forecasting the French car market in the upcoming years;
+              * Applied time series analysis techniques to forecast the French car market in the upcoming years;
               * Formulated actionable policy recommendations based on data-driven insights to guide future strategies and decisions in the French car market.
         - title: Research Scientist (internship)
           company: Senegalese Observatory of Poverty and Living Conditions (OPCV) 
@@ -105,9 +105,9 @@ sections:
           date_start: '2018-07-01'
           date_end: '2018-09-01'
           description: |2-
-              * Managed and performed a data quality analysis of survey data of Niger;
-              * Estimated malnutrition rates (chronic, severe and acute) by place of residence and region using survey data from Niger;
-              * Interacted closely with the NIPN team in using statistical software and interpreting results.
+              * Managed and performed data quality analysis on survey data from Niger.
+              * Estimated malnutrition rates using survey data from Niger.
+              * Interacted closely with the NIPN team to use statistical software and interpret results.
     design:
       columns: '2'
 
