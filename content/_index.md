@@ -105,8 +105,8 @@ sections:
           date_start: '2018-07-01'
           date_end: '2018-09-01'
           description: |2-
-              * Managed and performed data quality analysis on survey data from Niger.
-              * Estimated malnutrition rates using survey data from Niger.
+              * Managed and performed data quality analysis on survey data from Niger;
+              * Estimated malnutrition rates using survey data from Niger;
               * Interacted closely with the NIPN team to use statistical software and interpret results.
     design:
       columns: '2'
