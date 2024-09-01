@@ -1,5 +1,5 @@
 ---
-title: Economic Growth and Environmental Quality - The Cas of West African Countries (ECOWAS)
+title: Economic Growth and Environmental Quality - The Case of West African Countries (ECOWAS)
 summary: This project explores the relationship between economic growth and environmental quality in West African countries using data-driven analysis.
 tags:
   - Supervised Learning
