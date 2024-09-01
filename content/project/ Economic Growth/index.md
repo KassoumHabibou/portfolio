@@ -9,7 +9,7 @@ date: '2021-01-20'
 external_link: ''
 
 image:
-  caption: Mappitall
+  caption: 
   focal_point: Smart
 
 links:
