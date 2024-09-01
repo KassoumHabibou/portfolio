@@ -1,4 +1,4 @@
-# My Personal Website
+# Personal Website
 
 Welcome to the repository for my personal website! This project serves as a digital representation of who I am, showcasing my skills, projects and passion for economics and data science. 
 
