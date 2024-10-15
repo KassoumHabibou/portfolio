@@ -58,7 +58,7 @@ url_video: ''
 #   Otherwise, set `projects = []`.
 #projects:
 #  - exemple
-
+projects = ["Linking armed conflicts and children undernutrition in Nigeria: the mitigating effects of maternal bargaining power"]
 #
 #{{% callout note %}}
 #Click on the **Slides** button above to view the built-in slides feature.

@@ -30,8 +30,7 @@ url_dataset: 'https://databank.worldbank.org/source/world-development-indicators
 # slides: example
 ---
 
-With the two oil crises of 1973 and 1979 and the Meadows report (1972) by the Club of Rome’s, the issues of
-natural resource management and environmental preservation began to be integrated by each state in their development process. Indeed, the effects of pollution are numerous, both on health and on the climate. According
+With the two oil crises of 1973 and 1979 and the Meadows report (1972) by the Club of Rome’s, the issues of natural resource management and environmental preservation began to be integrated by each state in their development process. Indeed, the effects of pollution are numerous, both on health and on the climate. According
 to the WHO, air pollution is the main environmental risk to health in the world. Thus, exposure to outdoor air
 pollution leads to the death of approximately 4.2 million people worldwide each year. Since 2013, outdoor air
 particles are classified as carcinogenic to humans by the International Agency for Research on Cancer (IARC).
