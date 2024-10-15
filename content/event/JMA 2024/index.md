@@ -36,7 +36,7 @@ image:
 
 links:
   - icon: link
-    icon_pack: fab
+    icon_pack: fas
     name: Event link
     url: https://jma2024.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
