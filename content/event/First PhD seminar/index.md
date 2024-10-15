@@ -35,10 +35,10 @@ image:
   focal_point: Right
 
 links:
-#  - icon: twitter
-#    icon_pack: fab
-#    name: Follow
-#    url: https://twitter.com/georgecushen
+  - icon: link
+    icon_pack: fas
+    name: Event link
+    url: https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_pdf: ''
 url_slides: ''
