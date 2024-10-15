@@ -60,7 +60,7 @@ url_video: ''
 #  - exemple
 #projects = ["Linking armed conflict"]
 projects:
-  - 'Linking armed conflicts and children undernutrition in Nigeria: the mitigating effects of maternal bargaining power'
+  - Linking armed conflict
 #
 #{{% callout note %}}
 #Click on the **Slides** button above to view the built-in slides feature.
