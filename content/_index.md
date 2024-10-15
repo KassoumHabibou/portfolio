@@ -361,7 +361,7 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Feel free to get in touch with me! Whether you have questions, suggestions or simply want to say hello, I'd love to hear from you. You can reach me through the contact form, email, or phone number provided below. I look forward to connecting with you.
+        Feel free to get in touch with me! Whether you have questions, suggestions or simply want to say hello, I'd love to hear from you. You can reach me through the contact form, email or phone number provided below. I look forward to connecting with you.
       # Contact (add or remove contact options as necessary)
       email: Habibou.IBRAHIM_KASSOUM@doctorant.uca.fr
       phone: 04 73 17 74 08

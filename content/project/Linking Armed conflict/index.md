@@ -1,6 +1,6 @@
 ---
 title: 'Linking armed conflicts and children undernutrition in Nigeria: the mitigating effects of maternal bargaining power'
-summary: This project examines the impact of armed conflict, specifically the Boko Haram conflict in Nigeria, on children's nutritional outcomes. It also investigates how maternal bargaining power can mitigate these effects. The findings suggest that children born to women with low bargaining power are more adversely affected by the conflict highlighting the importance of policies to enhance female bargaining power in conflict settings.
+summary: This project examines the impact of armed conflict, specifically the Boko Haram conflict in Nigeria on children's nutritional outcomes. It also investigates how maternal bargaining power can mitigate these effects. The findings suggest that children born to women with low bargaining power are more adversely affected by the conflict highlighting the importance of policies to enhance female bargaining power in conflict settings.
 tags:
   - Supervised Learning
 date: '2023-01-27T00:00:00Z'
@@ -27,4 +27,4 @@ url_dataset: 'https://www.idhsdata.org/idhs/'
 #   Otherwise, set `slides = ""`.
 # slides: example
 ---
-This project examines the impact of armed conflict, specifically the Boko Haram conflict in Nigeria, on children's nutritional outcomes. It also investigates how maternal bargaining power can mitigate these effects. The findings suggest that children born to women with low bargaining power are more adversely affected by the conflict highlighting the importance of policies to enhance female bargaining power in conflict settings.
+This project examines the impact of armed conflict, specifically the Boko Haram conflict in Nigeria on children's nutritional outcomes. It also investigates how maternal bargaining power can mitigate these effects. The findings suggest that children born to women with low bargaining power are more adversely affected by the conflict highlighting the importance of policies to enhance female bargaining power in conflict settings.

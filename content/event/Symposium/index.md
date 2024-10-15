@@ -13,7 +13,7 @@ address:
   country: Germany
  
 summary: 'Linking armed conflicts and children undernutrition in Nigeria: the mitigating effects of maternal bargaining power'
-abstract: 'At this seminar, I presented the findings of my first PhD paper for review in front of researchers and colleagues from CERDI. The paper explores the connection between armed conflicts and child undernutrition in Nigeria and focus on the mitigating effects of maternal bargaining power. I received many positive comments from the researchers.'
+abstract: 'The purpose of this two-day conference is to bring together academics and researchers to present and discuss their ongoing research and to stimulate interaction and cooperation between them. Topics of interest in the broad areas of nutrition, food systems and health. It was a great opportunity for me to share with the research community my research interests and findings.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
