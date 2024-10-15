@@ -12,7 +12,7 @@ address:
   postcode: '59000'
   country: France
 
-summary: During this conference, I presented the findings of my first PhD paper.
+summary: ''
 abstract: 'The purpose of this two-day conference is to bring together academics and researchers to present and discuss their ongoing research and to stimulate interaction and cooperation between them. Topics with an interest in the broad area of applied microeconomics. It was a great opportunity for me to share with the research community my research interests and findings.'
 
 # Talk start and end times.
@@ -41,7 +41,7 @@ links:
     url: https://jma2024.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en
   - icon: twitter
     icon_pack: fab
-    name: X
+    name: Follow
     url: https://twitter.com/ethicsEA7446/status/1803333352101126177
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_pdf: ''

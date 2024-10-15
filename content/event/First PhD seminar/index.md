@@ -12,7 +12,7 @@ address:
   postcode: '63000'
   country: France
 
-summary: During this seminar, I presented the findings of my first PhD paper.
+summary: 
 abstract: 'At this seminar, I presented the findings of my first PhD paper for review in front of researchers and colleagues from CERDI. The paper explores the connection between armed conflicts and child undernutrition in Nigeria and focus on the mitigating effects of maternal bargaining power. I received many positive comments from the researchers.'
 
 # Talk start and end times.

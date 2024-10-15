@@ -12,7 +12,7 @@ address:
   postcode: 37073
   country: Germany
  
-summary: During this seminar, I presented the findings of my first PhD paper.
+summary: 
 abstract: 'At this seminar, I presented the findings of my first PhD paper for review in front of researchers and colleagues from CERDI. The paper explores the connection between armed conflicts and child undernutrition in Nigeria and focus on the mitigating effects of maternal bargaining power. I received many positive comments from the researchers.'
 
 # Talk start and end times.
@@ -41,7 +41,7 @@ links:
     url: https://www.uni-goettingen.de/de/681014.html
   - icon: twitter
     icon_pack: fab
-    name: X
+    name: Follow
     url: https://x.com/rtgSusFoodSys/status/1836428417471852793/photo/2
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_pdf: ''
