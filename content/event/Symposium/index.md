@@ -4,7 +4,7 @@ title: 'Sustainable Food Systems Symposium 2024'
 event: Symposium 2024
 event_url: https://www.uni-goettingen.de/en/681014.html#:~:text=September%2017%20%E2%80%93%2018%2C%202024%20%7C%20G%C3%B6ttingen%2C%20Germany&text=Please%20submit%20your%20extended%20abstracts,detailed%20program%20is%20coming%20soon.
 
-location: University of Göttingen - Paulinerkirche - Papendiek 14
+location: University of Göttingen - Paulinerkirche 
 address:
   street: Papendiek 14
   city: Göttingen
