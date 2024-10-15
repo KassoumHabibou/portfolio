@@ -12,7 +12,7 @@ address:
   postcode: '63000'
   country: France
 
-summary: 
+summary: 'Linking armed conflicts and children undernutrition in Nigeria: the mitigating effects of maternal bargaining power'
 abstract: 'At this seminar, I presented the findings of my first PhD paper for review in front of researchers and colleagues from CERDI. The paper explores the connection between armed conflicts and child undernutrition in Nigeria and focus on the mitigating effects of maternal bargaining power. I received many positive comments from the researchers.'
 
 # Talk start and end times.
@@ -39,6 +39,10 @@ links:
     icon_pack: fas
     name: Event link
     url: https://cerdi.uca.fr/version-francaise/actualites/habibou-ibrahim-kassoum-et-pierre-beaucoral#/admin
+  - icon: twitter
+    icon_pack: fab
+    name: Follow
+    url: https://cerdi.uca.fr/version-francaise/actualites/40e-journees-de-microeconomie-appliquee-jma#/admin
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_pdf: ''
 url_slides: ''

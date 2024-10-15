@@ -12,7 +12,7 @@ address:
   postcode: '59000'
   country: France
 
-summary: ''
+summary: 'Linking armed conflicts and children undernutrition in Nigeria: the mitigating effects of maternal bargaining power'
 abstract: 'The purpose of this two-day conference is to bring together academics and researchers to present and discuss their ongoing research and to stimulate interaction and cooperation between them. Topics with an interest in the broad area of applied microeconomics. It was a great opportunity for me to share with the research community my research interests and findings.'
 
 # Talk start and end times.
