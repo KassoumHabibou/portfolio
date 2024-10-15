@@ -39,10 +39,14 @@ links:
     icon_pack: fas
     name: Event link
     url: https://jma2024.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en
+  - icon: twitter
+    icon_pack: fab
+    name: X
+    url: https://twitter.com/ethicsEA7446/status/1803333352101126177
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_pdf: ''
 url_slides: ''
-url_video: ''
+url_video: 'https://www.youtube.com/watch?v=EtN-I8vSjlQ'
 
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.

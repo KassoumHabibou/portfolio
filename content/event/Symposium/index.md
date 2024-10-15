@@ -41,7 +41,7 @@ links:
     url: https://www.uni-goettingen.de/de/681014.html
   - icon: twitter
     icon_pack: fab
-    name: Event link
+    name: X
     url: https://x.com/rtgSusFoodSys/status/1836428417471852793/photo/2
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_pdf: ''
