@@ -14,15 +14,12 @@ image:
   focal_point: Smart
 
 links:
-  - icon: magnifying-glass-chart
-    icon_pack: fas
-    name: more
-    url: https://archive.make.org/le-monde-dapres
+
 url_code: 'https://github.com/KassoumHabibou/Statistics-project'
 url_pdf: ''
 url_slides: ''
 url_video: ''
-
+url_dataset: 'https://archive.make.org/le-monde-dapres'
 # Slides (optional).
 #   Associate this project with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
