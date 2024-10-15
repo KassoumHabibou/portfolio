@@ -35,11 +35,11 @@ image:
   focal_point: Right
 
 links:
-#  - icon: twitter
-#    icon_pack: fab
-#    name: Follow
-#    url: https://twitter.com/georgecushen
-url_code: ''
+  - icon: link
+    icon_pack: fab
+    name: Event link
+    url: https://jma2024.sciencesconf.org/?forward-action=index&forward-controller=index&lang=en
+url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -58,7 +58,8 @@ url_video: ''
 #   Otherwise, set `projects = []`.
 #projects:
 #  - exemple
-
+projects:
+  - Linking armed conflict
 #
 #{{% callout note %}}
 #Click on the **Slides** button above to view the built-in slides feature.
