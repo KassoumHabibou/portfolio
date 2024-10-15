@@ -18,7 +18,7 @@ links:
 #    name: Follow
 #    url: https://twitter.com/georgecushen
 url_code: 'https://github.com/S-bachir/Economic-growth-and-environmental-quality-the-case-of-West-African-countries'
-url_pdf: ''
+url_pdf: 'https://github.com/S-bachir/Economic-growth-and-environmental-quality-the-case-of-West-African-countries/blob/main/docs/econometrie_spatiale.pdf'
 url_slides: ''
 url_video: ''
 url_dataset: 'https://databank.worldbank.org/source/world-development-indicators#'

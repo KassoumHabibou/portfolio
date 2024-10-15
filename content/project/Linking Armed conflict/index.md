@@ -14,7 +14,7 @@ external_link: ''
 
 links:
 #url_code: 'https://github.com/KassoumHabibou/Statistics-project'
-#url_pdf: ''
+url_pdf: 'https://kassoumhabibou.github.io/portfolio/publication/preprint/preprint.pdf'
 #url_slides: ''
 #url_video: ''
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
