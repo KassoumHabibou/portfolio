@@ -36,10 +36,10 @@ pollution leads to the death of approximately 4.2 million people worldwide each 
 particles are classified as carcinogenic to humans by the International Agency for Research on Cancer (IARC).
 The toxicity of these particles comes from both their composition and their size. For example, in the long
 term it is estimated that particulate matter (PM) could result in the development of cancers (lung, bladder),
-cardiovascular and respiratory diseases, neurodevelopment of children, diabetes. Similarly, CO2 is considered
+cardiovascular and respiratory diseases, neurodevelopment of children, diabetes. Similarly, carbon dioxide (CO2) is considered
 the primary factor in global warming. Indeed, the impact of CO2 and methane on climate change are well
 known: they absorb solar radiation, reinforcing the greenhouse effect, hence the name greenhouse gases (GHG).
-For example, a motor car emits carbon dioxide (CO2), lead, benzene, particulates and nitrogen oxides. These
+For example, a motor car emits CO2, lead, benzene, particulates and nitrogen oxides. These
 products are toxic and harmful to our health, but also to the environment.
 
 Therefore, numerous policies have been put in place at both national and international levels in order to
