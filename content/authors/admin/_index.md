@@ -10,8 +10,8 @@ first_name: Habibou
 last_name: IBRAHIM KASSOUM
 
 # Status emoji
-##status:
-  #icon: 👨🏾‍💼️
+status:
+  icon: 👨🏾‍💼️
 
 # Is this the primary user of the site?
 superuser: true
@@ -209,7 +209,7 @@ highlight_name: true
 Hello👋
 
 <p align="left">
-I am a Ph.D. candidate in <b>Development Economics</b> at the University Clermont Auvergne and a <b>Data Scientist</b> from the <I> École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI-Rennes) </I>. I am particularly interested in nutrition and health issues in developing countries, with a special focus on using machine learning techniques to address these challenges. My favorite letter in the alphabet is <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> and my favorite animal is <i class="fab fa-python" aria-hidden="true" style="color:#035AA6"></i> (I actually only swear by these two tools!). I strongly believe in the power of open science which is why I have made the replication codes for some of my projects available on my <a href="https://github.com/KassoumHabibou">Github</a> account. In my free time, I enjoy playing football, running and learning new skills online.
+I am a Ph.D. candidate in <b>Development Economics</b> at the University Clermont Auvergne and a <b>Data Scientist</b> from the École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI-Rennes). I am particularly interested in nutrition and health issues in developing countries, with a special focus on using machine learning techniques to address these challenges. My favorite letter in the alphabet is <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> and my favorite animal is <i class="fab fa-python" aria-hidden="true" style="color:#035AA6"></i> (I actually only swear by these two tools!). I strongly believe in the power of open science which is why I have made the replication codes for some of my projects available on my <a href="https://github.com/KassoumHabibou">Github</a> account. In my free time, I enjoy playing football, running and learning new skills online.
 <p> 
  <center> 
  
