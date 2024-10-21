@@ -45,10 +45,10 @@ education:
 
 # Interests to show in About widget
 interests:
-  - Development economics
+  - Development Economics
   - Nutrition and Health
-  - Applied microeconomics
-  - Data science and machine learning
+  - Applied Microeconomics
+  - Data Science and Machine Learning
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
