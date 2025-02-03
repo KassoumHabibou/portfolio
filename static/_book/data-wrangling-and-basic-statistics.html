@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 3 Data Wrangling and basic statistics | Introduction to R Programming</title>
+  <meta name="description" content="Welcome to the introduction in R Programming for M_{2} student of CERDI" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 3 Data Wrangling and basic statistics | Introduction to R Programming" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Welcome to the introduction in R Programming for M_{2} student of CERDI" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 3 Data Wrangling and basic statistics | Introduction to R Programming" />
+  
+  <meta name="twitter:description" content="Welcome to the introduction in R Programming for M_{2} student of CERDI" />
+  
+
+<meta name="author" content="IBRAHIM KASSOUM Habibou" />
+
+
+<meta name="date" content="2025-02-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="r-basic-data-manipulations.html"/>
+<link rel="next" href="data-visualization-with-ggplot.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Introduction to R</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r-and-r-markdown"><i class="fa fa-check"></i><b>1.2</b> Why R and R Markdown?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#course-structure"><i class="fa fa-check"></i><b>1.3</b> Course Structure</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#r-basics-and-data-manipulations-2h"><i class="fa fa-check"></i><b>1.3.1</b> R basics and data manipulations (2h)</a></li>
+<li class="chapter" data-level="1.3.2" data-path="index.html"><a href="index.html#data-wrangling-and-basic-statistics-2h"><i class="fa fa-check"></i><b>1.3.2</b> Data Wrangling and basic statistics (2h)</a></li>
+<li class="chapter" data-level="1.3.3" data-path="index.html"><a href="index.html#data-visualization-with-ggplot-2h"><i class="fa fa-check"></i><b>1.3.3</b> Data Visualization with ggplot (2h)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>1.4</b> Prerequisites</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#course-materials"><i class="fa fa-check"></i><b>1.5</b> Course Materials</a></li>
+<li class="chapter" data-level="1.6" data-path="index.html"><a href="index.html#practical-applications-in-health-economics"><i class="fa fa-check"></i><b>1.6</b> Practical Applications in Health Economics</a></li>
+<li class="chapter" data-level="1.7" data-path="index.html"><a href="index.html#assessment"><i class="fa fa-check"></i><b>1.7</b> Assessment</a></li>
+<li class="chapter" data-level="1.8" data-path="index.html"><a href="index.html#getting-started"><i class="fa fa-check"></i><b>1.8</b> Getting Started</a>
+<ul>
+<li class="chapter" data-level="1.8.1" data-path="index.html"><a href="index.html#understanding-the-rstudio-interface"><i class="fa fa-check"></i><b>1.8.1</b> Understanding the RStudio Interface</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="index.html"><a href="index.html#support-and-resources"><i class="fa fa-check"></i><b>1.9</b> Support and Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html"><i class="fa fa-check"></i><b>2</b> R basic data manipulations</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#introduction-to-r-syntax"><i class="fa fa-check"></i><b>2.1</b> Introduction to R Syntax</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#variables-and-data-types"><i class="fa fa-check"></i><b>2.1.1</b> Variables and Data Types</a></li>
+<li class="chapter" data-level="2.1.2" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#basic-operations"><i class="fa fa-check"></i><b>2.1.2</b> Basic Operations</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#objects-in-r"><i class="fa fa-check"></i><b>2.2</b> Objects in R</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#working-with-vectors"><i class="fa fa-check"></i><b>2.2.1</b> Working with Vectors</a></li>
+<li class="chapter" data-level="2.2.2" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#creating-sequences"><i class="fa fa-check"></i><b>2.2.2</b> Creating Sequences</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#exercise-1"><i class="fa fa-check"></i><b>2.3</b> Exercise 1</a>
+<ul>
+<li class="chapter" data-level="2.3.1" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#working-with-data-frames"><i class="fa fa-check"></i><b>2.3.1</b> Working with Data Frames</a></li>
+</ul></li>
+<li class="chapter" data-level="2.4" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#importing-an-manipulating-data-in-r"><i class="fa fa-check"></i><b>2.4</b> Importing an Manipulating data in R</a>
+<ul>
+<li class="chapter" data-level="2.4.1" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#importing-data"><i class="fa fa-check"></i><b>2.4.1</b> Importing data</a></li>
+<li class="chapter" data-level="2.4.2" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#data-frame-manipulation"><i class="fa fa-check"></i><b>2.4.2</b> Data Frame Manipulation</a></li>
+</ul></li>
+<li class="chapter" data-level="2.5" data-path="r-basic-data-manipulations.html"><a href="r-basic-data-manipulations.html#exercise-2"><i class="fa fa-check"></i><b>2.5</b> Exercise 2</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html"><i class="fa fa-check"></i><b>3</b> Data Wrangling and basic statistics</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#introduction-to-dplyr"><i class="fa fa-check"></i><b>3.1</b> 1. Introduction to dplyr</a></li>
+<li class="chapter" data-level="3.2" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#filtering-selecting-and-arranging-data"><i class="fa fa-check"></i><b>3.2</b> Filtering, Selecting, and Arranging Data</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#filtering-data"><i class="fa fa-check"></i><b>3.2.1</b> Filtering Data</a></li>
+<li class="chapter" data-level="3.2.2" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#selecting-specific-columns"><i class="fa fa-check"></i><b>3.2.2</b> Selecting Specific Columns</a></li>
+<li class="chapter" data-level="3.2.3" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#modifying-values-and-missing"><i class="fa fa-check"></i><b>3.2.3</b> Modifying Values and Missing</a></li>
+<li class="chapter" data-level="3.2.4" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#arranging-data"><i class="fa fa-check"></i><b>3.2.4</b> Arranging Data</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#adding-and-modifying-columns"><i class="fa fa-check"></i><b>3.3</b> Adding and Modifying Columns</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#creating-a-new-column"><i class="fa fa-check"></i><b>3.3.1</b> Creating a New Column</a></li>
+<li class="chapter" data-level="3.3.2" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#transforming-a-column"><i class="fa fa-check"></i><b>3.3.2</b> Transforming a Column</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#summarizing-data"><i class="fa fa-check"></i><b>3.4</b> Summarizing Data</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#simple-summarizing"><i class="fa fa-check"></i><b>3.4.1</b> Simple summarizing</a></li>
+<li class="chapter" data-level="3.4.2" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#grouping-and-summarizing"><i class="fa fa-check"></i><b>3.4.2</b> Grouping and Summarizing</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#joining-data-frames"><i class="fa fa-check"></i><b>3.5</b> Joining Data Frames</a></li>
+<li class="chapter" data-level="3.6" data-path="data-wrangling-and-basic-statistics.html"><a href="data-wrangling-and-basic-statistics.html#exercises-3"><i class="fa fa-check"></i><b>3.6</b> Exercises 3</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="data-visualization-with-ggplot.html"><a href="data-visualization-with-ggplot.html"><i class="fa fa-check"></i><b>4</b> Data Visualization with ggplot</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="data-visualization-with-ggplot.html"><a href="data-visualization-with-ggplot.html#introduction-to-ggplot2"><i class="fa fa-check"></i><b>4.1</b> Introduction to ggplot2</a>
+<ul>
+<li class="chapter" data-level="4.1.1" data-path="data-visualization-with-ggplot.html"><a href="data-visualization-with-ggplot.html#overview"><i class="fa fa-check"></i><b>4.1.1</b> Overview</a></li>
+<li class="chapter" data-level="4.1.2" data-path="data-visualization-with-ggplot.html"><a href="data-visualization-with-ggplot.html#basic-concepts"><i class="fa fa-check"></i><b>4.1.2</b> Basic Concepts</a></li>
+<li class="chapter" data-level="4.1.3" data-path="data-visualization-with-ggplot.html"><a href="data-visualization-with-ggplot.html#scatter-plot"><i class="fa fa-check"></i><b>4.1.3</b> Scatter Plot</a></li>
+<li class="chapter" data-level="4.1.4" data-path="data-visualization-with-ggplot.html"><a href="data-visualization-with-ggplot.html#exercise-1-customizing-your-first-plot"><i class="fa fa-check"></i><b>4.1.4</b> Exercise 1: Customizing Your First Plot</a></li>
+<li class="chapter" data-level="4.1.5" data-path="data-visualization-with-ggplot.html"><a href="data-visualization-with-ggplot.html#bar-plots-and-histograms"><i class="fa fa-check"></i><b>4.1.5</b> Bar Plots and Histograms</a></li>
+<li class="chapter" data-level="4.1.6" data-path="data-visualization-with-ggplot.html"><a href="data-visualization-with-ggplot.html#exercise-3-creating-histograms-and-bar-plots"><i class="fa fa-check"></i><b>4.1.6</b> Exercise 3: Creating Histograms and Bar Plots</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://kassoumhabibou.github.io/portfolio/" target="blank">IBRAHIM KASSOUM Habibou</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to R Programming</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="data-wrangling-and-basic-statistics" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">Chapter 3</span> Data Wrangling and basic statistics<a href="data-wrangling-and-basic-statistics.html#data-wrangling-and-basic-statistics" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="introduction-to-dplyr" class="section level2 hasAnchor" number="3.1">
+<h2><span class="header-section-number">3.1</span> 1. Introduction to dplyr<a href="data-wrangling-and-basic-statistics.html#introduction-to-dplyr" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The <code>dplyr</code> package is a powerful tool in R for data manipulation. It provides functions for filtering, selecting, arranging, summarizing, and mutating data in an easy and readable way. The <code>%&gt;%</code> (pipe operator) is commonly used to link functions together.</p>
+<div class="sourceCode" id="cb85"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb85-1"><a href="data-wrangling-and-basic-statistics.html#cb85-1" tabindex="-1"></a><span class="co"># Install and load necessary packages</span></span>
+<span id="cb85-2"><a href="data-wrangling-and-basic-statistics.html#cb85-2" tabindex="-1"></a><span class="co">#install.packages(&quot;dplyr&quot;)</span></span>
+<span id="cb85-3"><a href="data-wrangling-and-basic-statistics.html#cb85-3" tabindex="-1"></a><span class="co">#install.packages(&quot;medicaldata&quot;)</span></span>
+<span id="cb85-4"><a href="data-wrangling-and-basic-statistics.html#cb85-4" tabindex="-1"></a></span>
+<span id="cb85-5"><a href="data-wrangling-and-basic-statistics.html#cb85-5" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code></pre></div>
+<pre><code>## 
+## Attachement du package : &#39;dplyr&#39;</code></pre>
+<pre><code>## Les objets suivants sont masqués depuis &#39;package:stats&#39;:
+## 
+##     filter, lag</code></pre>
+<pre><code>## Les objets suivants sont masqués depuis &#39;package:base&#39;:
+## 
+##     intersect, setdiff, setequal, union</code></pre>
+<div class="sourceCode" id="cb89"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb89-1"><a href="data-wrangling-and-basic-statistics.html#cb89-1" tabindex="-1"></a><span class="fu">library</span>(medicaldata)</span>
+<span id="cb89-2"><a href="data-wrangling-and-basic-statistics.html#cb89-2" tabindex="-1"></a></span>
+<span id="cb89-3"><a href="data-wrangling-and-basic-statistics.html#cb89-3" tabindex="-1"></a><span class="co"># Print all the function in the package dplyr</span></span>
+<span id="cb89-4"><a href="data-wrangling-and-basic-statistics.html#cb89-4" tabindex="-1"></a><span class="fu">ls</span>(<span class="st">&quot;package:dplyr&quot;</span>)</span></code></pre></div>
+<pre><code>##   [1] &quot;%&gt;%&quot;                   &quot;across&quot;                &quot;add_count&quot;            
+##   [4] &quot;add_count_&quot;            &quot;add_row&quot;               &quot;add_rownames&quot;         
+##   [7] &quot;add_tally&quot;             &quot;add_tally_&quot;            &quot;all_equal&quot;            
+##  [10] &quot;all_of&quot;                &quot;all_vars&quot;              &quot;anti_join&quot;            
+##  [13] &quot;any_of&quot;                &quot;any_vars&quot;              &quot;arrange&quot;              
+##  [16] &quot;arrange_&quot;              &quot;arrange_all&quot;           &quot;arrange_at&quot;           
+##  [19] &quot;arrange_if&quot;            &quot;as.tbl&quot;                &quot;as_data_frame&quot;        
+##  [22] &quot;as_label&quot;              &quot;as_tibble&quot;             &quot;auto_copy&quot;            
+##  [25] &quot;band_instruments&quot;      &quot;band_instruments2&quot;     &quot;band_members&quot;         
+##  [28] &quot;bench_tbls&quot;            &quot;between&quot;               &quot;bind_cols&quot;            
+##  [31] &quot;bind_rows&quot;             &quot;c_across&quot;              &quot;case_match&quot;           
+##  [34] &quot;case_when&quot;             &quot;changes&quot;               &quot;check_dbplyr&quot;         
+##  [37] &quot;coalesce&quot;              &quot;collapse&quot;              &quot;collect&quot;              
+##  [40] &quot;combine&quot;               &quot;common_by&quot;             &quot;compare_tbls&quot;         
+##  [43] &quot;compare_tbls2&quot;         &quot;compute&quot;               &quot;consecutive_id&quot;       
+##  [46] &quot;contains&quot;              &quot;copy_to&quot;               &quot;count&quot;                
+##  [49] &quot;count_&quot;                &quot;cross_join&quot;            &quot;cumall&quot;               
+##  [52] &quot;cumany&quot;                &quot;cume_dist&quot;             &quot;cummean&quot;              
+##  [55] &quot;cur_column&quot;            &quot;cur_data&quot;              &quot;cur_data_all&quot;         
+##  [58] &quot;cur_group&quot;             &quot;cur_group_id&quot;          &quot;cur_group_rows&quot;       
+##  [61] &quot;current_vars&quot;          &quot;data_frame&quot;            &quot;db_analyze&quot;           
+##  [64] &quot;db_begin&quot;              &quot;db_commit&quot;             &quot;db_create_index&quot;      
+##  [67] &quot;db_create_indexes&quot;     &quot;db_create_table&quot;       &quot;db_data_type&quot;         
+##  [70] &quot;db_desc&quot;               &quot;db_drop_table&quot;         &quot;db_explain&quot;           
+##  [73] &quot;db_has_table&quot;          &quot;db_insert_into&quot;        &quot;db_list_tables&quot;       
+##  [76] &quot;db_query_fields&quot;       &quot;db_query_rows&quot;         &quot;db_rollback&quot;          
+##  [79] &quot;db_save_query&quot;         &quot;db_write_table&quot;        &quot;dense_rank&quot;           
+##  [82] &quot;desc&quot;                  &quot;dim_desc&quot;              &quot;distinct&quot;             
+##  [85] &quot;distinct_&quot;             &quot;distinct_all&quot;          &quot;distinct_at&quot;          
+##  [88] &quot;distinct_if&quot;           &quot;distinct_prepare&quot;      &quot;do&quot;                   
+##  [91] &quot;do_&quot;                   &quot;dplyr_col_modify&quot;      &quot;dplyr_reconstruct&quot;    
+##  [94] &quot;dplyr_row_slice&quot;       &quot;ends_with&quot;             &quot;enexpr&quot;               
+##  [97] &quot;enexprs&quot;               &quot;enquo&quot;                 &quot;enquos&quot;               
+## [100] &quot;ensym&quot;                 &quot;ensyms&quot;                &quot;eval_tbls&quot;            
+## [103] &quot;eval_tbls2&quot;            &quot;everything&quot;            &quot;explain&quot;              
+## [106] &quot;expr&quot;                  &quot;failwith&quot;              &quot;filter&quot;               
+## [109] &quot;filter_&quot;               &quot;filter_all&quot;            &quot;filter_at&quot;            
+## [112] &quot;filter_if&quot;             &quot;first&quot;                 &quot;full_join&quot;            
+## [115] &quot;funs&quot;                  &quot;funs_&quot;                 &quot;glimpse&quot;              
+## [118] &quot;group_by&quot;              &quot;group_by_&quot;             &quot;group_by_all&quot;         
+## [121] &quot;group_by_at&quot;           &quot;group_by_drop_default&quot; &quot;group_by_if&quot;          
+## [124] &quot;group_by_prepare&quot;      &quot;group_cols&quot;            &quot;group_data&quot;           
+## [127] &quot;group_indices&quot;         &quot;group_indices_&quot;        &quot;group_keys&quot;           
+## [130] &quot;group_map&quot;             &quot;group_modify&quot;          &quot;group_nest&quot;           
+## [133] &quot;group_rows&quot;            &quot;group_size&quot;            &quot;group_split&quot;          
+## [136] &quot;group_trim&quot;            &quot;group_vars&quot;            &quot;group_walk&quot;           
+## [139] &quot;grouped_df&quot;            &quot;groups&quot;                &quot;id&quot;                   
+## [142] &quot;ident&quot;                 &quot;if_all&quot;                &quot;if_any&quot;               
+## [145] &quot;if_else&quot;               &quot;inner_join&quot;            &quot;intersect&quot;            
+## [148] &quot;is.grouped_df&quot;         &quot;is.src&quot;                &quot;is.tbl&quot;               
+## [151] &quot;is_grouped_df&quot;         &quot;join_by&quot;               &quot;lag&quot;                  
+## [154] &quot;last&quot;                  &quot;last_col&quot;              &quot;last_dplyr_warnings&quot;  
+## [157] &quot;lead&quot;                  &quot;left_join&quot;             &quot;location&quot;             
+## [160] &quot;lst&quot;                   &quot;make_tbl&quot;              &quot;matches&quot;              
+## [163] &quot;min_rank&quot;              &quot;mutate&quot;                &quot;mutate_&quot;              
+## [166] &quot;mutate_all&quot;            &quot;mutate_at&quot;             &quot;mutate_each&quot;          
+## [169] &quot;mutate_each_&quot;          &quot;mutate_if&quot;             &quot;n&quot;                    
+## [172] &quot;n_distinct&quot;            &quot;n_groups&quot;              &quot;na_if&quot;                
+## [175] &quot;near&quot;                  &quot;nest_by&quot;               &quot;nest_join&quot;            
+## [178] &quot;new_grouped_df&quot;        &quot;new_rowwise_df&quot;        &quot;nth&quot;                  
+## [181] &quot;ntile&quot;                 &quot;num_range&quot;             &quot;one_of&quot;               
+## [184] &quot;order_by&quot;              &quot;percent_rank&quot;          &quot;pick&quot;                 
+## [187] &quot;progress_estimated&quot;    &quot;pull&quot;                  &quot;quo&quot;                  
+## [190] &quot;quo_name&quot;              &quot;quos&quot;                  &quot;recode&quot;               
+## [193] &quot;recode_factor&quot;         &quot;reframe&quot;               &quot;relocate&quot;             
+## [196] &quot;rename&quot;                &quot;rename_&quot;               &quot;rename_all&quot;           
+## [199] &quot;rename_at&quot;             &quot;rename_if&quot;             &quot;rename_vars&quot;          
+## [202] &quot;rename_vars_&quot;          &quot;rename_with&quot;           &quot;right_join&quot;           
+## [205] &quot;row_number&quot;            &quot;rows_append&quot;           &quot;rows_delete&quot;          
+## [208] &quot;rows_insert&quot;           &quot;rows_patch&quot;            &quot;rows_update&quot;          
+## [211] &quot;rows_upsert&quot;           &quot;rowwise&quot;               &quot;same_src&quot;             
+## [214] &quot;sample_frac&quot;           &quot;sample_n&quot;              &quot;select&quot;               
+## [217] &quot;select_&quot;               &quot;select_all&quot;            &quot;select_at&quot;            
+## [220] &quot;select_if&quot;             &quot;select_var&quot;            &quot;select_vars&quot;          
+## [223] &quot;select_vars_&quot;          &quot;semi_join&quot;             &quot;setdiff&quot;              
+## [226] &quot;setequal&quot;              &quot;show_query&quot;            &quot;slice&quot;                
+## [229] &quot;slice_&quot;                &quot;slice_head&quot;            &quot;slice_max&quot;            
+## [232] &quot;slice_min&quot;             &quot;slice_sample&quot;          &quot;slice_tail&quot;           
+## [235] &quot;sql&quot;                   &quot;sql_escape_ident&quot;      &quot;sql_escape_string&quot;    
+## [238] &quot;sql_join&quot;              &quot;sql_select&quot;            &quot;sql_semi_join&quot;        
+## [241] &quot;sql_set_op&quot;            &quot;sql_subquery&quot;          &quot;sql_translate_env&quot;    
+## [244] &quot;src&quot;                   &quot;src_df&quot;                &quot;src_local&quot;            
+## [247] &quot;src_mysql&quot;             &quot;src_postgres&quot;          &quot;src_sqlite&quot;           
+## [250] &quot;src_tbls&quot;              &quot;starts_with&quot;           &quot;starwars&quot;             
+## [253] &quot;storms&quot;                &quot;summarise&quot;             &quot;summarise_&quot;           
+## [256] &quot;summarise_all&quot;         &quot;summarise_at&quot;          &quot;summarise_each&quot;       
+## [259] &quot;summarise_each_&quot;       &quot;summarise_if&quot;          &quot;summarize&quot;            
+## [262] &quot;summarize_&quot;            &quot;summarize_all&quot;         &quot;summarize_at&quot;         
+## [265] &quot;summarize_each&quot;        &quot;summarize_each_&quot;       &quot;summarize_if&quot;         
+## [268] &quot;sym&quot;                   &quot;symdiff&quot;               &quot;syms&quot;                 
+## [271] &quot;tally&quot;                 &quot;tally_&quot;                &quot;tbl&quot;                  
+## [274] &quot;tbl_df&quot;                &quot;tbl_nongroup_vars&quot;     &quot;tbl_ptype&quot;            
+## [277] &quot;tbl_vars&quot;              &quot;tibble&quot;                &quot;top_frac&quot;             
+## [280] &quot;top_n&quot;                 &quot;transmute&quot;             &quot;transmute_&quot;           
+## [283] &quot;transmute_all&quot;         &quot;transmute_at&quot;          &quot;transmute_if&quot;         
+## [286] &quot;tribble&quot;               &quot;type_sum&quot;              &quot;ungroup&quot;              
+## [289] &quot;union&quot;                 &quot;union_all&quot;             &quot;validate_grouped_df&quot;  
+## [292] &quot;validate_rowwise_df&quot;   &quot;vars&quot;                  &quot;where&quot;                
+## [295] &quot;with_groups&quot;           &quot;with_order&quot;            &quot;wrap_dbplyr_obj&quot;</code></pre>
+<div class="sourceCode" id="cb91"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb91-1"><a href="data-wrangling-and-basic-statistics.html#cb91-1" tabindex="-1"></a><span class="co"># Load the COVID-19 dataset</span></span>
+<span id="cb91-2"><a href="data-wrangling-and-basic-statistics.html#cb91-2" tabindex="-1"></a>covid <span class="ot">&lt;-</span> medicaldata<span class="sc">::</span>covid_testing</span></code></pre></div>
+</div>
+<div id="filtering-selecting-and-arranging-data" class="section level2 hasAnchor" number="3.2">
+<h2><span class="header-section-number">3.2</span> Filtering, Selecting, and Arranging Data<a href="data-wrangling-and-basic-statistics.html#filtering-selecting-and-arranging-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="filtering-data" class="section level3 hasAnchor" number="3.2.1">
+<h3><span class="header-section-number">3.2.1</span> Filtering Data<a href="data-wrangling-and-basic-statistics.html#filtering-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="filtering-with-multiple-conditions" class="section level4 hasAnchor" number="3.2.1.1">
+<h4><span class="header-section-number">3.2.1.1</span> Filtering with Multiple Conditions<a href="data-wrangling-and-basic-statistics.html#filtering-with-multiple-conditions" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>We can filter the dataset to focus on specific conditions. For example, let’s filter cases where patients tested positive for COVID-19 (result == “positive”).</p>
+<div class="sourceCode" id="cb92"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb92-1"><a href="data-wrangling-and-basic-statistics.html#cb92-1" tabindex="-1"></a>positive_cases <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span> </span>
+<span id="cb92-2"><a href="data-wrangling-and-basic-statistics.html#cb92-2" tabindex="-1"></a>  <span class="fu">filter</span>(result <span class="sc">==</span> <span class="st">&quot;positive&quot;</span>)</span>
+<span id="cb92-3"><a href="data-wrangling-and-basic-statistics.html#cb92-3" tabindex="-1"></a></span>
+<span id="cb92-4"><a href="data-wrangling-and-basic-statistics.html#cb92-4" tabindex="-1"></a><span class="co"># Show the first few rows of the filtered data</span></span>
+<span id="cb92-5"><a href="data-wrangling-and-basic-statistics.html#cb92-5" tabindex="-1"></a><span class="fu">head</span>(positive_cases)</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 17
+##   subject_id fake_first_name fake_last_name gender pan_day test_id clinic_name  
+##        &lt;dbl&gt; &lt;chr&gt;           &lt;chr&gt;          &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;        
+## 1       2114 azzak           tully          male        10 covid   inpatient wa…
+## 2       7240 arryk           mormont        male        11 covid   clinical lab 
+## 3      11391 zei             umber          female      11 covid   s  care ntwk 
+## 4        902 owen            seaworth       male        12 covid   emergency de…
+## 5       2573 glendon         lannister      male        12 covid   emergency de…
+## 6       5771 janna           lannister      female      12 covid   hem onc day …
+## # ℹ 10 more variables: result &lt;chr&gt;, demo_group &lt;chr&gt;, age &lt;dbl&gt;,
+## #   drive_thru_ind &lt;dbl&gt;, ct_result &lt;dbl&gt;, orderset &lt;dbl&gt;, payor_group &lt;chr&gt;,
+## #   patient_class &lt;chr&gt;, col_rec_tat &lt;dbl&gt;, rec_ver_tat &lt;dbl&gt;</code></pre>
+</div>
+<div id="filtering-with-multiple-conditions-1" class="section level4 hasAnchor" number="3.2.1.2">
+<h4><span class="header-section-number">3.2.1.2</span> Filtering with multiple conditions<a href="data-wrangling-and-basic-statistics.html#filtering-with-multiple-conditions-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>We can filter patients who are female (gender == “female”) and tested positive for COVID-19.</p>
+<div class="sourceCode" id="cb94"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb94-1"><a href="data-wrangling-and-basic-statistics.html#cb94-1" tabindex="-1"></a>female_positive <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb94-2"><a href="data-wrangling-and-basic-statistics.html#cb94-2" tabindex="-1"></a>  <span class="fu">filter</span>(gender <span class="sc">==</span> <span class="st">&quot;female&quot;</span>, result <span class="sc">==</span> <span class="st">&quot;positive&quot;</span>)</span>
+<span id="cb94-3"><a href="data-wrangling-and-basic-statistics.html#cb94-3" tabindex="-1"></a></span>
+<span id="cb94-4"><a href="data-wrangling-and-basic-statistics.html#cb94-4" tabindex="-1"></a><span class="co"># Show the first few rows of the filtered data</span></span>
+<span id="cb94-5"><a href="data-wrangling-and-basic-statistics.html#cb94-5" tabindex="-1"></a><span class="fu">head</span>(female_positive)</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 17
+##   subject_id fake_first_name fake_last_name gender pan_day test_id clinic_name  
+##        &lt;dbl&gt; &lt;chr&gt;           &lt;chr&gt;          &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;        
+## 1      11391 zei             umber          female      11 covid   s  care ntwk 
+## 2       5771 janna           lannister      female      12 covid   hem onc day …
+## 3      11381 sansa           martell        female      13 covid   clinical lab 
+## 4        864 meera           westerling     female      14 covid   clinical lab 
+## 5       5023 chataya         mormont        female      15 covid   emergency de…
+## 6       6493 sybelle         karstark       female      16 covid   emergency de…
+## # ℹ 10 more variables: result &lt;chr&gt;, demo_group &lt;chr&gt;, age &lt;dbl&gt;,
+## #   drive_thru_ind &lt;dbl&gt;, ct_result &lt;dbl&gt;, orderset &lt;dbl&gt;, payor_group &lt;chr&gt;,
+## #   patient_class &lt;chr&gt;, col_rec_tat &lt;dbl&gt;, rec_ver_tat &lt;dbl&gt;</code></pre>
+</div>
+</div>
+<div id="selecting-specific-columns" class="section level3 hasAnchor" number="3.2.2">
+<h3><span class="header-section-number">3.2.2</span> Selecting Specific Columns<a href="data-wrangling-and-basic-statistics.html#selecting-specific-columns" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>If we only need a few columns, we can use <strong>select()</strong> to keep only the relevant ones.</p>
+<div class="sourceCode" id="cb96"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb96-1"><a href="data-wrangling-and-basic-statistics.html#cb96-1" tabindex="-1"></a>selected_data <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb96-2"><a href="data-wrangling-and-basic-statistics.html#cb96-2" tabindex="-1"></a>  <span class="fu">select</span>(subject_id, age, gender, result)</span>
+<span id="cb96-3"><a href="data-wrangling-and-basic-statistics.html#cb96-3" tabindex="-1"></a></span>
+<span id="cb96-4"><a href="data-wrangling-and-basic-statistics.html#cb96-4" tabindex="-1"></a><span class="co"># Display the selected columns</span></span>
+<span id="cb96-5"><a href="data-wrangling-and-basic-statistics.html#cb96-5" tabindex="-1"></a><span class="fu">head</span>(selected_data)</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 4
+##   subject_id   age gender result  
+##        &lt;dbl&gt; &lt;dbl&gt; &lt;chr&gt;  &lt;chr&gt;   
+## 1       1412   0   female negative
+## 2        533   0   female negative
+## 3       9134   0.8 male   negative
+## 4       8518   0.8 female negative
+## 5       8967   0.8 male   negative
+## 6      11048   0.8 female negative</code></pre>
+<p>We can use helper functions to select columns dynamically.</p>
+<div class="sourceCode" id="cb98"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb98-1"><a href="data-wrangling-and-basic-statistics.html#cb98-1" tabindex="-1"></a>selected_columns <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb98-2"><a href="data-wrangling-and-basic-statistics.html#cb98-2" tabindex="-1"></a>  <span class="fu">select</span>(<span class="fu">starts_with</span>(<span class="st">&quot;fake&quot;</span>), <span class="fu">contains</span>(<span class="st">&quot;result&quot;</span>))</span>
+<span id="cb98-3"><a href="data-wrangling-and-basic-statistics.html#cb98-3" tabindex="-1"></a></span>
+<span id="cb98-4"><a href="data-wrangling-and-basic-statistics.html#cb98-4" tabindex="-1"></a><span class="co"># Display the selected columns</span></span>
+<span id="cb98-5"><a href="data-wrangling-and-basic-statistics.html#cb98-5" tabindex="-1"></a><span class="fu">head</span>(selected_columns)</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 4
+##   fake_first_name fake_last_name result   ct_result
+##   &lt;chr&gt;           &lt;chr&gt;          &lt;chr&gt;        &lt;dbl&gt;
+## 1 jhezane         westerling     negative        45
+## 2 penny           targaryen      negative        45
+## 3 grunt           rivers         negative        45
+## 4 melisandre      swyft          negative        45
+## 5 rolley          karstark       negative        45
+## 6 megga           karstark       negative        45</code></pre>
+</div>
+<div id="modifying-values-and-missing" class="section level3 hasAnchor" number="3.2.3">
+<h3><span class="header-section-number">3.2.3</span> Modifying Values and Missing<a href="data-wrangling-and-basic-statistics.html#modifying-values-and-missing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>You can change a value in a column or even replace values with NA. For example, we set the <em>“fake_name_last”</em> to NA for the 5th row.</p>
+<div class="sourceCode" id="cb100"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb100-1"><a href="data-wrangling-and-basic-statistics.html#cb100-1" tabindex="-1"></a><span class="co"># First</span></span>
+<span id="cb100-2"><a href="data-wrangling-and-basic-statistics.html#cb100-2" tabindex="-1"></a></span>
+<span id="cb100-3"><a href="data-wrangling-and-basic-statistics.html#cb100-3" tabindex="-1"></a>covid[<span class="dv">5</span>, <span class="st">&quot;fake_first_name&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;SAWADOGO&quot;</span></span>
+<span id="cb100-4"><a href="data-wrangling-and-basic-statistics.html#cb100-4" tabindex="-1"></a>covid[<span class="dv">5</span>, <span class="st">&quot;fake_last_name&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;Laurent Benjamin&quot;</span></span>
+<span id="cb100-5"><a href="data-wrangling-and-basic-statistics.html#cb100-5" tabindex="-1"></a>covid[<span class="dv">5</span>, <span class="st">&quot;age&quot;</span>] <span class="ot">&lt;-</span> <span class="dv">26</span></span>
+<span id="cb100-6"><a href="data-wrangling-and-basic-statistics.html#cb100-6" tabindex="-1"></a>covid[<span class="dv">5</span>, <span class="st">&quot;result&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;positive&quot;</span></span>
+<span id="cb100-7"><a href="data-wrangling-and-basic-statistics.html#cb100-7" tabindex="-1"></a></span>
+<span id="cb100-8"><a href="data-wrangling-and-basic-statistics.html#cb100-8" tabindex="-1"></a></span>
+<span id="cb100-9"><a href="data-wrangling-and-basic-statistics.html#cb100-9" tabindex="-1"></a>covid[<span class="dv">6</span>, <span class="st">&quot;fake_first_name&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;OUATTARA Siguissongui&quot;</span></span>
+<span id="cb100-10"><a href="data-wrangling-and-basic-statistics.html#cb100-10" tabindex="-1"></a>covid[<span class="dv">6</span>, <span class="st">&quot;fake_last_name&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;Sarah&quot;</span></span>
+<span id="cb100-11"><a href="data-wrangling-and-basic-statistics.html#cb100-11" tabindex="-1"></a>covid[<span class="dv">6</span>, <span class="st">&quot;age&quot;</span>] <span class="ot">&lt;-</span> <span class="cn">NA</span></span>
+<span id="cb100-12"><a href="data-wrangling-and-basic-statistics.html#cb100-12" tabindex="-1"></a>covid[<span class="dv">6</span>, <span class="st">&quot;result&quot;</span>] <span class="ot">&lt;-</span> <span class="st">&quot;positive&quot;</span></span>
+<span id="cb100-13"><a href="data-wrangling-and-basic-statistics.html#cb100-13" tabindex="-1"></a></span>
+<span id="cb100-14"><a href="data-wrangling-and-basic-statistics.html#cb100-14" tabindex="-1"></a></span>
+<span id="cb100-15"><a href="data-wrangling-and-basic-statistics.html#cb100-15" tabindex="-1"></a><span class="co"># Display the selected columns</span></span>
+<span id="cb100-16"><a href="data-wrangling-and-basic-statistics.html#cb100-16" tabindex="-1"></a><span class="fu">head</span>(covid, <span class="dv">7</span>)</span></code></pre></div>
+<pre><code>## # A tibble: 7 × 17
+##   subject_id fake_first_name   fake_last_name gender pan_day test_id clinic_name
+##        &lt;dbl&gt; &lt;chr&gt;             &lt;chr&gt;          &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;      
+## 1       1412 jhezane           westerling     female       4 covid   inpatient …
+## 2        533 penny             targaryen      female       7 covid   clinical l…
+## 3       9134 grunt             rivers         male         7 covid   clinical l…
+## 4       8518 melisandre        swyft          female       8 covid   clinical l…
+## 5       8967 SAWADOGO          Laurent Benja… male         8 covid   emergency …
+## 6      11048 OUATTARA Siguiss… Sarah          female       8 covid   oncology d…
+## 7        663 ithoke            targaryen      male         9 covid   clinical l…
+## # ℹ 10 more variables: result &lt;chr&gt;, demo_group &lt;chr&gt;, age &lt;dbl&gt;,
+## #   drive_thru_ind &lt;dbl&gt;, ct_result &lt;dbl&gt;, orderset &lt;dbl&gt;, payor_group &lt;chr&gt;,
+## #   patient_class &lt;chr&gt;, col_rec_tat &lt;dbl&gt;, rec_ver_tat &lt;dbl&gt;</code></pre>
+</div>
+<div id="arranging-data" class="section level3 hasAnchor" number="3.2.4">
+<h3><span class="header-section-number">3.2.4</span> Arranging Data<a href="data-wrangling-and-basic-statistics.html#arranging-data" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We can arrange the dataset in descending order of age.</p>
+<div class="sourceCode" id="cb102"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb102-1"><a href="data-wrangling-and-basic-statistics.html#cb102-1" tabindex="-1"></a>sorted_data <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb102-2"><a href="data-wrangling-and-basic-statistics.html#cb102-2" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="fu">desc</span>(age))</span>
+<span id="cb102-3"><a href="data-wrangling-and-basic-statistics.html#cb102-3" tabindex="-1"></a></span>
+<span id="cb102-4"><a href="data-wrangling-and-basic-statistics.html#cb102-4" tabindex="-1"></a><span class="co"># Display the sorted columns</span></span>
+<span id="cb102-5"><a href="data-wrangling-and-basic-statistics.html#cb102-5" tabindex="-1"></a><span class="fu">head</span>(sorted_data)</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 17
+##   subject_id fake_first_name fake_last_name gender pan_day test_id clinic_name  
+##        &lt;dbl&gt; &lt;chr&gt;           &lt;chr&gt;          &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;        
+## 1       3049 sansa           westerling     female     105 covid   line clinica…
+## 2       4078 walda           harlaw         female      48 covid   emergency de…
+## 3      12293 andrey          tyrell         male        87 covid   emergency de…
+## 4      11177 harra           baratheon      female     100 covid   line clinica…
+## 5        337 maerie          baratheon      female     105 covid   emergency de…
+## 6       8426 missandei       tarly          female      94 covid   line clinica…
+## # ℹ 10 more variables: result &lt;chr&gt;, demo_group &lt;chr&gt;, age &lt;dbl&gt;,
+## #   drive_thru_ind &lt;dbl&gt;, ct_result &lt;dbl&gt;, orderset &lt;dbl&gt;, payor_group &lt;chr&gt;,
+## #   patient_class &lt;chr&gt;, col_rec_tat &lt;dbl&gt;, rec_ver_tat &lt;dbl&gt;</code></pre>
+</div>
+</div>
+<div id="adding-and-modifying-columns" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Adding and Modifying Columns<a href="data-wrangling-and-basic-statistics.html#adding-and-modifying-columns" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="creating-a-new-column" class="section level3 hasAnchor" number="3.3.1">
+<h3><span class="header-section-number">3.3.1</span> Creating a New Column<a href="data-wrangling-and-basic-statistics.html#creating-a-new-column" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We can use mutate() to add new variables. Here, we create a new column to classify patients as “Young” (under 50) or “Elderly” (50 and above).</p>
+<div class="sourceCode" id="cb104"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb104-1"><a href="data-wrangling-and-basic-statistics.html#cb104-1" tabindex="-1"></a>covid <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb104-2"><a href="data-wrangling-and-basic-statistics.html#cb104-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">age_group =</span> <span class="fu">case_when</span>(</span>
+<span id="cb104-3"><a href="data-wrangling-and-basic-statistics.html#cb104-3" tabindex="-1"></a>    age <span class="sc">&lt;=</span> <span class="dv">5</span> <span class="sc">~</span> <span class="st">&quot;Underfive&quot;</span>,</span>
+<span id="cb104-4"><a href="data-wrangling-and-basic-statistics.html#cb104-4" tabindex="-1"></a>    age <span class="sc">&gt;</span> <span class="dv">5</span> <span class="sc">&amp;</span> age <span class="sc">&lt;=</span> <span class="dv">10</span> <span class="sc">~</span> <span class="st">&quot;Children&quot;</span>,</span>
+<span id="cb104-5"><a href="data-wrangling-and-basic-statistics.html#cb104-5" tabindex="-1"></a>    age <span class="sc">&gt;</span> <span class="dv">10</span> <span class="sc">&amp;</span> age <span class="sc">&lt;=</span> <span class="dv">15</span> <span class="sc">~</span> <span class="st">&quot;Teenagers&quot;</span>,</span>
+<span id="cb104-6"><a href="data-wrangling-and-basic-statistics.html#cb104-6" tabindex="-1"></a>    age <span class="sc">&gt;</span> <span class="dv">15</span> <span class="sc">&amp;</span> age <span class="sc">&lt;=</span> <span class="dv">30</span> <span class="sc">~</span> <span class="st">&quot;Young Adults&quot;</span>,</span>
+<span id="cb104-7"><a href="data-wrangling-and-basic-statistics.html#cb104-7" tabindex="-1"></a>    age <span class="sc">&gt;</span> <span class="dv">30</span> <span class="sc">&amp;</span> age <span class="sc">&lt;=</span> <span class="dv">60</span> <span class="sc">~</span> <span class="st">&quot;Adults&quot;</span>,</span>
+<span id="cb104-8"><a href="data-wrangling-and-basic-statistics.html#cb104-8" tabindex="-1"></a>    age <span class="sc">&gt;</span> <span class="dv">60</span> <span class="sc">~</span> <span class="st">&quot;Elderly&quot;</span></span>
+<span id="cb104-9"><a href="data-wrangling-and-basic-statistics.html#cb104-9" tabindex="-1"></a>  ))</span>
+<span id="cb104-10"><a href="data-wrangling-and-basic-statistics.html#cb104-10" tabindex="-1"></a></span>
+<span id="cb104-11"><a href="data-wrangling-and-basic-statistics.html#cb104-11" tabindex="-1"></a><span class="co"># Display results</span></span>
+<span id="cb104-12"><a href="data-wrangling-and-basic-statistics.html#cb104-12" tabindex="-1"></a><span class="fu">head</span>(covid <span class="sc">%&gt;%</span> <span class="fu">select</span>(age, age_group), <span class="dv">10</span>)</span></code></pre></div>
+<pre><code>## # A tibble: 10 × 2
+##      age age_group   
+##    &lt;dbl&gt; &lt;chr&gt;       
+##  1   0   Underfive   
+##  2   0   Underfive   
+##  3   0.8 Underfive   
+##  4   0.8 Underfive   
+##  5  26   Young Adults
+##  6  NA   &lt;NA&gt;        
+##  7   0.8 Underfive   
+##  8   0   Underfive   
+##  9   0   Underfive   
+## 10   0.9 Underfive</code></pre>
+</div>
+<div id="transforming-a-column" class="section level3 hasAnchor" number="3.3.2">
+<h3><span class="header-section-number">3.3.2</span> Transforming a Column<a href="data-wrangling-and-basic-statistics.html#transforming-a-column" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We can apply transformations to existing columns. For example, we log-transform the age variable.</p>
+<div class="sourceCode" id="cb106"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb106-1"><a href="data-wrangling-and-basic-statistics.html#cb106-1" tabindex="-1"></a>covid <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb106-2"><a href="data-wrangling-and-basic-statistics.html#cb106-2" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">age_log =</span> <span class="fu">log</span>(age),</span>
+<span id="cb106-3"><a href="data-wrangling-and-basic-statistics.html#cb106-3" tabindex="-1"></a>         <span class="at">age_squarred =</span> age<span class="sc">^</span><span class="dv">2</span>,</span>
+<span id="cb106-4"><a href="data-wrangling-and-basic-statistics.html#cb106-4" tabindex="-1"></a>         <span class="at">age_square_root =</span> <span class="fu">sqrt</span>(age))</span>
+<span id="cb106-5"><a href="data-wrangling-and-basic-statistics.html#cb106-5" tabindex="-1"></a><span class="co"># Display results</span></span>
+<span id="cb106-6"><a href="data-wrangling-and-basic-statistics.html#cb106-6" tabindex="-1"></a><span class="fu">head</span>(covid <span class="sc">%&gt;%</span> <span class="fu">select</span>(age_log, age_squarred, age_square_root), <span class="dv">10</span>)</span></code></pre></div>
+<pre><code>## # A tibble: 10 × 3
+##     age_log age_squarred age_square_root
+##       &lt;dbl&gt;        &lt;dbl&gt;           &lt;dbl&gt;
+##  1 -Inf             0              0    
+##  2 -Inf             0              0    
+##  3   -0.223         0.64           0.894
+##  4   -0.223         0.64           0.894
+##  5    3.26        676              5.10 
+##  6   NA            NA             NA    
+##  7   -0.223         0.64           0.894
+##  8 -Inf             0              0    
+##  9 -Inf             0              0    
+## 10   -0.105         0.81           0.949</code></pre>
+</div>
+</div>
+<div id="summarizing-data" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Summarizing Data<a href="data-wrangling-and-basic-statistics.html#summarizing-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="simple-summarizing" class="section level3 hasAnchor" number="3.4.1">
+<h3><span class="header-section-number">3.4.1</span> Simple summarizing<a href="data-wrangling-and-basic-statistics.html#simple-summarizing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>We can use summarise() to calculate statistics. Here, we find the average and standard deviation of patients’ ages.</p>
+<div class="sourceCode" id="cb108"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb108-1"><a href="data-wrangling-and-basic-statistics.html#cb108-1" tabindex="-1"></a>age_stats <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb108-2"><a href="data-wrangling-and-basic-statistics.html#cb108-2" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">mean_age =</span> <span class="fu">mean</span>(age),</span>
+<span id="cb108-3"><a href="data-wrangling-and-basic-statistics.html#cb108-3" tabindex="-1"></a>            <span class="at">median_age =</span> <span class="fu">median</span>(age),</span>
+<span id="cb108-4"><a href="data-wrangling-and-basic-statistics.html#cb108-4" tabindex="-1"></a>            <span class="at">sd_age =</span> <span class="fu">sd</span>(age),</span>
+<span id="cb108-5"><a href="data-wrangling-and-basic-statistics.html#cb108-5" tabindex="-1"></a>            <span class="at">min_age =</span> <span class="fu">min</span>(age),</span>
+<span id="cb108-6"><a href="data-wrangling-and-basic-statistics.html#cb108-6" tabindex="-1"></a>            <span class="at">max_age =</span> <span class="fu">max</span>(age))</span>
+<span id="cb108-7"><a href="data-wrangling-and-basic-statistics.html#cb108-7" tabindex="-1"></a></span>
+<span id="cb108-8"><a href="data-wrangling-and-basic-statistics.html#cb108-8" tabindex="-1"></a></span>
+<span id="cb108-9"><a href="data-wrangling-and-basic-statistics.html#cb108-9" tabindex="-1"></a>age_stats_without_na <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb108-10"><a href="data-wrangling-and-basic-statistics.html#cb108-10" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">mean_age =</span> <span class="fu">mean</span>(age, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb108-11"><a href="data-wrangling-and-basic-statistics.html#cb108-11" tabindex="-1"></a>            <span class="at">median_age =</span> <span class="fu">median</span>(age, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb108-12"><a href="data-wrangling-and-basic-statistics.html#cb108-12" tabindex="-1"></a>            <span class="at">sd_age =</span> <span class="fu">sd</span>(age, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb108-13"><a href="data-wrangling-and-basic-statistics.html#cb108-13" tabindex="-1"></a>            <span class="at">min_age =</span> <span class="fu">min</span>(age, <span class="at">na.rm=</span><span class="cn">TRUE</span>),</span>
+<span id="cb108-14"><a href="data-wrangling-and-basic-statistics.html#cb108-14" tabindex="-1"></a>            <span class="at">max_age =</span> <span class="fu">max</span>(age, <span class="at">na.rm=</span><span class="cn">TRUE</span>))</span>
+<span id="cb108-15"><a href="data-wrangling-and-basic-statistics.html#cb108-15" tabindex="-1"></a></span>
+<span id="cb108-16"><a href="data-wrangling-and-basic-statistics.html#cb108-16" tabindex="-1"></a><span class="co"># Display results</span></span>
+<span id="cb108-17"><a href="data-wrangling-and-basic-statistics.html#cb108-17" tabindex="-1"></a>age_stats</span></code></pre></div>
+<pre><code>## # A tibble: 1 × 5
+##   mean_age median_age sd_age min_age max_age
+##      &lt;dbl&gt;      &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
+## 1       NA         NA     NA      NA      NA</code></pre>
+<div class="sourceCode" id="cb110"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb110-1"><a href="data-wrangling-and-basic-statistics.html#cb110-1" tabindex="-1"></a>age_stats_without_na</span></code></pre></div>
+<pre><code>## # A tibble: 1 × 5
+##   mean_age median_age sd_age min_age max_age
+##      &lt;dbl&gt;      &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
+## 1     14.2          9   16.5       0     138</code></pre>
+</div>
+<div id="grouping-and-summarizing" class="section level3 hasAnchor" number="3.4.2">
+<h3><span class="header-section-number">3.4.2</span> Grouping and Summarizing<a href="data-wrangling-and-basic-statistics.html#grouping-and-summarizing" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Grouping allows us to calculate statistics for specific subgroups. Let’s calculate the average age for each test result category.</p>
+<div class="sourceCode" id="cb112"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb112-1"><a href="data-wrangling-and-basic-statistics.html#cb112-1" tabindex="-1"></a>age_by_result <span class="ot">&lt;-</span> covid <span class="sc">%&gt;%</span></span>
+<span id="cb112-2"><a href="data-wrangling-and-basic-statistics.html#cb112-2" tabindex="-1"></a>  <span class="fu">group_by</span>(result) <span class="sc">%&gt;%</span></span>
+<span id="cb112-3"><a href="data-wrangling-and-basic-statistics.html#cb112-3" tabindex="-1"></a>  <span class="fu">summarise</span>(<span class="at">n=</span><span class="fu">n</span>(),</span>
+<span id="cb112-4"><a href="data-wrangling-and-basic-statistics.html#cb112-4" tabindex="-1"></a>            <span class="at">mean_age =</span> <span class="fu">mean</span>(age, <span class="at">na.rm =</span> <span class="cn">TRUE</span>),</span>
+<span id="cb112-5"><a href="data-wrangling-and-basic-statistics.html#cb112-5" tabindex="-1"></a>            <span class="at">sd_age =</span> <span class="fu">sd</span>(age, <span class="at">na.rm =</span> <span class="cn">TRUE</span>))<span class="sc">%&gt;%</span></span>
+<span id="cb112-6"><a href="data-wrangling-and-basic-statistics.html#cb112-6" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">freq =</span> n <span class="sc">/</span> <span class="fu">sum</span>(n), <span class="at">freq_in_percent =</span> freq <span class="sc">*</span> <span class="dv">100</span>)</span>
+<span id="cb112-7"><a href="data-wrangling-and-basic-statistics.html#cb112-7" tabindex="-1"></a></span>
+<span id="cb112-8"><a href="data-wrangling-and-basic-statistics.html#cb112-8" tabindex="-1"></a><span class="co"># Display results</span></span>
+<span id="cb112-9"><a href="data-wrangling-and-basic-statistics.html#cb112-9" tabindex="-1"></a>age_by_result</span></code></pre></div>
+<pre><code>## # A tibble: 3 × 6
+##   result       n mean_age sd_age   freq freq_in_percent
+##   &lt;chr&gt;    &lt;int&gt;    &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;           &lt;dbl&gt;
+## 1 invalid    301     14.9   15.9 0.0194            1.94
+## 2 negative 14356     13.9   16.2 0.925            92.5 
+## 3 positive   867     19.2   19.4 0.0558            5.58</code></pre>
+</div>
+</div>
+<div id="joining-data-frames" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Joining Data Frames<a href="data-wrangling-and-basic-statistics.html#joining-data-frames" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Sometimes, we need to combine data from different sources. Here’s how to join two datasets.</p>
+<div class="float">
+<img src="img/join.jpg" alt="Join" />
+<div class="figcaption">Join</div>
+</div>
+<div class="sourceCode" id="cb114"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb114-1"><a href="data-wrangling-and-basic-statistics.html#cb114-1" tabindex="-1"></a><span class="co"># Example datasets</span></span>
+<span id="cb114-2"><a href="data-wrangling-and-basic-statistics.html#cb114-2" tabindex="-1"></a>data_grade <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb114-3"><a href="data-wrangling-and-basic-statistics.html#cb114-3" tabindex="-1"></a>  <span class="at">subject_id =</span> <span class="fu">seq</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(covid)),    <span class="co"># subject id</span></span>
+<span id="cb114-4"><a href="data-wrangling-and-basic-statistics.html#cb114-4" tabindex="-1"></a>  <span class="at">note =</span> <span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="dv">20</span>, <span class="fu">nrow</span>(covid), <span class="at">replace=</span><span class="cn">TRUE</span>)                 <span class="co"># Numeric </span></span>
+<span id="cb114-5"><a href="data-wrangling-and-basic-statistics.html#cb114-5" tabindex="-1"></a>)</span>
+<span id="cb114-6"><a href="data-wrangling-and-basic-statistics.html#cb114-6" tabindex="-1"></a></span>
+<span id="cb114-7"><a href="data-wrangling-and-basic-statistics.html#cb114-7" tabindex="-1"></a>data_grade <span class="ot">&lt;-</span> data_grade <span class="sc">%&gt;%</span> </span>
+<span id="cb114-8"><a href="data-wrangling-and-basic-statistics.html#cb114-8" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">is_graduate =</span> <span class="fu">ifelse</span>(note<span class="sc">&gt;=</span><span class="dv">10</span>, <span class="cn">TRUE</span>, <span class="cn">FALSE</span>))</span>
+<span id="cb114-9"><a href="data-wrangling-and-basic-statistics.html#cb114-9" tabindex="-1"></a></span>
+<span id="cb114-10"><a href="data-wrangling-and-basic-statistics.html#cb114-10" tabindex="-1"></a><span class="co"># Inner Join: Only matching subject_id rows</span></span>
+<span id="cb114-11"><a href="data-wrangling-and-basic-statistics.html#cb114-11" tabindex="-1"></a>join_data <span class="ot">&lt;-</span> <span class="fu">full_join</span>(covid, data_grade, <span class="at">by =</span> <span class="st">&quot;subject_id&quot;</span>)</span>
+<span id="cb114-12"><a href="data-wrangling-and-basic-statistics.html#cb114-12" tabindex="-1"></a></span>
+<span id="cb114-13"><a href="data-wrangling-and-basic-statistics.html#cb114-13" tabindex="-1"></a><span class="co"># Shown results</span></span>
+<span id="cb114-14"><a href="data-wrangling-and-basic-statistics.html#cb114-14" tabindex="-1"></a><span class="fu">head</span>(join_data)</span></code></pre></div>
+<pre><code>## # A tibble: 6 × 23
+##   subject_id fake_first_name   fake_last_name gender pan_day test_id clinic_name
+##        &lt;dbl&gt; &lt;chr&gt;             &lt;chr&gt;          &lt;chr&gt;    &lt;dbl&gt; &lt;chr&gt;   &lt;chr&gt;      
+## 1       1412 jhezane           westerling     female       4 covid   inpatient …
+## 2        533 penny             targaryen      female       7 covid   clinical l…
+## 3       9134 grunt             rivers         male         7 covid   clinical l…
+## 4       8518 melisandre        swyft          female       8 covid   clinical l…
+## 5       8967 SAWADOGO          Laurent Benja… male         8 covid   emergency …
+## 6      11048 OUATTARA Siguiss… Sarah          female       8 covid   oncology d…
+## # ℹ 16 more variables: result &lt;chr&gt;, demo_group &lt;chr&gt;, age &lt;dbl&gt;,
+## #   drive_thru_ind &lt;dbl&gt;, ct_result &lt;dbl&gt;, orderset &lt;dbl&gt;, payor_group &lt;chr&gt;,
+## #   patient_class &lt;chr&gt;, col_rec_tat &lt;dbl&gt;, rec_ver_tat &lt;dbl&gt;, age_group &lt;chr&gt;,
+## #   age_log &lt;dbl&gt;, age_squarred &lt;dbl&gt;, age_square_root &lt;dbl&gt;, note &lt;int&gt;,
+## #   is_graduate &lt;lgl&gt;</code></pre>
+</div>
+<div id="exercises-3" class="section level2 hasAnchor" number="3.6">
+<h2><span class="header-section-number">3.6</span> Exercises 3<a href="data-wrangling-and-basic-statistics.html#exercises-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Try these exercises to practice dplyr functions:</p>
+<ul>
+<li><p>Import the <strong>“blood_storage”</strong> database from the package <strong>medicaldata</strong>.</p></li>
+<li><p>Log-transform the variable <em>age</em> in data and save the result as <em>age.log</em>in the dataframe.</p></li>
+<li><p>Arranging the dataframe using the <em>age</em> column.</p></li>
+<li><p>Create a new variable called <em>PVol.squared</em> with values equal to the square all values in <em>PVol</em> (Prostate volume).
+ </p></li>
+<li><p>Create a new variable called <em>PVol.squared_root</em> with values equal to the square root all values in <em>PVol</em> (Prostate
+ volume).
+ </p></li>
+<li><p>Compute the proportion of African American using the column <em>AA</em> (0 = “non‐African-American”; 1 = “African American”).</p></li>
+<li><p>Compute the proportion of African American by Tumor volume (using the variable <em>TVol</em>) and the mean and variance of the column <em>age</em>.</p></li>
+<li><p>Filter out the records for which <em>(PreopPSA &gt;= 10)</em> and <em>(Recurrence == 0)</em> using the <strong>filter</strong> function.</p></li>
+<li><p>Create a new column called <em>subject_id</em> and merge the <strong>“covid”</strong> database with the <strong>“blood_storage”</strong> using the newly created column.</p></li>
+</ul>
+<p>This lesson introduces essential dplyr functions for data manipulation in R. Try the exercises and explore the dataset further! 🚀</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="r-basic-data-manipulations.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="data-visualization-with-ggplot.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-Data-Wrangling-and-basic-statistics.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

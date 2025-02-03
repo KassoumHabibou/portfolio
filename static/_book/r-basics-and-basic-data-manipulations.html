@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 R Basics and basic data manipulations | Introduction to R Programming</title>
+  <meta name="description" content="Welcome to the introduction in R Programming for M_{2} student of CERDI" />
+  <meta name="generator" content="bookdown 0.42 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 R Basics and basic data manipulations | Introduction to R Programming" />
+  <meta property="og:type" content="book" />
+  
+  <meta property="og:description" content="Welcome to the introduction in R Programming for M_{2} student of CERDI" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 R Basics and basic data manipulations | Introduction to R Programming" />
+  
+  <meta name="twitter:description" content="Welcome to the introduction in R Programming for M_{2} student of CERDI" />
+  
+
+<meta name="author" content="IBRAHIM KASSOUM Habibou" />
+
+
+<meta name="date" content="2025-01-29" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="exercise-1-vector-manipulation.html"/>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<style type="text/css">
+  
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+</style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Introduction to R</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> url: your book url like https://bookdown.org/yihui/bookdown</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="index.html"><a href="index.html#learning-objectives"><i class="fa fa-check"></i><b>1.1</b> Learning Objectives</a></li>
+<li class="chapter" data-level="1.2" data-path="index.html"><a href="index.html#why-r-and-r-markdown"><i class="fa fa-check"></i><b>1.2</b> Why R and R Markdown?</a></li>
+<li class="chapter" data-level="1.3" data-path="index.html"><a href="index.html#course-structure"><i class="fa fa-check"></i><b>1.3</b> Course Structure</a>
+<ul>
+<li class="chapter" data-level="1.3.1" data-path="index.html"><a href="index.html#r-basics-and-basic-data-manipulations-2h"><i class="fa fa-check"></i><b>1.3.1</b> R Basics and basic data manipulations (2h)</a></li>
+<li class="chapter" data-level="1.3.2" data-path="index.html"><a href="index.html#data-wrangling-with-tidyverse-2h"><i class="fa fa-check"></i><b>1.3.2</b> Data Wrangling with tidyverse (2h)</a></li>
+<li class="chapter" data-level="1.3.3" data-path="index.html"><a href="index.html#basic-statistics-2h"><i class="fa fa-check"></i><b>1.3.3</b> Basic Statistics (2h)</a></li>
+<li class="chapter" data-level="1.3.4" data-path="index.html"><a href="index.html#data-visualization-with-ggplot-2h"><i class="fa fa-check"></i><b>1.3.4</b> Data Visualization with ggplot (2h)</a></li>
+</ul></li>
+<li class="chapter" data-level="1.4" data-path="index.html"><a href="index.html#prerequisites"><i class="fa fa-check"></i><b>1.4</b> Prerequisites</a></li>
+<li class="chapter" data-level="1.5" data-path="index.html"><a href="index.html#course-materials"><i class="fa fa-check"></i><b>1.5</b> Course Materials</a></li>
+<li class="chapter" data-level="1.6" data-path="index.html"><a href="index.html#practical-applications-in-health-economics"><i class="fa fa-check"></i><b>1.6</b> Practical Applications in Health Economics</a></li>
+<li class="chapter" data-level="1.7" data-path="index.html"><a href="index.html#assessment"><i class="fa fa-check"></i><b>1.7</b> Assessment</a></li>
+<li class="chapter" data-level="1.8" data-path="index.html"><a href="index.html#getting-started"><i class="fa fa-check"></i><b>1.8</b> Getting Started</a>
+<ul>
+<li class="chapter" data-level="1.8.1" data-path="index.html"><a href="index.html#understanding-the-rstudio-interface"><i class="fa fa-check"></i><b>1.8.1</b> Understanding the RStudio Interface</a></li>
+</ul></li>
+<li class="chapter" data-level="1.9" data-path="index.html"><a href="index.html#support-and-resources"><i class="fa fa-check"></i><b>1.9</b> Support and Resources</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="r-basics-and-basic-data-manipulations.html"><a href="r-basics-and-basic-data-manipulations.html"><i class="fa fa-check"></i><b>2</b> R Basics and basic data manipulations</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="r-basics-and-basic-data-manipulations.html"><a href="r-basics-and-basic-data-manipulations.html#introduction-to-r-syntax"><i class="fa fa-check"></i><b>2.1</b> Introduction to R Syntax</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="r-basics-and-basic-data-manipulations.html"><a href="r-basics-and-basic-data-manipulations.html#variables-and-data-types"><i class="fa fa-check"></i><b>2.1.1</b> Variables and Data Types</a></li>
+<li class="chapter" data-level="2.1.2" data-path="r-basics-and-basic-data-manipulations.html"><a href="r-basics-and-basic-data-manipulations.html#basic-operations"><i class="fa fa-check"></i><b>2.1.2</b> Basic Operations</a></li>
+<li class="chapter" data-level="2.1.3" data-path="r-basics-and-basic-data-manipulations.html"><a href="r-basics-and-basic-data-manipulations.html#working-with-vectors"><i class="fa fa-check"></i><b>2.1.3</b> Working with Vectors</a></li>
+<li class="chapter" data-level="2.1.4" data-path="r-basics-and-basic-data-manipulations.html"><a href="r-basics-and-basic-data-manipulations.html#creating-sequences"><i class="fa fa-check"></i><b>2.1.4</b> Creating Sequences</a></li>
+<li class="chapter" data-level="2.1.5" data-path="r-basics-and-basic-data-manipulations.html"><a href="r-basics-and-basic-data-manipulations.html#working-with-data-frames"><i class="fa fa-check"></i><b>2.1.5</b> Working with Data Frames</a></li>
+<li class="chapter" data-level="2.1.6" data-path="r-basics-and-basic-data-manipulations.html"><a href="r-basics-and-basic-data-manipulations.html#data-frame-manipulation"><i class="fa fa-check"></i><b>2.1.6</b> Data Frame Manipulation</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="exercise-1-vector-manipulation.html"><a href="exercise-1-vector-manipulation.html"><i class="fa fa-check"></i><b>3</b> Exercise 1: Vector manipulation</a></li>
+<li class="chapter" data-level="4" data-path="exercise-2-creating-a-data-frame.html"><a href="exercise-2-creating-a-data-frame.html"><i class="fa fa-check"></i><b>4</b> Exercise 2: Creating a data frame</a></li>
+<li class="chapter" data-level="5" data-path="cross.html"><a href="cross.html"><i class="fa fa-check"></i><b>5</b> Cross-references</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="cross.html"><a href="cross.html#chapters-and-sub-chapters"><i class="fa fa-check"></i><b>5.1</b> Chapters and sub-chapters</a></li>
+<li class="chapter" data-level="5.2" data-path="cross.html"><a href="cross.html#captioned-figures-and-tables"><i class="fa fa-check"></i><b>5.2</b> Captioned figures and tables</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="parts.html"><a href="parts.html"><i class="fa fa-check"></i><b>6</b> Parts</a></li>
+<li class="chapter" data-level="7" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html"><i class="fa fa-check"></i><b>7</b> Footnotes and citations</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html#footnotes"><i class="fa fa-check"></i><b>7.1</b> Footnotes</a></li>
+<li class="chapter" data-level="7.2" data-path="footnotes-and-citations.html"><a href="footnotes-and-citations.html#citations"><i class="fa fa-check"></i><b>7.2</b> Citations</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="blocks.html"><a href="blocks.html"><i class="fa fa-check"></i><b>8</b> Blocks</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="blocks.html"><a href="blocks.html#equations"><i class="fa fa-check"></i><b>8.1</b> Equations</a></li>
+<li class="chapter" data-level="8.2" data-path="blocks.html"><a href="blocks.html#theorems-and-proofs"><i class="fa fa-check"></i><b>8.2</b> Theorems and proofs</a></li>
+<li class="chapter" data-level="8.3" data-path="blocks.html"><a href="blocks.html#callout-blocks"><i class="fa fa-check"></i><b>8.3</b> Callout blocks</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="sharing-your-book.html"><a href="sharing-your-book.html"><i class="fa fa-check"></i><b>9</b> Sharing your book</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="sharing-your-book.html"><a href="sharing-your-book.html#publishing"><i class="fa fa-check"></i><b>9.1</b> Publishing</a></li>
+<li class="chapter" data-level="9.2" data-path="sharing-your-book.html"><a href="sharing-your-book.html#pages"><i class="fa fa-check"></i><b>9.2</b> 404 pages</a></li>
+<li class="chapter" data-level="9.3" data-path="sharing-your-book.html"><a href="sharing-your-book.html#metadata-for-sharing"><i class="fa fa-check"></i><b>9.3</b> Metadata for sharing</a></li>
+</ul></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">IBRAHIM KASSOUM Habibou</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Introduction to R Programming</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="r-basics-and-basic-data-manipulations" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">Chapter 2</span> R Basics and basic data manipulations<a href="r-basics-and-basic-data-manipulations.html#r-basics-and-basic-data-manipulations" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="introduction-to-r-syntax" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Introduction to R Syntax<a href="r-basics-and-basic-data-manipulations.html#introduction-to-r-syntax" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>R is a powerful programming language designed specifically for statistical computing and data analysis. Let’s explore its fundamental concepts.</p>
+<div id="variables-and-data-types" class="section level3 hasAnchor" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Variables and Data Types<a href="r-basics-and-basic-data-manipulations.html#variables-and-data-types" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Before diving into coding, it’s essential to understand the basic data types in R. Think of variables as containers that store different types of information. R has three main types of data that you’ll use frequently:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="r-basics-and-basic-data-manipulations.html#cb1-1" tabindex="-1"></a><span class="co"># Numeric (integers and decimals)</span></span>
+<span id="cb1-2"><a href="r-basics-and-basic-data-manipulations.html#cb1-2" tabindex="-1"></a><span class="co"># Numbers can be whole (integers) or have decimal points</span></span>
+<span id="cb1-3"><a href="r-basics-and-basic-data-manipulations.html#cb1-3" tabindex="-1"></a>my_number <span class="ot">&lt;-</span> <span class="fl">42.5</span></span>
+<span id="cb1-4"><a href="r-basics-and-basic-data-manipulations.html#cb1-4" tabindex="-1"></a><span class="fu">print</span>(my_number)</span></code></pre></div>
+<pre><code>## [1] 42.5</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="r-basics-and-basic-data-manipulations.html#cb3-1" tabindex="-1"></a><span class="co"># Character (text strings)</span></span>
+<span id="cb3-2"><a href="r-basics-and-basic-data-manipulations.html#cb3-2" tabindex="-1"></a><span class="co"># Any text data must be enclosed in quotes</span></span>
+<span id="cb3-3"><a href="r-basics-and-basic-data-manipulations.html#cb3-3" tabindex="-1"></a>my_text <span class="ot">&lt;-</span> <span class="st">&quot;Hello R Markdown!&quot;</span></span>
+<span id="cb3-4"><a href="r-basics-and-basic-data-manipulations.html#cb3-4" tabindex="-1"></a><span class="fu">print</span>(my_text)</span></code></pre></div>
+<pre><code>## [1] &quot;Hello R Markdown!&quot;</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="r-basics-and-basic-data-manipulations.html#cb5-1" tabindex="-1"></a><span class="co"># Logical (boolean values)</span></span>
+<span id="cb5-2"><a href="r-basics-and-basic-data-manipulations.html#cb5-2" tabindex="-1"></a><span class="co"># TRUE/FALSE values are useful for conditional operations</span></span>
+<span id="cb5-3"><a href="r-basics-and-basic-data-manipulations.html#cb5-3" tabindex="-1"></a>my_logical <span class="ot">&lt;-</span> <span class="cn">TRUE</span></span>
+<span id="cb5-4"><a href="r-basics-and-basic-data-manipulations.html#cb5-4" tabindex="-1"></a><span class="fu">print</span>(my_logical)</span></code></pre></div>
+<pre><code>## [1] TRUE</code></pre>
+<p>The <em>&lt;-</em> symbol is the assignment operator in R. While you can use <em>=</em>, <em>&lt;-</em> is preferred in the R community. Let’s practice creating meaningful variables:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="r-basics-and-basic-data-manipulations.html#cb7-1" tabindex="-1"></a><span class="co"># Create and assign variables</span></span>
+<span id="cb7-2"><a href="r-basics-and-basic-data-manipulations.html#cb7-2" tabindex="-1"></a>age <span class="ot">&lt;-</span> <span class="dv">25</span>        <span class="co"># Numeric</span></span>
+<span id="cb7-3"><a href="r-basics-and-basic-data-manipulations.html#cb7-3" tabindex="-1"></a>name <span class="ot">&lt;-</span> <span class="st">&quot;Alice&quot;</span>  <span class="co"># Character</span></span>
+<span id="cb7-4"><a href="r-basics-and-basic-data-manipulations.html#cb7-4" tabindex="-1"></a>is_student <span class="ot">&lt;-</span> <span class="cn">TRUE</span>  <span class="co"># Logical</span></span>
+<span id="cb7-5"><a href="r-basics-and-basic-data-manipulations.html#cb7-5" tabindex="-1"></a></span>
+<span id="cb7-6"><a href="r-basics-and-basic-data-manipulations.html#cb7-6" tabindex="-1"></a><span class="co"># Display our variables</span></span>
+<span id="cb7-7"><a href="r-basics-and-basic-data-manipulations.html#cb7-7" tabindex="-1"></a><span class="fu">print</span>(age)</span></code></pre></div>
+<pre><code>## [1] 25</code></pre>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb9-1"><a href="r-basics-and-basic-data-manipulations.html#cb9-1" tabindex="-1"></a><span class="fu">print</span>(name)</span></code></pre></div>
+<pre><code>## [1] &quot;Alice&quot;</code></pre>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="r-basics-and-basic-data-manipulations.html#cb11-1" tabindex="-1"></a><span class="fu">print</span>(is_student)</span></code></pre></div>
+<pre><code>## [1] TRUE</code></pre>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="r-basics-and-basic-data-manipulations.html#cb13-1" tabindex="-1"></a><span class="co"># Check variable types using class()</span></span>
+<span id="cb13-2"><a href="r-basics-and-basic-data-manipulations.html#cb13-2" tabindex="-1"></a><span class="co"># This is useful to confirm what type of data you&#39;re working with</span></span>
+<span id="cb13-3"><a href="r-basics-and-basic-data-manipulations.html#cb13-3" tabindex="-1"></a><span class="fu">class</span>(age)</span></code></pre></div>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="r-basics-and-basic-data-manipulations.html#cb15-1" tabindex="-1"></a><span class="fu">class</span>(name)</span></code></pre></div>
+<pre><code>## [1] &quot;character&quot;</code></pre>
+<div class="sourceCode" id="cb17"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb17-1"><a href="r-basics-and-basic-data-manipulations.html#cb17-1" tabindex="-1"></a><span class="fu">class</span>(is_student)</span></code></pre></div>
+<pre><code>## [1] &quot;logical&quot;</code></pre>
+</div>
+<div id="basic-operations" class="section level3 hasAnchor" number="2.1.2">
+<h3><span class="header-section-number">2.1.2</span> Basic Operations<a href="r-basics-and-basic-data-manipulations.html#basic-operations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>R can perform various arithmetic operations just like a calculator. These operations are fundamental to data analysis: addition, subtraction, multiplication, division</p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb19-1"><a href="r-basics-and-basic-data-manipulations.html#cb19-1" tabindex="-1"></a><span class="co"># Basic arithmetic operations are straightforward</span></span>
+<span id="cb19-2"><a href="r-basics-and-basic-data-manipulations.html#cb19-2" tabindex="-1"></a>addition <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">+</span> <span class="dv">5</span>       <span class="co"># Adding numbers</span></span>
+<span id="cb19-3"><a href="r-basics-and-basic-data-manipulations.html#cb19-3" tabindex="-1"></a>subtraction <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">-</span> <span class="dv">5</span>    <span class="co"># Subtracting numbers</span></span>
+<span id="cb19-4"><a href="r-basics-and-basic-data-manipulations.html#cb19-4" tabindex="-1"></a>multiplication <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">*</span> <span class="dv">5</span> <span class="co"># Multiplying numbers</span></span>
+<span id="cb19-5"><a href="r-basics-and-basic-data-manipulations.html#cb19-5" tabindex="-1"></a>division <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">/</span> <span class="dv">5</span>       <span class="co"># Dividing numbers</span></span>
+<span id="cb19-6"><a href="r-basics-and-basic-data-manipulations.html#cb19-6" tabindex="-1"></a></span>
+<span id="cb19-7"><a href="r-basics-and-basic-data-manipulations.html#cb19-7" tabindex="-1"></a><span class="co"># Display results</span></span>
+<span id="cb19-8"><a href="r-basics-and-basic-data-manipulations.html#cb19-8" tabindex="-1"></a><span class="fu">print</span>(addition)</span></code></pre></div>
+<pre><code>## [1] 15</code></pre>
+<div class="sourceCode" id="cb21"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb21-1"><a href="r-basics-and-basic-data-manipulations.html#cb21-1" tabindex="-1"></a><span class="fu">print</span>(subtraction)</span></code></pre></div>
+<pre><code>## [1] 5</code></pre>
+<div class="sourceCode" id="cb23"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb23-1"><a href="r-basics-and-basic-data-manipulations.html#cb23-1" tabindex="-1"></a><span class="fu">print</span>(multiplication)</span></code></pre></div>
+<pre><code>## [1] 50</code></pre>
+<div class="sourceCode" id="cb25"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb25-1"><a href="r-basics-and-basic-data-manipulations.html#cb25-1" tabindex="-1"></a><span class="fu">print</span>(division)</span></code></pre></div>
+<pre><code>## [1] 2</code></pre>
+<div class="sourceCode" id="cb27"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb27-1"><a href="r-basics-and-basic-data-manipulations.html#cb27-1" tabindex="-1"></a><span class="co"># More complex mathematical operations</span></span>
+<span id="cb27-2"><a href="r-basics-and-basic-data-manipulations.html#cb27-2" tabindex="-1"></a>power <span class="ot">&lt;-</span> <span class="dv">2</span><span class="sc">^</span><span class="dv">3</span>            <span class="co"># Exponentiation (2 to the power of 3)</span></span>
+<span id="cb27-3"><a href="r-basics-and-basic-data-manipulations.html#cb27-3" tabindex="-1"></a>square_root <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="dv">16</span>) <span class="co"># Square root function</span></span>
+<span id="cb27-4"><a href="r-basics-and-basic-data-manipulations.html#cb27-4" tabindex="-1"></a><span class="fu">print</span>(power)</span></code></pre></div>
+<pre><code>## [1] 8</code></pre>
+<div class="sourceCode" id="cb29"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb29-1"><a href="r-basics-and-basic-data-manipulations.html#cb29-1" tabindex="-1"></a><span class="fu">print</span>(square_root)</span></code></pre></div>
+<pre><code>## [1] 4</code></pre>
+<p>Logical operations are crucial for data filtering and conditional statements:</p>
+<div class="sourceCode" id="cb31"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb31-1"><a href="r-basics-and-basic-data-manipulations.html#cb31-1" tabindex="-1"></a><span class="co"># Comparison operators return TRUE or FALSE</span></span>
+<span id="cb31-2"><a href="r-basics-and-basic-data-manipulations.html#cb31-2" tabindex="-1"></a>equals <span class="ot">&lt;-</span> <span class="dv">5</span> <span class="sc">==</span> <span class="dv">5</span>        <span class="co"># Equality comparison</span></span>
+<span id="cb31-3"><a href="r-basics-and-basic-data-manipulations.html#cb31-3" tabindex="-1"></a>greater_than <span class="ot">&lt;-</span> <span class="dv">10</span> <span class="sc">&gt;</span> <span class="dv">5</span>  <span class="co"># Greater than comparison</span></span>
+<span id="cb31-4"><a href="r-basics-and-basic-data-manipulations.html#cb31-4" tabindex="-1"></a>less_than <span class="ot">&lt;-</span> <span class="dv">3</span> <span class="sc">&lt;</span> <span class="dv">7</span>     <span class="co"># Less than comparison</span></span>
+<span id="cb31-5"><a href="r-basics-and-basic-data-manipulations.html#cb31-5" tabindex="-1"></a></span>
+<span id="cb31-6"><a href="r-basics-and-basic-data-manipulations.html#cb31-6" tabindex="-1"></a><span class="co"># Logical operators combine TRUE/FALSE values</span></span>
+<span id="cb31-7"><a href="r-basics-and-basic-data-manipulations.html#cb31-7" tabindex="-1"></a>and_operator <span class="ot">&lt;-</span> <span class="cn">TRUE</span> <span class="sc">&amp;</span> <span class="cn">TRUE</span>    <span class="co"># Both conditions must be TRUE</span></span>
+<span id="cb31-8"><a href="r-basics-and-basic-data-manipulations.html#cb31-8" tabindex="-1"></a>or_operator <span class="ot">&lt;-</span> <span class="cn">TRUE</span> <span class="sc">|</span> <span class="cn">FALSE</span>    <span class="co"># At least one condition must be TRUE</span></span>
+<span id="cb31-9"><a href="r-basics-and-basic-data-manipulations.html#cb31-9" tabindex="-1"></a></span>
+<span id="cb31-10"><a href="r-basics-and-basic-data-manipulations.html#cb31-10" tabindex="-1"></a><span class="co"># Print results</span></span>
+<span id="cb31-11"><a href="r-basics-and-basic-data-manipulations.html#cb31-11" tabindex="-1"></a><span class="fu">print</span>(equals)</span></code></pre></div>
+<pre><code>## [1] TRUE</code></pre>
+<div class="sourceCode" id="cb33"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb33-1"><a href="r-basics-and-basic-data-manipulations.html#cb33-1" tabindex="-1"></a><span class="fu">print</span>(greater_than)</span></code></pre></div>
+<pre><code>## [1] TRUE</code></pre>
+<div class="sourceCode" id="cb35"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb35-1"><a href="r-basics-and-basic-data-manipulations.html#cb35-1" tabindex="-1"></a><span class="fu">print</span>(less_than)</span></code></pre></div>
+<pre><code>## [1] TRUE</code></pre>
+<div class="sourceCode" id="cb37"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb37-1"><a href="r-basics-and-basic-data-manipulations.html#cb37-1" tabindex="-1"></a><span class="fu">print</span>(and_operator)</span></code></pre></div>
+<pre><code>## [1] TRUE</code></pre>
+<div class="sourceCode" id="cb39"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb39-1"><a href="r-basics-and-basic-data-manipulations.html#cb39-1" tabindex="-1"></a><span class="fu">print</span>(or_operator)</span></code></pre></div>
+<pre><code>## [1] TRUE</code></pre>
+</div>
+<div id="working-with-vectors" class="section level3 hasAnchor" number="2.1.3">
+<h3><span class="header-section-number">2.1.3</span> Working with Vectors<a href="r-basics-and-basic-data-manipulations.html#working-with-vectors" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Vectors are one of the most basic data structures in R. Think of them as a collection of elements of the same type, like a list of numbers or strings:</p>
+<div class="sourceCode" id="cb41"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb41-1"><a href="r-basics-and-basic-data-manipulations.html#cb41-1" tabindex="-1"></a><span class="co"># Creating vectors using the combine function c()</span></span>
+<span id="cb41-2"><a href="r-basics-and-basic-data-manipulations.html#cb41-2" tabindex="-1"></a>numeric_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>)           <span class="co"># Vector of numbers</span></span>
+<span id="cb41-3"><a href="r-basics-and-basic-data-manipulations.html#cb41-3" tabindex="-1"></a>character_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">&quot;apple&quot;</span>, <span class="st">&quot;banana&quot;</span>, <span class="st">&quot;cherry&quot;</span>)  <span class="co"># Vector of strings</span></span>
+<span id="cb41-4"><a href="r-basics-and-basic-data-manipulations.html#cb41-4" tabindex="-1"></a>logical_vector <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="cn">TRUE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>)       <span class="co"># Vector of logical values</span></span>
+<span id="cb41-5"><a href="r-basics-and-basic-data-manipulations.html#cb41-5" tabindex="-1"></a></span>
+<span id="cb41-6"><a href="r-basics-and-basic-data-manipulations.html#cb41-6" tabindex="-1"></a><span class="co"># Display vectors</span></span>
+<span id="cb41-7"><a href="r-basics-and-basic-data-manipulations.html#cb41-7" tabindex="-1"></a><span class="fu">print</span>(numeric_vector)</span></code></pre></div>
+<pre><code>## [1] 1 2 3 4 5</code></pre>
+<div class="sourceCode" id="cb43"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb43-1"><a href="r-basics-and-basic-data-manipulations.html#cb43-1" tabindex="-1"></a><span class="fu">print</span>(character_vector)</span></code></pre></div>
+<pre><code>## [1] &quot;apple&quot;  &quot;banana&quot; &quot;cherry&quot;</code></pre>
+<div class="sourceCode" id="cb45"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb45-1"><a href="r-basics-and-basic-data-manipulations.html#cb45-1" tabindex="-1"></a><span class="fu">print</span>(logical_vector)</span></code></pre></div>
+<pre><code>## [1]  TRUE FALSE  TRUE</code></pre>
+<div class="sourceCode" id="cb47"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb47-1"><a href="r-basics-and-basic-data-manipulations.html#cb47-1" tabindex="-1"></a><span class="co"># Vector operations - R can perform operations on entire vectors at once</span></span>
+<span id="cb47-2"><a href="r-basics-and-basic-data-manipulations.html#cb47-2" tabindex="-1"></a><span class="co"># This is called vectorization and is very efficient</span></span>
+<span id="cb47-3"><a href="r-basics-and-basic-data-manipulations.html#cb47-3" tabindex="-1"></a>doubled <span class="ot">&lt;-</span> numeric_vector <span class="sc">*</span> <span class="dv">2</span>  <span class="co"># Multiply each element by 2</span></span>
+<span id="cb47-4"><a href="r-basics-and-basic-data-manipulations.html#cb47-4" tabindex="-1"></a><span class="fu">print</span>(doubled)</span></code></pre></div>
+<pre><code>## [1]  2  4  6  8 10</code></pre>
+<div class="sourceCode" id="cb49"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb49-1"><a href="r-basics-and-basic-data-manipulations.html#cb49-1" tabindex="-1"></a><span class="co"># Accessing elements using indexing</span></span>
+<span id="cb49-2"><a href="r-basics-and-basic-data-manipulations.html#cb49-2" tabindex="-1"></a><span class="co"># R uses 1-based indexing (first element is at position 1, not 0)</span></span>
+<span id="cb49-3"><a href="r-basics-and-basic-data-manipulations.html#cb49-3" tabindex="-1"></a>first_element <span class="ot">&lt;-</span> numeric_vector[<span class="dv">1</span>]  <span class="co"># Get first element</span></span>
+<span id="cb49-4"><a href="r-basics-and-basic-data-manipulations.html#cb49-4" tabindex="-1"></a>selected_elements <span class="ot">&lt;-</span> numeric_vector[<span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">3</span>, <span class="dv">5</span>)]  <span class="co"># Get specific elements</span></span>
+<span id="cb49-5"><a href="r-basics-and-basic-data-manipulations.html#cb49-5" tabindex="-1"></a><span class="fu">print</span>(first_element)</span></code></pre></div>
+<pre><code>## [1] 1</code></pre>
+<div class="sourceCode" id="cb51"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb51-1"><a href="r-basics-and-basic-data-manipulations.html#cb51-1" tabindex="-1"></a><span class="fu">print</span>(selected_elements)</span></code></pre></div>
+<pre><code>## [1] 1 3 5</code></pre>
+</div>
+<div id="creating-sequences" class="section level3 hasAnchor" number="2.1.4">
+<h3><span class="header-section-number">2.1.4</span> Creating Sequences<a href="r-basics-and-basic-data-manipulations.html#creating-sequences" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>R provides several convenient ways to create sequences of numbers, which is particularly useful for data analysis and plotting:</p>
+<div class="sourceCode" id="cb53"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb53-1"><a href="r-basics-and-basic-data-manipulations.html#cb53-1" tabindex="-1"></a><span class="co"># Using seq() for more control over sequence generation</span></span>
+<span id="cb53-2"><a href="r-basics-and-basic-data-manipulations.html#cb53-2" tabindex="-1"></a>sequence1 <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">1</span>, <span class="dv">10</span>)          <span class="co"># Basic sequence from 1 to 10</span></span>
+<span id="cb53-3"><a href="r-basics-and-basic-data-manipulations.html#cb53-3" tabindex="-1"></a>sequence2 <span class="ot">&lt;-</span> <span class="fu">seq</span>(<span class="dv">0</span>, <span class="dv">20</span>, <span class="at">by =</span> <span class="dv">2</span>)  <span class="co"># Even numbers from 0 to 20</span></span>
+<span id="cb53-4"><a href="r-basics-and-basic-data-manipulations.html#cb53-4" tabindex="-1"></a></span>
+<span id="cb53-5"><a href="r-basics-and-basic-data-manipulations.html#cb53-5" tabindex="-1"></a><span class="co"># Using : operator for simple sequences</span></span>
+<span id="cb53-6"><a href="r-basics-and-basic-data-manipulations.html#cb53-6" tabindex="-1"></a>sequence3 <span class="ot">&lt;-</span> <span class="dv">1</span><span class="sc">:</span><span class="dv">10</span>                <span class="co"># Another way to create sequence from 1 to 10</span></span>
+<span id="cb53-7"><a href="r-basics-and-basic-data-manipulations.html#cb53-7" tabindex="-1"></a></span>
+<span id="cb53-8"><a href="r-basics-and-basic-data-manipulations.html#cb53-8" tabindex="-1"></a><span class="co"># Using rep() to repeat values</span></span>
+<span id="cb53-9"><a href="r-basics-and-basic-data-manipulations.html#cb53-9" tabindex="-1"></a>repeated <span class="ot">&lt;-</span> <span class="fu">rep</span>(<span class="dv">5</span>, <span class="at">times =</span> <span class="dv">3</span>)    <span class="co"># Repeat the number 5 three times</span></span>
+<span id="cb53-10"><a href="r-basics-and-basic-data-manipulations.html#cb53-10" tabindex="-1"></a></span>
+<span id="cb53-11"><a href="r-basics-and-basic-data-manipulations.html#cb53-11" tabindex="-1"></a><span class="fu">print</span>(sequence1)</span></code></pre></div>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<div class="sourceCode" id="cb55"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb55-1"><a href="r-basics-and-basic-data-manipulations.html#cb55-1" tabindex="-1"></a><span class="fu">print</span>(sequence2)</span></code></pre></div>
+<pre><code>##  [1]  0  2  4  6  8 10 12 14 16 18 20</code></pre>
+<div class="sourceCode" id="cb57"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb57-1"><a href="r-basics-and-basic-data-manipulations.html#cb57-1" tabindex="-1"></a><span class="fu">print</span>(sequence3)</span></code></pre></div>
+<pre><code>##  [1]  1  2  3  4  5  6  7  8  9 10</code></pre>
+<div class="sourceCode" id="cb59"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb59-1"><a href="r-basics-and-basic-data-manipulations.html#cb59-1" tabindex="-1"></a><span class="fu">print</span>(repeated)</span></code></pre></div>
+<pre><code>## [1] 5 5 5</code></pre>
+<p>##Exercise 1</p>
+<p><strong>Understanding Data Types</strong></p>
+<p>Create three variables and assign them values of different data types:</p>
+<ul>
+<li>A numeric variable representing your height in centimeters.</li>
+<li>A character variable storing your favorite fruit.</li>
+<li>A logical variable indicating whether you like R programming.</li>
+</ul>
+<p>Then, print each variable and use class() to check its data type.</p>
+<p><strong>Basic Arithmetic Operations</strong></p>
+<p>Perform the following calculations and store the results in variables:</p>
+<ul>
+<li>Multiply 15 by 3.</li>
+<li>Subtract 7 from 100.</li>
+<li>Compute the square root of 64.</li>
+<li>Raise 3 to the power of 4.</li>
+</ul>
+<p>Print all results.</p>
+<p><strong>Vector Manipulation</strong></p>
+<ul>
+<li><p>Create a numeric vector containing the numbers 2, 4, 6, 8, 10. Multiply all elements of the vector by 3. Extract the second and fourth elements of the vector.</p></li>
+<li><p>Create a character vector with three country names of your choice. Multiply it by 3.</p></li>
+</ul>
+<p><strong>Creating Sequences</strong></p>
+<ul>
+<li>Create a sequence of numbers from 5 to 50 with a step size of 5.</li>
+<li>Generate a sequence of odd numbers from 1 to 15 using seq().</li>
+<li>Use rep() to create a vector that repeats the number 7 five times.</li>
+</ul>
+</div>
+<div id="working-with-data-frames" class="section level3 hasAnchor" number="2.1.5">
+<h3><span class="header-section-number">2.1.5</span> Working with Data Frames<a href="r-basics-and-basic-data-manipulations.html#working-with-data-frames" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Data frames are the most common way to work with structured data in R. They’re similar to Excel spreadsheets or database tables:</p>
+<div class="sourceCode" id="cb61"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb61-1"><a href="r-basics-and-basic-data-manipulations.html#cb61-1" tabindex="-1"></a><span class="co"># Create a simple data frame</span></span>
+<span id="cb61-2"><a href="r-basics-and-basic-data-manipulations.html#cb61-2" tabindex="-1"></a><span class="co"># Each column can have a different data type</span></span>
+<span id="cb61-3"><a href="r-basics-and-basic-data-manipulations.html#cb61-3" tabindex="-1"></a>students_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
+<span id="cb61-4"><a href="r-basics-and-basic-data-manipulations.html#cb61-4" tabindex="-1"></a>  <span class="at">name =</span> <span class="fu">c</span>(<span class="st">&quot;John&quot;</span>, <span class="st">&quot;Emma&quot;</span>, <span class="st">&quot;Michael&quot;</span>),    <span class="co"># Character column</span></span>
+<span id="cb61-5"><a href="r-basics-and-basic-data-manipulations.html#cb61-5" tabindex="-1"></a>  <span class="at">age =</span> <span class="fu">c</span>(<span class="dv">20</span>, <span class="dv">22</span>, <span class="dv">21</span>),                    <span class="co"># Numeric column</span></span>
+<span id="cb61-6"><a href="r-basics-and-basic-data-manipulations.html#cb61-6" tabindex="-1"></a>  <span class="at">gpa =</span> <span class="fu">c</span>(<span class="fl">3.5</span>, <span class="fl">3.8</span>, <span class="fl">3.2</span>),                 <span class="co"># Numeric column</span></span>
+<span id="cb61-7"><a href="r-basics-and-basic-data-manipulations.html#cb61-7" tabindex="-1"></a>  <span class="at">is_graduate =</span> <span class="fu">c</span>(<span class="cn">FALSE</span>, <span class="cn">FALSE</span>, <span class="cn">TRUE</span>)      <span class="co"># Logical column</span></span>
+<span id="cb61-8"><a href="r-basics-and-basic-data-manipulations.html#cb61-8" tabindex="-1"></a>)</span>
+<span id="cb61-9"><a href="r-basics-and-basic-data-manipulations.html#cb61-9" tabindex="-1"></a></span>
+<span id="cb61-10"><a href="r-basics-and-basic-data-manipulations.html#cb61-10" tabindex="-1"></a><span class="co"># Display the data frame</span></span>
+<span id="cb61-11"><a href="r-basics-and-basic-data-manipulations.html#cb61-11" tabindex="-1"></a><span class="fu">print</span>(students_df)</span></code></pre></div>
+<pre><code>##      name age gpa is_graduate
+## 1    John  20 3.5       FALSE
+## 2    Emma  22 3.8       FALSE
+## 3 Michael  21 3.2        TRUE</code></pre>
+<div class="sourceCode" id="cb63"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb63-1"><a href="r-basics-and-basic-data-manipulations.html#cb63-1" tabindex="-1"></a><span class="co"># Basic data frame operations</span></span>
+<span id="cb63-2"><a href="r-basics-and-basic-data-manipulations.html#cb63-2" tabindex="-1"></a><span class="co"># Access a column using $ notation</span></span>
+<span id="cb63-3"><a href="r-basics-and-basic-data-manipulations.html#cb63-3" tabindex="-1"></a><span class="fu">print</span>(students_df<span class="sc">$</span>age)</span></code></pre></div>
+<pre><code>## [1] 20 22 21</code></pre>
+<div class="sourceCode" id="cb65"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb65-1"><a href="r-basics-and-basic-data-manipulations.html#cb65-1" tabindex="-1"></a><span class="co"># Access a row using index</span></span>
+<span id="cb65-2"><a href="r-basics-and-basic-data-manipulations.html#cb65-2" tabindex="-1"></a><span class="fu">print</span>(students_df[<span class="dv">1</span>, ])</span></code></pre></div>
+<pre><code>##   name age gpa is_graduate
+## 1 John  20 3.5       FALSE</code></pre>
+<div class="sourceCode" id="cb67"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb67-1"><a href="r-basics-and-basic-data-manipulations.html#cb67-1" tabindex="-1"></a><span class="co"># Add a new column - must match the number of rows</span></span>
+<span id="cb67-2"><a href="r-basics-and-basic-data-manipulations.html#cb67-2" tabindex="-1"></a>students_df<span class="sc">$</span>height <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="dv">175</span>, <span class="dv">168</span>, <span class="dv">182</span>)</span>
+<span id="cb67-3"><a href="r-basics-and-basic-data-manipulations.html#cb67-3" tabindex="-1"></a><span class="fu">print</span>(students_df)</span></code></pre></div>
+<pre><code>##      name age gpa is_graduate height
+## 1    John  20 3.5       FALSE    175
+## 2    Emma  22 3.8       FALSE    168
+## 3 Michael  21 3.2        TRUE    182</code></pre>
+</div>
+<div id="data-frame-manipulation" class="section level3 hasAnchor" number="2.1.6">
+<h3><span class="header-section-number">2.1.6</span> Data Frame Manipulation<a href="r-basics-and-basic-data-manipulations.html#data-frame-manipulation" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Data frames support powerful operations for data analysis:</p>
+<div class="sourceCode" id="cb69"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb69-1"><a href="r-basics-and-basic-data-manipulations.html#cb69-1" tabindex="-1"></a><span class="co"># Filter data based on conditions</span></span>
+<span id="cb69-2"><a href="r-basics-and-basic-data-manipulations.html#cb69-2" tabindex="-1"></a>high_gpa <span class="ot">&lt;-</span> students_df[students_df<span class="sc">$</span>gpa <span class="sc">&gt;</span> <span class="fl">3.5</span>, ]  <span class="co"># Select rows where GPA &gt; 3.5</span></span>
+<span id="cb69-3"><a href="r-basics-and-basic-data-manipulations.html#cb69-3" tabindex="-1"></a><span class="fu">print</span>(high_gpa)</span></code></pre></div>
+<pre><code>##   name age gpa is_graduate height
+## 2 Emma  22 3.8       FALSE    168</code></pre>
+<div class="sourceCode" id="cb71"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb71-1"><a href="r-basics-and-basic-data-manipulations.html#cb71-1" tabindex="-1"></a><span class="co"># Sort data using order()</span></span>
+<span id="cb71-2"><a href="r-basics-and-basic-data-manipulations.html#cb71-2" tabindex="-1"></a>sorted_by_age <span class="ot">&lt;-</span> students_df[<span class="fu">order</span>(students_df<span class="sc">$</span>age), ]  <span class="co"># Sort by age</span></span>
+<span id="cb71-3"><a href="r-basics-and-basic-data-manipulations.html#cb71-3" tabindex="-1"></a><span class="fu">print</span>(sorted_by_age)</span></code></pre></div>
+<pre><code>##      name age gpa is_graduate height
+## 1    John  20 3.5       FALSE    175
+## 3 Michael  21 3.2        TRUE    182
+## 2    Emma  22 3.8       FALSE    168</code></pre>
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="exercise-1-vector-manipulation.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/01-R-Basics-and-basic-data-manipulations.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>

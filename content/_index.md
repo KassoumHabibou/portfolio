@@ -133,12 +133,17 @@ sections:
           date_end: ''
           description: |2-
               During my current PhD position, I have had the privilege of serving as a teacher assistant where I have been actively engaged in facilitating tutorial sessions for students in the fields of **statistics** and **probabilities**. My course load includes: 
-
-              - **Inferential statistics** with Pr [Anne Viallefont](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/anne-viallefont#/) for third-year management students. We covered topics such as:
+              -**Introduction to R Programming**: this 8-hour course is designed for Health Economics students to develop essential data analysis and visualization skills using R and RStudio. We covered topics such as:
+                * Fundamentals of R and RStudio (data types, importing data, basic manipulations);
+                * Data wrangling with tidyverse (filtering, transforming, and combining datasets);
+                * Data visualization with ggplot2 (creating and customizing professional graphics);
+                * Real-world applications in Health Economics (COVID-19, blood storage, medical data analysis).
+              📚 Course materials are provided in an R Markdown book format {{< staticref "_book/index.html" "newtab" >}}here{{< /staticref >}} for interactive learning.
+              - **Inferential statistics** with Pr [Anne Viallefont](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/anne-viallefont#/). We covered topics such as:
                 * estimation (definition of an estimator, bias, variance, convergence, etc.);
                 * confidence intervals and significance levels (for mean, variance, bias correction, etc.);
                 * hypothesis testing (comparing two means, variances, or distributions, etc.).
-              - **Probabilities and mathematics** with Pr [Marie Eliette Dury](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/marie-eliette-dury#/) for second-year gestion students. We covered topics such as:
+              - **Probabilities and mathematics** with Pr [Marie Eliette Dury](https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/marie-eliette-dury#/). We covered topics such as:
                 * probability distributions and approximations (normal, Poisson, binomial, etc.);
                 * matrix calculation (calculation of the determinant, eigenvalue, inverse, diagonalization, etc.);
                 * numeric sequence (arithmetic and geometric sequence, recurrence equation, etc.).
