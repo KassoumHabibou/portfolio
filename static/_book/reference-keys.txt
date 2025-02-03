@@ -43,7 +43,6 @@ grouping-and-summarizing
 joining-data-frames
 exercises-3
 data-visualization-with-ggplot
-introduction-to-ggplot2
 overview
 basic-concepts
 scatter-plot

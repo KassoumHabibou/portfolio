@@ -323,8 +323,13 @@ When you first open RStudio, you'll encounter three main sections:
 
 Some online resources and reading materials:
 - \href{https://bookdown.org/}{Bookdown}
-- \href{https://rct-tutorial.mharrer.dev/preparation}{Evaluation of Randomized Controlled Trials With R}
-- \href{https://pierrebeaucoral.github.io/course/r-for-beginners/CoursR.html\#course-outline}{Pierre Beaucoral's classes}
+
+\begin{itemize}
+\item
+  \href{https://rct-tutorial.mharrer.dev/preparation}{Evaluation of Randomized Controlled Trials With R}
+\item
+  \href{https://pierrebeaucoral.github.io/course/r-for-beginners/CoursR.html\#course-outline}{Pierre Beaucoral's classes}
+\end{itemize}
 
 Remember, learning to program is like learning a new language - it takes practice and patience. Don't hesitate to ask questions and collaborate with your peers throughout this journey.
 
@@ -1574,13 +1579,11 @@ This lesson introduces essential dplyr functions for data manipulation in R. Try
 
 \chapter{Data Visualization with ggplot}\label{data-visualization-with-ggplot}
 
-\section{Introduction to ggplot2}\label{introduction-to-ggplot2}
-
-\subsection{Overview}\label{overview}
+\section{Overview}\label{overview}
 
 The \texttt{ggplot2} package is one of the most powerful and flexible tools for creating complex, multi-layered graphics in \textbf{R}. It implements the Grammar of Graphics, a framework that breaks down plots into semantic components such as layers, scales, and themes.
 
-\subsection{Basic Concepts}\label{basic-concepts}
+\section{Basic Concepts}\label{basic-concepts}
 
 \begin{itemize}
 \tightlist
@@ -1596,9 +1599,9 @@ The \texttt{ggplot2} package is one of the most powerful and flexible tools for 
   \textbf{Themes}: Adjust non-data elements like background and grid lines.
 \end{itemize}
 
-\subsection{Scatter Plot}\label{scatter-plot}
+\section{Scatter Plot}\label{scatter-plot}
 
-\subsubsection{Basic Scatter Plot}\label{basic-scatter-plot}
+\subsection{Basic Scatter Plot}\label{basic-scatter-plot}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1641,7 +1644,7 @@ The \texttt{ggplot2} package is one of the most powerful and flexible tools for 
 
 \includegraphics{_main_files/figure-latex/unnamed-chunk-22-1.pdf}
 
-\subsubsection{Scatter Plots and Line Plots}\label{scatter-plots-and-line-plots}
+\subsection{Scatter Plots and Line Plots}\label{scatter-plots-and-line-plots}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1666,7 +1669,7 @@ The \texttt{ggplot2} package is one of the most powerful and flexible tools for 
 
 \includegraphics{_main_files/figure-latex/unnamed-chunk-23-1.pdf}
 
-\subsection{Exercise 1: Customizing Your First Plot}\label{exercise-1-customizing-your-first-plot}
+\section{Exercise 1: Customizing Your First Plot}\label{exercise-1-customizing-your-first-plot}
 
 \textbf{Objective}: Create a scatter plot showing the relationship between \texttt{proportion\_of\_active} and \texttt{proportion\_of\_recovery}. Customize the plot:
 - Create a new variable (using the function \texttt{mutate}of the package \texttt{dplyr}) named \texttt{proportion\_of\_active} = \texttt{Active}/\texttt{Confirmed}.
@@ -1676,9 +1679,9 @@ The \texttt{ggplot2} package is one of the most powerful and flexible tools for 
 - Use triangles for the point shapes.
 - Add the regression line with the confidence interval estimate.
 
-\subsection{Bar Plots and Histograms}\label{bar-plots-and-histograms}
+\section{Bar Plots and Histograms}\label{bar-plots-and-histograms}
 
-\subsubsection{Histogram:}\label{histogram}
+\subsection{Histogram:}\label{histogram}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1700,7 +1703,7 @@ The \texttt{ggplot2} package is one of the most powerful and flexible tools for 
 
 \includegraphics{_main_files/figure-latex/unnamed-chunk-24-1.pdf}
 
-\subsubsection{Bar Plot}\label{bar-plot}
+\subsection{Bar Plot}\label{bar-plot}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -1757,7 +1760,7 @@ The \texttt{ggplot2} package is one of the most powerful and flexible tools for 
 
 \includegraphics{_main_files/figure-latex/unnamed-chunk-26-1.pdf}
 
-\subsection{Exercise 3: Creating Histograms and Bar Plots}\label{exercise-3-creating-histograms-and-bar-plots}
+\section{Exercise 3: Creating Histograms and Bar Plots}\label{exercise-3-creating-histograms-and-bar-plots}
 
 \begin{itemize}
 \tightlist
