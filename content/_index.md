@@ -71,7 +71,7 @@ sections:
           date_start: '2025-02-01'
           date_end: ''
           description: |2-
-              I work as an **Economist, Statistician and Data Scientist** in the Eastern & Southern Africa Poverty unit, under the supervision of my TTLs [Lina Marcela Cardona Sosa](https://www.linkedin.com/in/lina-cardona-sosa-7a66346/) (Senior Economist), Kristina, and [Mohamed Boly](https://www.linkedin.com/in/mohamed-boly-85573277/) (Economist). My main contributions:
+              I work as an **Economist, Statistician and Data Scientist** in the Eastern & Southern Africa Poverty unit, under the supervision of my TTLs [Lina Marcela Cardona Sosa](https://www.linkedin.com/in/lina-cardona-sosa-7a66346/) (Senior Economist), [Kristina Vaughan](https://www.linkedin.com/in/kristina-vaughan-ba676261/), and [Mohamed Boly](https://www.linkedin.com/in/mohamed-boly-85573277/) (Economist). My main contributions:
 
               * Contributing to the **$15 million** Malawi Statistical Capacity Building Project (STATCAP): conducted a **fiscal incidence analysis** and designed a client-oriented **microsimulation web application** to assess the distributional impacts of fiscal policy reforms;
               * **Capacity building in Malawi** 🇲🇼: trained 35 government officials across 3 ministries in microsimulation modeling and data analysis techniques during a month-long, in-country mission, strengthening institutional capacity for evidence-based policymaking;
@@ -84,7 +84,7 @@ sections:
           date_start: '2025-03-01'
           date_end: ''
           description: |2-
-              Within the Africa **Gender Innovation Lab (GIL)**, I work on the **Sahel Adaptive Social Protection Program (SASPP)** together with [Julia Vaillant](https://www.linkedin.com/in/julia-vaillant-48621120/) (Senior Economist — [jvaillant@worldbank.org](mailto:jvaillant@worldbank.org)) and [Kelsey A. Wright](https://www.linkedin.com/in/kelsey-a-wright-5b2372a/) (Economist — [personal website](https://sites.google.com/view/kelseyawright)):
+              Within the Africa **Gender Innovation Lab (GIL)**, I work on the **Sahel Adaptive Social Protection Program (SASPP)** together with [Julia Vaillant](https://www.linkedin.com/in/julia-vaillant-48621120/) (Senior Economist — [jvaillant@worldbank.org](mailto:jvaillant@worldbank.org)) and [Kelsey A. Wright](https://www.linkedin.com/in/kelsey-a-wright-5b2372a/) (Economist — [personal website](https://sites.google.com/view/kelseyawright/home)):
 
               * Evaluating the impact of **economic inclusion programs on intimate partner violence (IPV)** among vulnerable women in rural Mauritania (Tekavoul social safety net program), comparing cash grants, psychosocial support, and their combination;
               * Key insight: psychosocial components appear to **mitigate potential adverse effects** of women's economic empowerment initiatives in fragile and conflict-affected settings;

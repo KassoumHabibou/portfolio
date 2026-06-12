@@ -17,7 +17,7 @@ abstract: "Internal seminar presented to the World Bank's Office of the Chief Ec
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2026-05-20T00:00:00Z'
+date: '2026-06-11T00:00:00Z'
 all_day: true
 
 # Schedule page publish date (NOT talk date).
