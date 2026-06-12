@@ -60,50 +60,59 @@ interests:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 
 skills:
-  - name: Programming
-    color: '#4682B4'
-    color_border: '#4682B4'
+  - name: 💻 Programming
+    color: '#13315c'
+    color_border: '#f4a300'
     items:
+      - name: R
+        description: ''
+        percent: 98
+        icon: r-project
+        icon_pack: fab
       - name: Python
         description: ''
         percent: 98
         icon: python
         icon_pack: fab
-      - name: R
-        description: ''
-        percent: 98
-        icon: r-project
-        icon_pack: fab  
       - name: SQL
         description: ''
         percent: 90
         icon: database
-        #icon_pack: fas <font-awesome-icon :icon="['fas', 'chart-simple']" />
+        icon_pack: fas
       - name: Stata
         description: ''
-        percent: 60
+        percent: 75
         icon: chart-simple
         icon_pack: fas
-      - name: C
-        description: ''
-        percent: 50
-        icon: c
-        #icon_pack: fas 
-      #- name: Java
-      #  description: ''
-      #  percent: 50
-      #  icon: fa-java
-      #  icon_pack: fa-brands
-  - name: Professional 
-    color: '#088F8F'
-    color_border: '#088F8F'
+  - name: 📊 Data Science & Economics
+    color: '#0e9594'
+    color_border: '#13315c'
     items:
-      - name: Data science
+      - name: Machine Learning
         description: ''
-        percent: 100
+        percent: 95
         icon: magnifying-glass-chart
         icon_pack: fas
-      - name: Teamwork 
+      - name: Econometrics & Causal Inference
+        description: ''
+        percent: 96
+        icon: chart-line
+        icon_pack: fas
+      - name: Geospatial Analysis (GIS)
+        description: ''
+        percent: 85
+        icon: map-location-dot
+        icon_pack: fas
+      - name: Survey Design & Sampling
+        description: ''
+        percent: 90
+        icon: clipboard-list
+        icon_pack: fas
+  - name: 🤝 Professional
+    color: '#f4a300'
+    color_border: '#0e9594'
+    items:
+      - name: Teamwork
         description: ''
         percent: 99
         icon: people-group
@@ -118,7 +127,7 @@ skills:
         percent: 98
         icon: business-time
         icon_pack: fas
-      - name: Adaptability 
+      - name: Adaptability
         description: ''
         percent: 98
         icon: clipboard-check

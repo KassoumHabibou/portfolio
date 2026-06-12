@@ -44,7 +44,7 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
+url_pdf: 'preprint.pdf'
 url_code: 'https://github.com/KassoumHabibou?tab=repositories'
 url_dataset: 'https://www.idhsdata.org/idhs/'
 #url_poster: ''
