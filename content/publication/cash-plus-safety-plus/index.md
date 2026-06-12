@@ -1,5 +1,5 @@
 ---
-title: 'Cash Plus, Safety Plus? Intimate Partner Violence and Economic Inclusion in Mauritania'
+title: 'Economic Inclusion and IPV in Mauritania'
 
 # Authors
 authors:
@@ -42,7 +42,7 @@ url_code: 'https://github.com/KassoumHabibou/Cash-Plus-Safety-Plus'
 url_dataset: ''
 
 image:
-  caption: 'Cash Plus, Safety Plus? — working paper with the World Bank Africa Gender Innovation Lab'
+  caption: 'Economic Inclusion and IPV in Mauritania — working paper with the World Bank Africa Gender Innovation Lab'
   focal_point: 'Center'
   preview_only: false
 

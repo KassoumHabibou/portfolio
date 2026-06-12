@@ -4,9 +4,11 @@ title: 'Estimating the Impact of Flood Exposure on Child Stunting in Nigeria: Sm
 # Authors
 authors:
   - admin
+  - Adrien Gosselin-Pali
 
 # Author notes (optional)
 author_notes:
+  - 'University Clermont Auvergne, CNRS, IRD, CERDI'
   - 'University Clermont Auvergne, CNRS, IRD, CERDI'
 
 date: '2026-05-25T00:00:00Z'
