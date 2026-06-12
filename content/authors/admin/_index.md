@@ -17,15 +17,17 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. candidate in Development Economics & Data Scientist
+role: Economist – Statistician @ The World Bank · Ph.D. Research Fellow in Development Economics · Data Scientist
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: The World Bank — Poverty & Equity Global Practice
+    url: https://www.worldbank.org/en/topic/poverty
   - name: University Clermont Auvergne - CERDI - CNRS - IRD - France
     url: https://cerdi.uca.fr/english-version#/admin
 
 # Short bio (displayed in user profile at end of posts)
-bio:  My research interests include development economics, data science and programmable matter.
+bio:  My research interests include development economics, poverty and social protection, nutrition and health, and data science applied to policy questions in Sub-Saharan Africa.
 
 # Education to show in About widget
 education:
@@ -33,6 +35,9 @@ education:
     - course: Ph.D. in Economics
       institution: University Clermont Auvergne
       year: 2026 (expected)
+    - course: MicroMasters in Data, Economics, and Development Policy (DEDP)
+      institution: Massachusetts Institute of Technology (MITx)
+      year: 2025
     - course: M.Eng. in Data science
       institution: École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes)
       year: 2022
@@ -46,6 +51,7 @@ education:
 # Interests to show in About widget
 interests:
   - Development Economics
+  - Poverty & Social Protection
   - Nutrition and Health
   - Applied Microeconomics
   - Data Science and Machine Learning
@@ -206,10 +212,10 @@ highlight_name: true
 #% You can also explore my [publications](#featured) and [projects](#projects) that I have passionately contributed to. 
 
 ---
-Hello👋
+Hello👋 Welcome to my corner of the internet — I'm glad you're here!
 
 <p align="left">
-I am a Ph.D. candidate in <b>Development Economics</b> at the University Clermont Auvergne and a <b>Data Scientist</b> from the École Nationale de la Statistique et de l’Analyse de l’Information (ENSAI-Rennes). I am particularly interested in nutrition and health issues in developing countries, with a special focus on using machine learning techniques to address these challenges. My favorite letter in the alphabet is <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> and my favorite animal is <i class="fab fa-python" aria-hidden="true" style="color:#035AA6"></i> (I actually only swear by these two tools!). I strongly believe in the power of open science which is why I have made the replication codes for some of my projects available on my <a href="https://github.com/KassoumHabibou">Github</a> account. In my free time, I enjoy playing football, running and learning new skills online.
+I am an <b>Economist – Statistician</b> at <b>The World Bank</b> (Poverty & Equity Global Practice, Eastern & Southern Africa) and a Ph.D. research fellow in <b>Development Economics</b> at CERDI — University Clermont Auvergne. I am also a <b>Data Scientist</b>, trained at the École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes) and through MIT's MicroMasters in Data, Economics, and Development Policy. My work sits at the intersection of <b>poverty, social protection and child nutrition</b> in Sub-Saharan Africa, with a special focus on using machine learning and causal inference to inform policy. My favorite letter in the alphabet is <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> and my favorite animal is <i class="fab fa-python" aria-hidden="true" style="color:#035AA6"></i> (I actually only swear by these two tools!). I strongly believe in the power of open science, which is why I share replication code for many of my projects on my <a href="https://github.com/KassoumHabibou">Github</a> account. In my free time, I enjoy playing football, running and learning new skills online.
 <p> 
  <center> 
  

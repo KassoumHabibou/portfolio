@@ -39,6 +39,17 @@ sections:
       username: admin
     design:
       columns: '1'
+  - block: markdown
+    id: journey
+    content:
+      title: 🧭 My Journey
+      subtitle: ''
+      text: |-
+        Drag the slider (or press play ▶) to travel through time and see what I was doing at any given month — education, work and teaching, all at a glance.
+
+        {{< career-timeline >}}
+    design:
+      columns: '1'
   - block: experience
     id: experience
     content:
@@ -52,6 +63,32 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.In this role, I have contributed to the academic development of students by assisting them in # understanding complex statistical concepts, solving problems, and reinforcing their comprehension through practical applications. This experience has not only # honed my teaching skills but has also revealed my managerial abilities and deepened my own understanding of the subject matter. It has been immensely rewarding to # witness the growth and progress of students under my guidance.
       items:
+        - title: Economist · Statistician · Data Scientist
+          company: 'The World Bank — Poverty & Equity Global Practice, Eastern & Southern Africa'
+          company_url: 'https://www.worldbank.org/en/topic/poverty'
+          company_logo: wb-logo
+          location: Washington, D.C. (USA)
+          date_start: '2025-02-01'
+          date_end: ''
+          description: |2-
+              I work as an **Economist, Statistician and Data Scientist** in the Eastern & Southern Africa Poverty unit, under the supervision of my TTLs [Lina Marcela Cardona Sosa](https://www.linkedin.com/in/lina-cardona-sosa-7a66346/) (Senior Economist), Kristina, and [Mohamed Boly](https://www.linkedin.com/in/mohamed-boly-85573277/) (Economist). My main contributions:
+
+              * Contributing to the **$15 million** Malawi Statistical Capacity Building Project (STATCAP): conducted a **fiscal incidence analysis** and designed a client-oriented **microsimulation web application** to assess the distributional impacts of fiscal policy reforms;
+              * **Capacity building in Malawi** 🇲🇼: trained 35 government officials across 3 ministries in microsimulation modeling and data analysis techniques during a month-long, in-country mission, strengthening institutional capacity for evidence-based policymaking;
+              * Updated Malawi's **national poverty line** through a microeconometric analysis of household consumption data, improving poverty measurement accuracy and the targeting efficiency of social protection transfers.
+        - title: Researcher — Impact Evaluation (SASPP)
+          company: 'The World Bank — Africa Gender Innovation Lab (GIL)'
+          company_url: 'https://www.worldbank.org/en/programs/africa-gender-innovation-lab'
+          company_logo: wb-logo
+          location: Washington, D.C. (USA)
+          date_start: '2025-03-01'
+          date_end: ''
+          description: |2-
+              Within the Africa **Gender Innovation Lab (GIL)**, I work on the **Sahel Adaptive Social Protection Program (SASPP)** together with [Julia Vaillant](https://www.linkedin.com/in/julia-vaillant-48621120/) (Senior Economist — [jvaillant@worldbank.org](mailto:jvaillant@worldbank.org)) and [Kelsey A. Wright](https://www.linkedin.com/in/kelsey-a-wright-5b2372a/) (Economist — [personal website](https://sites.google.com/view/kelseyawright)):
+
+              * Evaluating the impact of **economic inclusion programs on intimate partner violence (IPV)** among vulnerable women in rural Mauritania (Tekavoul social safety net program), comparing cash grants, psychosocial support, and their combination;
+              * Key insight: psychosocial components appear to **mitigate potential adverse effects** of women's economic empowerment initiatives in fragile and conflict-affected settings;
+              * Findings presented at internal World Bank seminars (GIL and the Office of the Chief Economist for Africa) and at CERDI.
         - title: Research Assistant - Data Analyst (fixed-term contract)
           company: UMR Aix‑Marseille School of Economics (AMSE) 
           company_url: 'https://www.amse-aixmarseille.fr/en'
@@ -132,7 +169,7 @@ sections:
           date_start: '2023-10-01'
           date_end: ''
           description: |2-
-              During my current PhD position, I have had the privilege of serving as a teacher assistant where I have been actively engaged in facilitating tutorial sessions for students in the fields of **statistics** and **probabilities**. My course load includes: 
+              During my PhD, I have had the privilege of serving as a teaching assistant, facilitating courses and tutorial sessions in **statistics**, **mathematics**, **probability** and **microeconomics** for *Licence* (undergraduate) and *Master 1* students, as well as a **seminar in development economics** for *Magistère 3* and *Master 1* students. My course load includes: 
               
               -**Introduction to R Programming**: this 8-hour course is designed for Health Economics students to develop essential data analysis and visualization skills using R and RStudio. We covered topics such as:
                 * Fundamentals of R and RStudio (data types, importing data, basic manipulations);
@@ -148,6 +185,14 @@ sections:
                 * probability distributions and approximations (normal, Poisson, binomial, etc.);
                 * matrix calculation (calculation of the determinant, eigenvalue, inverse, diagonalization, etc.);
                 * numeric sequence (arithmetic and geometric sequence, recurrence equation, etc.).
+              - **Microeconomics** (*Licence*). We covered topics such as:
+                * consumer theory (preferences, utility maximization, demand functions, etc.);
+                * producer theory (cost minimization, profit maximization, supply, etc.);
+                * market equilibrium, elasticities and welfare analysis.
+              - **Seminar in Development Economics** (*Magistère 3* & *Master 1*). We discussed topics such as:
+                * poverty, inequality and social protection in developing countries;
+                * human capital (nutrition, health and education) and impact evaluation methods;
+                * critical reading and presentation of recent empirical research papers.
     design:
       columns: '2'
   - block: accomplishments
@@ -173,6 +218,20 @@ sections:
           organization_url: https://cerdi.uca.fr/english-version#/admin
           title: Ph.D. in Development Economics
           url: 'https://cerdi.uca.fr/english-version/team#/admin'
+        - date_start: '2023-09-01'
+          date_end: '2025-05-01'
+          description: |2-
+              The MicroMasters in **Data, Economics, and Development Policy (DEDP)** is a graduate-level program created by [MIT](https://www.mit.edu/) and the Abdul Latif Jameel Poverty Action Lab ([J-PAL](https://www.povertyactionlab.org/)), co-founded by Nobel laureates **Esther Duflo** and **Abhijit Banerjee**. It provides rigorous training in:
+
+              - Data analysis for social scientists (probability, statistical inference and R programming);
+              - Microeconomics (consumer and producer theory, market design and policy analysis);
+              - Designing and running randomized evaluations (RCTs) to assess the impact of development policies;
+              - The challenges of global poverty and the foundations of development policy.
+          icon: mit-logo
+          organization: Massachusetts Institute of Technology (MITx)
+          organization_url: https://micromasters.mit.edu/dedp/
+          title: MicroMasters in Data, Economics, and Development Policy (DEDP)
+          url: https://micromasters.mit.edu/dedp/
         - date_start: '2020-09-01'
           date_end: '2022-12-01'
           description: |2-

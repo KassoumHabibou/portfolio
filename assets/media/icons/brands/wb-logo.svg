@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" version="1.1">
+  <g fill="none" stroke="#009CDE" stroke-width="34">
+    <circle cx="450" cy="420" r="280"/>
+    <ellipse cx="450" cy="420" rx="130" ry="280"/>
+    <line x1="190" y1="300" x2="710" y2="300"/>
+    <line x1="170" y1="420" x2="730" y2="420"/>
+    <line x1="190" y1="540" x2="710" y2="540"/>
+  </g>
+  <text x="450" y="810" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-weight="bold" font-size="92" fill="#002244">THE WORLD BANK</text>
+</svg>

@@ -1,0 +1,161 @@
+<div class="ck-tl" id="ck-tl">
+  <div class="ck-tl-legend">
+    <span><i class="ck-dot ck-dot-work"></i> Work</span>
+    <span><i class="ck-dot ck-dot-edu"></i> Education</span>
+    <span><i class="ck-dot ck-dot-teach"></i> Teaching</span>
+  </div>
+  <div class="ck-tl-chart" id="ck-tl-chart">
+    <div class="ck-tl-scrubber" id="ck-tl-scrubber"></div>
+  </div>
+  <div class="ck-tl-axis" id="ck-tl-axis"></div>
+  <div class="ck-tl-controls">
+    <button id="ck-tl-play" class="ck-tl-btn" aria-label="Play timeline">▶</button>
+    <input type="range" id="ck-tl-range" min="0" max="100" value="100" step="1" aria-label="Timeline month selector">
+    <div class="ck-tl-date" id="ck-tl-date"></div>
+  </div>
+  <div class="ck-tl-cards" id="ck-tl-cards"></div>
+</div>
+
+<style>
+  .ck-tl { --ck-work:#1d4e89; --ck-edu:#0e9594; --ck-teach:#f4a300; --ck-bg:#f5f8fc; --ck-text:#10243e; --ck-line:#d7e3f0;
+    background: var(--ck-bg); border-radius: 18px; padding: 1.4rem 1.4rem 1.6rem; margin: 0.5rem 0 1rem;
+    box-shadow: 0 6px 24px rgba(16,36,62,.08); }
+  body.dark .ck-tl, html.dark .ck-tl { --ck-bg:#101c2c; --ck-text:#e8eef6; --ck-line:#23344c; box-shadow: 0 6px 24px rgba(0,0,0,.4); }
+  .ck-tl-legend { display:flex; gap:1.2rem; font-size:.85rem; color:var(--ck-text); margin-bottom:.8rem; flex-wrap:wrap; }
+  .ck-dot { display:inline-block; width:.75em; height:.75em; border-radius:3px; margin-right:.35em; }
+  .ck-dot-work { background:var(--ck-work); } .ck-dot-edu { background:var(--ck-edu); } .ck-dot-teach { background:var(--ck-teach); }
+  .ck-tl-chart { position:relative; width:100%; border-left:1px solid var(--ck-line); border-bottom:1px solid var(--ck-line); }
+  .ck-tl-bar { position:absolute; height:18px; border-radius:9px; opacity:.35; transition:opacity .2s, transform .2s; cursor:pointer; }
+  .ck-tl-bar.ck-active { opacity:1; transform:scaleY(1.18); box-shadow:0 2px 8px rgba(0,0,0,.25); }
+  .ck-tl-bar span { position:absolute; left:10px; top:50%; transform:translateY(-50%); font-size:.68rem; font-weight:600; color:#fff;
+    white-space:nowrap; overflow:hidden; max-width:calc(100% - 16px); text-overflow:ellipsis; pointer-events:none; }
+  .ck-tl-scrubber { position:absolute; top:0; bottom:0; width:2px; background:var(--ck-teach); z-index:5; pointer-events:none; }
+  .ck-tl-scrubber::after { content:''; position:absolute; top:-6px; left:-5px; width:12px; height:12px; border-radius:50%; background:var(--ck-teach); }
+  .ck-tl-axis { position:relative; height:1.4rem; font-size:.7rem; color:var(--ck-text); opacity:.75; }
+  .ck-tl-axis span { position:absolute; transform:translateX(-50%); }
+  .ck-tl-controls { display:flex; align-items:center; gap:1rem; margin-top:.6rem; }
+  .ck-tl-btn { border:none; border-radius:50%; width:42px; height:42px; background:var(--ck-work); color:#fff; font-size:1rem;
+    cursor:pointer; flex:none; transition:transform .15s; }
+  .ck-tl-btn:hover { transform:scale(1.1); }
+  .ck-tl-controls input[type=range] { flex:1; accent-color:var(--ck-work); height:6px; }
+  .ck-tl-date { font-weight:700; color:var(--ck-text); min-width:7.5rem; text-align:right; font-size:1.05rem; }
+  .ck-tl-cards { display:flex; flex-wrap:wrap; gap:.7rem; margin-top:1rem; min-height:4.4rem; }
+  .ck-tl-card { border-radius:12px; padding:.6rem .9rem; color:#fff; font-size:.8rem; line-height:1.35; max-width:21rem;
+    animation:ck-pop .25s ease; box-shadow:0 3px 10px rgba(0,0,0,.18); }
+  .ck-tl-card b { display:block; font-size:.86rem; }
+  .ck-tl-card small { opacity:.85; }
+  .ck-tl-empty { color:var(--ck-text); opacity:.6; font-size:.85rem; align-self:center; }
+  @keyframes ck-pop { from { transform:translateY(6px); opacity:0; } to { transform:none; opacity:1; } }
+</style>
+
+<script>
+(function () {
+  var TYPES = { work: '#1d4e89', edu: '#0e9594', teach: '#f4a300' };
+  var ICONS = { work: '💼', edu: '🎓', teach: '👨🏾‍🏫' };
+  var items = [
+    { t:'edu',   title:'B.Eng. Statistics & Applied Economics', org:'ENSAE — Dakar, Senegal', s:'2016-10', e:'2020-08' },
+    { t:'work',  title:'Economist–Statistician (intern)', org:'National Institute of Statistics — Niamey, Niger', s:'2018-07', e:'2018-09' },
+    { t:'work',  title:'Economist–Statistician (intern)', org:'ANSD / Poverty Observatory — Dakar, Senegal', s:'2020-03', e:'2020-09' },
+    { t:'edu',   title:'M.Eng. Data Science', org:'ENSAI — Rennes, France', s:'2020-09', e:'2022-12' },
+    { t:'work',  title:'Research Assistant (intern)', org:'IFSTTAR — Lyon, France', s:'2021-06', e:'2021-09' },
+    { t:'edu',   title:'M.Sc. Theoretical & Empirical Economics', org:'AMSE — Marseille, France', s:'2021-09', e:'2022-10' },
+    { t:'work',  title:'Research Assistant (intern)', org:'IRD — Marseille, France', s:'2022-04', e:'2022-08' },
+    { t:'work',  title:'Research Economist – Data Analyst', org:'Aix-Marseille School of Economics', s:'2022-09', e:'2023-08' },
+    { t:'edu',   title:'Ph.D. in Development Economics', org:'CERDI — University Clermont Auvergne', s:'2023-09', e:null },
+    { t:'edu',   title:'MicroMasters in Data, Economics & Development Policy', org:'MITx (J-PAL)', s:'2023-09', e:'2025-05' },
+    { t:'teach', title:'Teaching Assistant (statistics, maths, micro, dev-econ seminar)', org:'University Clermont Auvergne', s:'2023-10', e:null },
+    { t:'work',  title:'Economist · Statistician · Data Scientist', org:'The World Bank — Poverty & Equity (ESA)', s:'2025-02', e:null },
+    { t:'work',  title:'Researcher, Impact Evaluation (SASPP)', org:'The World Bank — Gender Innovation Lab', s:'2025-03', e:null }
+  ];
+
+  function mIdx(ym) { var p = ym.split('-'); return (+p[0]) * 12 + (+p[1]) - 1; }
+  var now = new Date();
+  var START = mIdx('2016-08');
+  var END = now.getFullYear() * 12 + now.getMonth();
+  var SPAN = END - START;
+  var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  function label(idx) { return MONTHS[idx % 12] + ' ' + Math.floor(idx / 12); }
+
+  var chart = document.getElementById('ck-tl-chart');
+  var axis = document.getElementById('ck-tl-axis');
+  var range = document.getElementById('ck-tl-range');
+  var dateEl = document.getElementById('ck-tl-date');
+  var cards = document.getElementById('ck-tl-cards');
+  var scrub = document.getElementById('ck-tl-scrubber');
+  var play = document.getElementById('ck-tl-play');
+  if (!chart) return;
+
+  var ROW = 24, PAD = 8;
+  chart.style.height = (items.length * ROW + PAD * 2) + 'px';
+
+  items.forEach(function (it, i) {
+    var s = mIdx(it.s), e = it.e ? mIdx(it.e) : END;
+    it._s = s; it._e = e;
+    var bar = document.createElement('div');
+    bar.className = 'ck-tl-bar';
+    bar.style.background = TYPES[it.t];
+    bar.style.left = ((s - START) / SPAN * 100) + '%';
+    bar.style.width = (Math.max(e - s, 1) / SPAN * 100) + '%';
+    bar.style.top = (PAD + i * ROW) + 'px';
+    bar.title = it.title + ' — ' + it.org;
+    var sp = document.createElement('span');
+    sp.textContent = it.title;
+    bar.appendChild(sp);
+    bar.addEventListener('click', function () { range.value = it._s - START; update(); });
+    chart.appendChild(bar);
+    it._bar = bar;
+  });
+
+  for (var y = 2017; y <= Math.floor(END / 12); y += 2) {
+    var tick = document.createElement('span');
+    tick.style.left = ((y * 12 - START) / SPAN * 100) + '%';
+    tick.textContent = y;
+    axis.appendChild(tick);
+  }
+
+  range.max = SPAN;
+  range.value = SPAN;
+
+  function update() {
+    var cur = START + (+range.value);
+    dateEl.textContent = label(cur);
+    scrub.style.left = ((cur - START) / SPAN * 100) + '%';
+    cards.innerHTML = '';
+    var any = false;
+    items.forEach(function (it) {
+      var active = cur >= it._s && cur <= it._e;
+      it._bar.classList.toggle('ck-active', active);
+      if (active) {
+        any = true;
+        var c = document.createElement('div');
+        c.className = 'ck-tl-card';
+        c.style.background = TYPES[it.t];
+        c.innerHTML = ICONS[it.t] + ' <b>' + it.title + '</b><small>' + it.org + ' · ' + label(it._s) + ' – ' + (it.e ? label(it._e) : 'present') + '</small>';
+        cards.appendChild(c);
+      }
+    });
+    if (!any) {
+      var em = document.createElement('div');
+      em.className = 'ck-tl-empty';
+      em.textContent = '😴 Nothing here yet — slide forward!';
+      cards.appendChild(em);
+    }
+  }
+
+  range.addEventListener('input', update);
+
+  var timer = null;
+  play.addEventListener('click', function () {
+    if (timer) { clearInterval(timer); timer = null; play.textContent = '▶'; return; }
+    if (+range.value >= SPAN) range.value = 0;
+    play.textContent = '⏸';
+    timer = setInterval(function () {
+      range.value = +range.value + 1;
+      update();
+      if (+range.value >= SPAN) { clearInterval(timer); timer = null; play.textContent = '▶'; }
+    }, 90);
+  });
+
+  update();
+})();
+</script>

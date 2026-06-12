@@ -7,6 +7,9 @@ main:
   - name: Home
     url: '#about'
     weight: 10
+  - name: My Journey
+    url: '#journey'
+    weight: 15
   - name: Work and teaching experience
     url: '#experience'
     weight: 20
