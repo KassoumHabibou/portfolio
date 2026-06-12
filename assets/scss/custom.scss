@@ -13,6 +13,11 @@
   color: #e8eef6 !important;
   font-weight: 600;
   transition: color 0.2s ease;
+  /* Fluid size: shrinks smoothly with the viewport so all items fit on one line */
+  font-size: clamp(0.72rem, 0.45vw + 0.45rem, 0.95rem);
+  padding-left: clamp(0.3rem, 0.5vw, 0.9rem) !important;
+  padding-right: clamp(0.3rem, 0.5vw, 0.9rem) !important;
+  white-space: nowrap;
 }
 
 .navbar .navbar-nav .nav-link:hover,
@@ -23,6 +28,32 @@
 .navbar .navbar-brand {
   color: #ffffff !important;
   font-weight: 700;
+  font-size: clamp(0.85rem, 0.8vw + 0.5rem, 1.15rem);
+  white-space: nowrap;
+}
+
+/* Keep the bar on one line on desktop; never overflow the screen */
+.navbar .navbar-collapse {
+  flex-wrap: nowrap;
+  min-width: 0;
+}
+
+.navbar .navbar-nav {
+  flex-wrap: nowrap;
+}
+
+/* In the collapsed (hamburger) menu on mobile, restore comfortable sizes */
+@media (max-width: 991.98px) {
+  .navbar .navbar-nav .nav-link {
+    font-size: 1rem;
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+    white-space: normal;
+  }
+
+  .navbar .navbar-nav {
+    flex-wrap: wrap;
+  }
 }
 
 /* ---- Section titles: gold accent underline ---- */
