@@ -42,10 +42,10 @@ sections:
   - block: markdown
     id: journey
     content:
-      title: 🧭 My Journey
+      title: My Journey
       subtitle: ''
       text: |-
-        Drag the slider (or press play ▶) to travel through time and see what I was doing at any given month — education, work and teaching, all at a glance.
+        Drag the slider (or press play) to travel through time and see what I was doing at any given month — education, work and teaching, all at a glance.
 
         {{< career-timeline >}}
     design:
@@ -71,12 +71,12 @@ sections:
           date_start: '2025-02-01'
           date_end: ''
           description: |2-
-              **Economist, Statistician and Data Scientist** in the Eastern & Southern Africa Poverty unit. My TTLs: [Lina Marcela Cardona Sosa](https://www.linkedin.com/in/lina-cardona-sosa-7a66346/) (Senior Economist), [Kristina Vaughan](https://www.linkedin.com/in/kristina-vaughan-ba676261/), and [Mohamed Boly](https://www.linkedin.com/in/mohamed-boly-85573277/) (Economist).
+              I work as an Economist, Statistician and Data Scientist in the Eastern & Southern Africa Poverty unit, with [Lina Marcela Cardona Sosa](https://www.linkedin.com/in/lina-cardona-sosa-7a66346/) (Senior Economist), [Kristina Vaughan](https://www.linkedin.com/in/kristina-vaughan-ba676261/) and [Mohamed Boly](https://www.linkedin.com/in/mohamed-boly-85573277/) (Economist) as TTLs.
 
-              * 💰 **Fiscal policy**: fiscal incidence analysis and a client-oriented **microsimulation web app** for the **$15M** Malawi STATCAP project;
-              * 🎓 **Capacity building**: trained **35 government officials** across 3 ministries during a month-long mission in Malawi 🇲🇼;
-              * 📏 **Poverty measurement**: updated Malawi's **national poverty line**, improving the targeting of social protection transfers;
-              * 🏕️ **Refugee analysis**: assessing poverty and welfare among **refugees and host communities** to inform inclusive social policies.
+              * Conducted a fiscal incidence analysis and built a client-oriented microsimulation web application for the $15 million Malawi STATCAP project;
+              * Trained 35 government officials across 3 ministries in microsimulation modeling and data analysis during a month-long mission in Malawi;
+              * Updated Malawi's national poverty line through a microeconometric analysis of household consumption data, improving the targeting of social protection transfers;
+              * Assessing poverty and welfare among refugees and host communities to inform inclusive social policies.
         - title: Researcher — Impact Evaluation (SASPP)
           company: 'The World Bank — Africa Gender Innovation Lab (GIL)'
           company_url: 'https://www.worldbank.org/en/programs/africa-gender-innovation-lab'
@@ -85,11 +85,11 @@ sections:
           date_start: '2025-03-01'
           date_end: ''
           description: |2-
-              Working on the **Sahel Adaptive Social Protection Program (SASPP)** with [Julia Vaillant](https://www.linkedin.com/in/julia-vaillant-48621120/) (Senior Economist — [jvaillant@worldbank.org](mailto:jvaillant@worldbank.org)) and [Kelsey A. Wright](https://www.linkedin.com/in/kelsey-a-wright-5b2372a/) (Economist — [personal website](https://sites.google.com/view/kelseyawright/home)).
+              I work on the Sahel Adaptive Social Protection Program (SASPP) with [Julia Vaillant](https://www.linkedin.com/in/julia-vaillant-48621120/) ([jvaillant@worldbank.org](mailto:jvaillant@worldbank.org)) and [Kelsey A. Wright](https://www.linkedin.com/in/kelsey-a-wright-5b2372a/) ([personal website](https://sites.google.com/view/kelseyawright/home)).
 
-              * 📊 **Impact evaluation**: how do **economic inclusion programs affect intimate partner violence (IPV)** in rural Mauritania (Tekavoul program)?
-              * 💡 **Key insight**: psychosocial support helps **mitigate potential adverse effects** of women's economic empowerment in fragile settings;
-              * 🎤 **Dissemination**: presented at World Bank internal seminars (GIL & Office of the Chief Economist for Africa) and at CERDI.
+              * Evaluating the impact of economic inclusion programs on intimate partner violence (IPV) among vulnerable women in rural Mauritania (Tekavoul program);
+              * Showing that psychosocial support helps mitigate potential adverse effects of women's economic empowerment programs in fragile settings;
+              * Presented the findings at World Bank internal seminars (GIL and the Office of the Chief Economist for Africa) and at CERDI.
         - title: Research Assistant - Data Analyst (fixed-term contract)
           company: UMR Aix‑Marseille School of Economics (AMSE) 
           company_url: 'https://www.amse-aixmarseille.fr/en'

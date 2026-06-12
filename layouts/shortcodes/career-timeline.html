@@ -51,7 +51,6 @@
 <script>
 (function () {
   var TYPES = { work: '#1d4e89', edu: '#0e9594', teach: '#f4a300' };
-  var ICONS = { work: '💼', edu: '🎓', teach: '👨🏾‍🏫' };
   var items = [
     { t:'edu',   title:'B.Eng. Statistics & Applied Economics', org:'ENSAE — Dakar, Senegal', s:'2016-10', e:'2020-08' },
     { t:'work',  title:'Economist–Statistician (intern)', org:'National Institute of Statistics — Niamey, Niger', s:'2018-07', e:'2018-09' },
@@ -130,14 +129,14 @@
         var c = document.createElement('div');
         c.className = 'ck-tl-card';
         c.style.background = TYPES[it.t];
-        c.innerHTML = ICONS[it.t] + ' <b>' + it.title + '</b><small>' + it.org + ' · ' + label(it._s) + ' – ' + (it.e ? label(it._e) : 'present') + '</small>';
+        c.innerHTML = '<b>' + it.title + '</b><small>' + it.org + ' · ' + label(it._s) + ' – ' + (it.e ? label(it._e) : 'present') + '</small>';
         cards.appendChild(c);
       }
     });
     if (!any) {
       var em = document.createElement('div');
       em.className = 'ck-tl-empty';
-      em.textContent = '😴 Nothing here yet — slide forward!';
+      em.textContent = 'Nothing here yet — slide forward!';
       cards.appendChild(em);
     }
   }
