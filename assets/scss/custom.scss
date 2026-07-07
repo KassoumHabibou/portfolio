@@ -241,7 +241,7 @@ a:hover {
   color: var(--ck-ink) !important;
   font-family: var(--ck-serif) !important;
   font-weight: 500;
-  font-size: clamp(0.95rem, 0.8vw + 0.55rem, 1.2rem);
+  font-size: clamp(0.95rem, calc(0.8vw + 0.55rem), 1.2rem);
   white-space: nowrap;
 }
 
