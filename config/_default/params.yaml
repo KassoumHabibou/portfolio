@@ -37,16 +37,16 @@ header:
     align: l
     show_logo: true
     show_language: false
-    show_day_night: true
+    show_day_night: false
     show_search: true
     highlight_active_link: true
   design:
     background:
       # Choose colors such as from https://html-color-codes.info
-      gradient_start: '#0a1f44'
-      gradient_end: '#13315c'
+      gradient_start: '#eef2f6'
+      gradient_end: '#eef2f6'
       # Text color (true=light, false=dark, or remove for the dynamic theme color).
-      text_color_light: true
+      text_color_light: false
 # Site footer
 
 #footer:
