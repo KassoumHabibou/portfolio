@@ -1,6 +1,6 @@
 ---
 # Display name
-title: IBRAHIM KASSOUM Habibou
+title: Habibou Ibrahim Kassoum
 
 # Name pronunciation (optional)
 #name_pronunciation: Chien Shiung Wu
@@ -17,14 +17,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Economist – Statistician @ The World Bank · Ph.D. Research Fellow in Development Economics · Data Scientist
+role: Ph.D. Research Fellow in Development Economics · Consultant Economist, Statistician & Data Scientist @ The World Bank
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: The World Bank — Poverty & Equity Global Practice
-    url: https://www.worldbank.org/en/topic/poverty
   - name: University Clermont Auvergne - CERDI - CNRS - IRD - France
     url: https://cerdi.uca.fr/english-version#/admin
+  - name: The World Bank — Poverty & Equity Global Practice
+    url: https://www.worldbank.org/en/topic/poverty
+  - name: Based in Clermont-Ferrand, France
 
 # Short bio (displayed in user profile at end of posts)
 bio:  My research interests include development economics, poverty and social protection, nutrition and health, and data science applied to policy questions in Sub-Saharan Africa.
@@ -184,7 +185,7 @@ social:
     link: https://cerdi.uca.fr/version-francaise/unite/lequipe/annuaire/m-habibou-ibrahim-kassoum#/
   - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=Habibou
+    link: 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Habibou+Ibrahim+Kassoum&btnG='
   - icon: github
     icon_pack: fab
     link: https://github.com/KassoumHabibou
@@ -224,7 +225,7 @@ highlight_name: true
 Hello👋 Welcome to my corner of the internet — I'm glad you're here!
 
 <p align="left">
-I am an <b>Economist – Statistician</b> at <b>The World Bank</b> (Poverty & Equity Global Practice, Eastern & Southern Africa) and a Ph.D. research fellow in <b>Development Economics</b> at CERDI — University Clermont Auvergne. I am also a <b>Data Scientist</b>, trained at the École Nationale de la Statistique et de l'Analyse de l'Information (ENSAI-Rennes) and through MIT's MicroMasters in Data, Economics, and Development Policy. My work sits at the intersection of <b>poverty, social protection and child nutrition</b> in Sub-Saharan Africa, with a special focus on using machine learning and causal inference to inform policy. My favorite letter in the alphabet is <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> and my favorite animal is <i class="fab fa-python" aria-hidden="true" style="color:#035AA6"></i> (I actually only swear by these two tools!). I strongly believe in the power of open science, which is why I share replication code for many of my projects on my <a href="https://github.com/KassoumHabibou">Github</a> account. In my free time, I enjoy playing football, running and learning new skills online.
+I am a Ph.D. research fellow in Development Economics at CERDI — University Clermont Auvergne, and a consultant Economist–Statistician at The World Bank (Poverty & Equity, Eastern & Southern Africa). Trained as a Data Scientist at ENSAI-Rennes and through MIT's MicroMasters in Data, Economics and Development Policy, my work sits at the intersection of poverty, social protection and child nutrition in Sub-Saharan Africa, with a special focus on using machine learning and causal inference to inform policy. My favorite letter in the alphabet is <i class="fab fa-r-project" aria-hidden="true" style="color:#035AA6"></i> and my favorite animal is <i class="fab fa-python" aria-hidden="true" style="color:#035AA6"></i> (I actually only swear by these two tools!). I strongly believe in the power of open science, which is why I share replication code for many of my projects on my <a href="https://github.com/KassoumHabibou">Github</a> account. In my free time, I enjoy playing football, running and learning new skills online.
 <p> 
  <center> 
  
